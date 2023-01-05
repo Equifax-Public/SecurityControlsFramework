@@ -1,0 +1,158 @@
+Domain Name,Domain,TR_ID,Sub_TR_Order,Sub_TR_Indent,Sub_TR_ID,TR_Description,TR_Scope
+Vendor Relations,VR,VR-TR-100,0,0,,The Company establishes a Vendor Relations Oversight Program including defining the roles and responsibilities involved in managing the regulatory compliance aspects of third party risk. The program is reviewed at least  [INSERT TIME FRAME].,Baseline
+Vendor Relations,VR,VR-TR-100,1,1,VR-TR-100.1,"Vendor is defined as any legal entity, including Cloud Service Providers (CSP) with which The Company has entered into a business relationship that:",Baseline
+Vendor Relations,VR,VR-TR-100,2,2,VR-TR-100.1.1,"provides a product or service to The Company or its customers or,",Baseline
+Vendor Relations,VR,VR-TR-100,3,2,VR-TR-100.1.2,"Performs functions on The Company's behalf or,",Baseline
+Vendor Relations,VR,VR-TR-100,4,1,VR-TR-100.1.3,Resells or brokers The Company data (sell to another party) or products or connects to customers (sell through to another party),Baseline
+Vendor Relations,VR,VR-TR-200,0,0,,The Company conducts due diligence before selecting and entering into a contract with a third party. Extent of due diligence performed is determined based on risk categories:,Baseline
+Vendor Relations,VR,VR-TR-200,1,1,VR-TR-200.1,High risk - Vendors with one or more of the following attributes may be deemed high risk:,Baseline
+Vendor Relations,VR,VR-TR-200,2,2,VR-TR-200.1.1,"Have access to store, handle, view, or transmit consumer protected data (Class 5 data)",Baseline
+Vendor Relations,VR,VR-TR-200,3,2,VR-TR-200.1.2,Perform or support a Critical Business Function or process for The Company,Baseline
+Vendor Relations,VR,VR-TR-200,4,2,VR-TR-200.1.3,"Have access to confidential or restricted information (e.g. standards, Class 3 and 4 data respectively)",Baseline
+Vendor Relations,VR,VR-TR-200,5,1,VR-TR-200.2,Low risk - Vendors with one or more of the following attributes may be deemed low risk:,Baseline
+Vendor Relations,VR,VR-TR-200,6,2,VR-TR-200.2.1,Vendors presenting minimal compliance risk and which are easily replaceable,Baseline
+Vendor Relations,VR,VR-TR-200,7,2,VR-TR-200.2.2,Vendors that do not directly impact data or processes in critical areas,Baseline
+Vendor Relations,VR,VR-TR-200,8,2,VR-TR-200.2.3,"Vendors with no Fair Credit Reporting Act (""FCRA"") exposure and no documented/apparent need for access to consumer or customer data",Baseline
+Vendor Relations,VR,VR-TR-200,9,2,VR-TR-200.2.4,Vendors who only have access to Class 1 or Class 2 data,Baseline
+Vendor Relations,VR,VR-TR-300,0,0,,Due diligence may need to be performed by one or more of the following teams:,Baseline
+Vendor Relations,VR,VR-TR-300,1,1,VR-TR-300.1,Legal,Baseline
+Vendor Relations,VR,VR-TR-300,2,1,VR-TR-300.2,Security Risk,Baseline
+Vendor Relations,VR,VR-TR-300,3,1,VR-TR-300.3,Credentialing,Baseline
+Vendor Relations,VR,VR-TR-300,4,1,VR-TR-300.4,Cloud Compliance,Baseline
+Vendor Relations,VR,VR-TR-300,5,1,VR-TR-300.5,Data Privacy and Protection,Baseline
+Vendor Relations,VR,VR-TR-400,0,0,,"Prior to entering into a relationship with a vendor, The Company requires a written contract. Based on the service provided and data accessed, the contract may include one or more of the following:",Baseline
+Vendor Relations,VR,VR-TR-400,1,1,VR-TR-400.1,Confidentiality/Non-Disclosure Agreements,Baseline
+Vendor Relations,VR,VR-TR-400,2,1,VR-TR-400.2,Employee and subcontractors roles and responsibilities,Baseline
+Vendor Relations,VR,VR-TR-400,3,1,VR-TR-400.3,Requirements for third parties to notify The Company about their subcontractors,Baseline
+Vendor Relations,VR,VR-TR-400,4,1,VR-TR-400.4,"Vendor must notify The Company Security as soon as possible, but no later than within twenty-four (24) hours of discovering a Security Event.",Baseline
+Vendor Relations,VR,VR-TR-500,0,0,,"The vvendor agrees to adhere to The Company's External Party Security Standard and other relevant external security standards, as appropriate.",Baseline
+Vendor Relations,VR,VR-TR-600,0,0,,"Contract language that deviates from standard The Company terms and conditions is reviewed by The Company Legal Department and, as applicable, Security prior to contract execution.",Baseline
+Vendor Relations,VR,VR-TR-600,1,1,VR-TR-600.1,"Reseller customers who receive consumer Personal Information from The Company are contractually required to maintain authentication protocols that do not allow consumers to access Personal Information from The Company in connection with direct-to-consumer products and services, such as credit monitoring and Credit Reports using only a name in combination with a Social Security Number.",Baseline
+Vendor Relations,VR,VR-TR-700,0,0,,The Company maintains an inventory of The Company approved third parties. Processes to address completeness and accuracy of the inventory of the vendor are implemented:,Baseline
+Vendor Relations,VR,VR-TR-700,1,1,VR-TR-700.1,Vendor Oversight approves new vendor profiles set up in the accounts payable system of record,Baseline
+Vendor Relations,VR,VR-TR-700,2,1,VR-TR-700.2,Vendor Oversight reconciles the population of third parties from the accounts payable system of record to the inventory of vendors on a  [INSERT TIME FRAME] basis,Baseline
+Vendor Relations,VR,VR-TR-800,0,0,,"The Company's Credentialing and Account Services Team defines, documents and maintains an approved Credentialing process, with supporting documentation, which outlines the requirements to validate the legitimacy of The Company clients and the clients' permissible purpose to access The Company credit data or Sensitive Information under the Fair Credit Reporting Act (FCRA).",Baseline
+Vendor Relations,VR,VR-TR-900,0,0,,"The Company conducts a review and makes updates to the credentialing process and supporting documentation as deemed necessary, at least on an [INSERT TIME FRAME] basis.",Baseline
+Vendor Relations,VR,VR-TR-1000,0,0,,"The Company takes a risk-based approach in conducting client due diligence, during the credentialing process, based upon client industry, products consumed, as well as any applicable judicial or regulatory requirements.",Baseline
+Vendor Relations,VR,VR-TR-1100,0,0,,The Company follows the general credentialing process outlined below to address security risks:,Baseline
+Vendor Relations,VR,VR-TR-1100,1,1,VR-TR-1100.1,"Validate business legitimacy: Based on information collected during the Application For Service (AFS), conduct external investigative procedures to establish the legitimacy of the requesting organization and validate its industry sector",Baseline
+Vendor Relations,VR,VR-TR-1100,2,1,VR-TR-1100.2,"Identify prohibition status: Conduct internal investigative procedures to validate that the vendor organization and its industry are not documented on the ""Reseller Alert"" register.",Baseline
+Vendor Relations,VR,VR-TR-1100,3,1,VR-TR-1100.3,"Verification of authorized representative(s): Conduct external and internal investigative procedures on principal or executive officers with significant influence over the requesting organization to validate these individuals are not documented on a ""Specially Designated Nationals"" list or other ""Alert"" register",Baseline
+Vendor Relations,VR,VR-TR-1100,4,1,VR-TR-1100.4,Validate consistency of AFS information: Conduct a review of the proposed Permissible Purpose to ensure alignment with requested products and industry sector,Baseline
+Vendor Relations,VR,VR-TR-1100,5,1,VR-TR-1100.5,Verify that the vendor actually exists and is in business as stated.,Baseline
+Vendor Relations,VR,VR-TR-1100,6,1,VR-TR-1100.6,"Render decision on admissibility: Throughout the Credentialing investigation, a decision will be rendered at each step as to the admissibility of the requesting organization",Baseline
+Vendor Relations,VR,VR-TR-1100,7,1,VR-TR-1100.7,Onboard client: Maintain relevant documentation of credentialing investigative procedures performed and results. Provision access by [INSERT PROCESS STEPS HERE].,Baseline
+Vendor Relations,VR,VR-TR-1200,0,0,,"The Company provides training to relevant employees on the Credentialing process on at least an annual basis, or as needed, as changes are made to the process or the supporting Credentialing process documentation.",Baseline
+Vendor Relations,VR,VR-TR-1300,0,0,,"The Company takes a risk-based approach to the periodic re-credentialing of The Company clients with access to The Company Credit Data or Sensitive Information. The re-credentialing is performed to validate the continued client legitimacy and Permissible Purpose, based upon Client Industry, products consumed, as well as any applicable judicial or regulatory requirements.",Baseline
+Vendor Relations,VR,VR-TR-1400,0,0,,The Company follows the general re-credentialing process outlined below to address security risks:,Baseline
+Vendor Relations,VR,VR-TR-1400,1,1,VR-TR-1400.1,"Review existing documentation: Review the documentation on file from initial due diligence to identify any missing, incorrect or outdated information, as well as to understand current Permissible Purpose and products consumed",Baseline
+Vendor Relations,VR,VR-TR-1400,2,1,VR-TR-1400.2,"Re-conduct credentialing investigations: Conduct initial external and internal investigative procedures to validate that the organization and its authorized representative(s) meet current The Company standards due to changes to internal procedures, regulatory requirements or relevant ""Alert"" registries. The procedures performed may include, but not be limited to validating the business legitimacy, identifying the prohibition status, verifying authorized representatives, validating Permissible Purpose, and re-verify that the vendor actually exists and is in business as stated.",Baseline
+Vendor Relations,VR,VR-TR-1400,3,1,VR-TR-1400.3,"Render a decision on admissibility: Upon completion of the Re-credentialing investigation, a decision will be rendered as to the admissibility of an The Company client. Additional procedures may be performed depending on decision",Baseline
+Vendor Relations,VR,VR-TR-1400,4,1,VR-TR-1400.4,"Update documentation, as necessary: Document and store Re-credentialing investigation procedures and results",Baseline
+Vendor Relations,VR,VR-TR-1500,0,0,,An approved third party risk assessment methodology is defined and implemented.,Baseline
+Vendor Relations,VR,VR-TR-1600,0,0,,The Company follows the Security Risk Assessment process outlined below to address cybersecurity risks:,Baseline
+Vendor Relations,VR,VR-TR-1600,1,1,VR-TR-1600.1,Risk Identification: Identify and prioritize The Company third parties based on the inherent risk,Baseline
+Vendor Relations,VR,VR-TR-1600,2,1,VR-TR-1600.2,Risk Analysis: Analyze the operating effectiveness of security controls,Baseline
+Vendor Relations,VR,VR-TR-1600,3,1,VR-TR-1600.3,Risk Evaluation: Evaluate the residual risk remaining after assessing the control effectiveness,Baseline
+Vendor Relations,VR,VR-TR-1600,4,1,VR-TR-1600.4,Risk Treatment: Document security control deficiencies identified,Baseline
+Vendor Relations,VR,VR-TR-1600,5,1,VR-TR-1600.5,Risk Monitoring: Monitor third parties in accordance to reassessment cadence,Baseline
+Vendor Relations,VR,VR-TR-1700,0,0,,The Company takes a risk-based approach in assessing third party engagements and prioritizes third parties according to the Asset Risk Assessment Methodology. The criteria used to calculate the inherent risk rating (IRR) and prioritize third party engagements are based on the following data attributes:,Baseline
+Vendor Relations,VR,VR-TR-1700,1,1,VR-TR-1700.1,"Data Classification: The highest sensitivity data classification of The Company data accessed, transmitted, processed or stored",Baseline
+Vendor Relations,VR,VR-TR-1700,2,1,VR-TR-1700.2,"Data Volume: The total amount of The Company records accessed, transmitted, processed, or stored",Baseline
+Vendor Relations,VR,VR-TR-1700,3,1,VR-TR-1700.3,Connection Type: The method used by the vendor to access The Company systems or data to perform the service(s) in scope,Baseline
+Vendor Relations,VR,VR-TR-1700,4,1,VR-TR-1700.4,Availability: The maximum amount of time allowable for a vendor to be unavailable before impacting the business as represented by the Recovery Time Objective (RTO),Baseline
+Vendor Relations,VR,VR-TR-1800,0,0,,The Inherent Risk Rating (IRR) for third party engagements are defined below:,Baseline
+Vendor Relations,VR,VR-TR-1800,1,1,VR-TR-1800.1,"Critical: Vendors The Company places a substantial degree of dependence on the performance of a business process or component of where there could be a severe impact to The Company through the loss or corruption of The Company data by the vendor. Any disruption, failure, or security lapse could have an immediate and material reputational, financial, operational, or regulatory impact.",Baseline
+Vendor Relations,VR,VR-TR-1800,2,1,VR-TR-1800.2,"High: Vendors The Company places a high degree of dependence on the performance of a business process or component of where there could be significant impact to The Company through the loss or corruption of The Company data by the vendor. Any disruption, failure, or security lapse could have a significant reputational, financial, operational, or regulatory impact.",Baseline
+Vendor Relations,VR,VR-TR-1800,3,1,VR-TR-1800.3,"Medium: Vendors The Company places a limited degree of business dependence on the performance of a business process or component of where there could be moderate impact to The Company through the loss or corruption of The Company data by the vendors. Any disruption, failure, or security lapse could have a moderate reputational, financial, operational, or regulatory impact.",Baseline
+Vendor Relations,VR,VR-TR-1800,4,1,VR-TR-1800.4,Low: Vendors The Company places minimal dependence on the performance of a business process or component of where there could be minimal to no impact to The Company through the loss or corruption of The Company data by the vendor.,Baseline
+Vendor Relations,VR,VR-TR-2000,0,0,,The effectiveness of security controls within a vendors's environments are reviewed  [INSERT TIME FRAME].,Baseline
+Vendor Relations,VR,VR-TR-2100,0,0,,The Company performs assessments of third parties in alignment with program requirements.,Baseline
+Vendor Relations,VR,VR-TR-2300,0,0,,Periodic reassessments of vendors are performed.,Baseline
+Vendor Relations,VR,VR-TR-2400,0,0,,A material change occurs when responses to a New Engagement Questionnaire dictate a higher Inherent Risk Rating compared to previous engagements and the most recent assessment is outside the required cadence dictated by the higher Inherent Risk Rating.,Baseline
+Vendor Relations,VR,VR-TR-2500,0,0,,Third party security events are reported to the Chief Information Security Officer within  [INSERT TIME FRAME] of receipt from the vendor.,Baseline
+Risk Management,RM,RM-TR-100,0,0,,"Organizational risk target/goals is presented to the Board of Directors on at least an annual basis, or as significant changes to the company's risk exposure occur.",Baseline
+Risk Management,RM,RM-TR-300,0,0,,"The Board of Directors, or relevant committee thereof, reviews and approves the Core Security Risk Assessment on at least an  [INSERT TIME FRAME] basis.",Baseline
+Risk Management,RM,RM-TR-400,0,0,,"The Board of Directors, or relevant committee thereof, reviews and approves the Organizational risk target/goals on at least an  [INSERT TIME FRAME] basis.",Baseline
+Risk Management,RM,RM-TR-500,0,0,,"The Enterprise Security Risk Assessment includes an assessment of internal and external risks to the security, confidentiality, or integrity of personal information that could result in unauthorized disclosure, misuse, loss, alteration, destruction, or other compromise.",Baseline
+Risk Management,RM,RM-TR-500,1,1,RM-TR-500.1,"The SVP, Security Risk reviews and approves the Enterprise Security Risk Assessment on at least an [INSERT TIME FRAME] basis, or as significant changes to the assessment are made.",Baseline
+Risk Management,RM,RM-TR-600,0,0,,The Enterprise Security Risk Assessment is maintained by the Chief Information Security Officer or his or her designee.,Baseline
+Risk Management,RM,RM-TR-900,0,0,,The Enterprise Threat Vector Assessment includes an analysis of enterprise threat vectors which are both internal and external to The Company.,Baseline
+Risk Management,RM,RM-TR-1100,0,0,,"The SVP, Security Risk reviews and approves the Enterprise Threat Vector Assessment on at least an  [INSERT TIME FRAME] basis, or as significant changes to the assessment are made.",Baseline
+Risk Management,RM,RM-TR-1200,0,0,,"Asset risk assessment lifecycle steps are risk identification, analysis, evaluation, and treatment.",Baseline
+Risk Management,RM,RM-TR-1300,0,0,,"The Inherent Risk Rating (IRR), Control Assessment Rating (CAR), and Residual Risk Rating (RRR) for technology assets is defined in the Asset Criticality Risk Methodology.",Baseline
+Risk Management,RM,RM-TR-1400,0,0,,"The criteria used to calculate the IRR and prioritize technology assets is based on the asset's data classification, data volume, data availability, and whether the asset is internet-facing.",Baseline
+Risk Management,RM,RM-TR-1400,1,1,RM-TR-1400.1,A weighting is applied to each IRR attribute to determine the asset's IRR as defined in the Asset Security Risk Methodology.,Baseline
+Risk Management,RM,RM-TR-1500,0,0,,Security Risk Assessments (SRAs) are performed for applicable applications and platforms as defined in the Asset Security Risk Methodology.,Baseline
+Risk Management,RM,RM-TR-1600,0,0,,"Based on the results of the Control Self-Assessment (CSA) process and the technology asset's Inherent Risk Rating (IRR), the Residual Risk Rating (RRR) is calculated. ",Baseline
+Risk Management,RM,RM-TR-1700,0,0,,The Company identifies and communicates risk(s) to the issues management team in accordance with the Issues and Deviations process.,Baseline
+Risk Management,RM,RM-TR-1900,0,0,,"The Company designs, implements, maintains, and documents safeguards that mitigate the material internal and external risks The Company identifies to the security, confidentiality, or integrity of personal information.",Baseline
+Risk Management,RM,RM-TR-2000,0,0,,"The Company's security controls are designed to reduce the risk to personal information based on the volume, sensitivity, and likelihood, given the existence of other safeguards, that the risk could be realized and result in the unauthorized access, collection, use, alteration, destruction, or disclosure of the personal information.",Baseline
+Risk Management,RM,RM-TR-2010,0,0,,"The Company designs, implements, maintains, and documents safeguards that mitigate the material internal and external risks The Company identifies to the privacy of personal data.",Baseline
+Risk Management,RM,RM-TR-2020,0,0,,"The Company categorizes information and the information system in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance.",FedRAMP Extended
+Risk Management,RM,RM-TR-2030,0,0,,The Company documents the security categorization results (including supporting rationale) in the system security plan and associated authorization to operate (ATO) documentation for the information system.,FedRAMP Extended
+Risk Management,RM,RM-TR-2040,0,0,,The Company ensures that the security categorization decision is reviewed and approved by The Company authorizing official or authorizing official designated representative.,FedRAMP Extended
+Vulnerability Management,VM,VM-TR-100,0,0,,The Company receives vulnerability information from multiple sources.,Baseline
+Vulnerability Management,VM,VM-TR-200,0,0,,"The Threat and Vulnerability Management teams review, analyze, and report on vulnerabilities newly identified by its vulnerability scanning vendor [INSERT TIME FRAME].",Baseline
+Vulnerability Management,VM,VM-TR-300,0,0,,The Threat Intelligence Team reviews and analyzes intelligence reports on vulnerabilities for relevant software and notifies the Threat and Vulnerability Management team of any relevant vulnerabilities.,Baseline
+Vulnerability Management,VM,VM-TR-400,0,0,,The Company analyzes vulnerability information to determine the following:,Baseline
+Vulnerability Management,VM,VM-TR-400,1,1,VM-TR-400.1,"Applicability to The Company systems and applications (i.e., is the affected technology in-use at The Company)",Baseline
+Vulnerability Management,VM,VM-TR-400,2,1,VM-TR-400.2,"Potential impact to The Company systems, applications, and data (i.e., if exploitation of this vulnerability could be a material risk to The Company)",Baseline
+Vulnerability Management,VM,VM-TR-410,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company analyzes vulnerability information using procedures and/or checklists to determine the following:  Applicability to The Company systems and applications (i.e., is the affected technology in-use at The Company). Potential impact to The Company systems, applications, and data (i.e., if exploitation of this vulnerability could be a material risk to The Company)",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-500,0,0,,The Company performs automated vulnerability scans of systems at the following frequency:,Baseline
+Vulnerability Management,VM,VM-TR-500,1,1,VM-TR-500.1,External systems:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-500,2,1,VM-TR-500.2,Internal systems:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-510,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company performs procedures to identify and ensure all systems within the FedRAMP boundary are being scanned for vulnerabilities. ",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-520,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company performs authenticated scans of Operating Systems, databases, and web applications.",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-600,0,0,,The Company has implemented a risk-based approach to perform penetration testing based on compliance and regulatory requirements.,Baseline
+Vulnerability Management,VM,VM-TR-600,1,1,VM-TR-600.1,"For The Company systems that are deployed in its in-scope environments, The Company performs penetration testing of externally facing applications [INSERT TIME FRAME].",Baseline
+Vulnerability Management,VM,VM-TR-600,2,1,VM-TR-600.2,"For The Company systems that are deployed in its PCI in-scope environments, The Company performs penetration testing of applications at least  [INSERT TIME FRAME] and segmentation controls every [INSERT TIME FRAME].",PCI Extended
+Vulnerability Management,VM,VM-TR-600,3,1,VM-TR-600.3,"For The Company systems deployed in its FedRAMP boundaries, The Company performs announced penetration testing of FedRAMP externally facing applications [INSERT TIME FRAME]. The Company employs an independent agent and/or team to perform penetration tests of information systems or components, when applicable.",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-700,0,0,,The Company performs penetration testing according to OWASP and NIST methodologies and standards.,Baseline
+Vulnerability Management,VM,VM-TR-800,0,0,,"Automated vulnerability scans are configured to enumerate the following for each discovered system: Operating system Hostname IP address Open ports Listening services Operating system and software vulnerabilities",Baseline
+Vulnerability Management,VM,VM-TR-900,0,0,,Automated vulnerability scanners are configured to update signatures throughout the day.,Baseline
+Vulnerability Management,VM,VM-TR-1000,0,0,,The Company uses an industry-standard framework to assign a risk rating to vulnerabilities identified through automated scanning.,Baseline
+Vulnerability Management,VM,VM-TR-1100,0,0,,The Company has a vulnerability disclosure program for external sources to report identified vulnerabilities.,Baseline
+Vulnerability Management,VM,VM-TR-1200,0,0,,The Company has a process to allow internal sources to report vulnerabilities using phone and email communications channels.,Baseline
+Vulnerability Management,VM,VM-TR-1300,0,0,,"The Company uses the following CVSS Version 3 guidance to assign a risk rating to vulnerabilities that were not identified by an automated tool (e.g., findings identified by a penetration test): ",Baseline
+Vulnerability Management,VM,VM-TR-1300,1,1,VM-TR-1300.1,Critical: CVSS score of 9.0-10.0,Baseline
+Vulnerability Management,VM,VM-TR-1300,2,1,VM-TR-1300.2,High: CVSS score of 7-8.9,Baseline
+Vulnerability Management,VM,VM-TR-1300,3,1,VM-TR-1300.3,Medium: CVSS score of 4.0-6.9,Baseline
+Vulnerability Management,VM,VM-TR-1300,4,1,VM-TR-1300.4,Low: CVSS score of 0.1-3.9,Baseline
+Vulnerability Management,VM,VM-TR-1400,0,0,,Penetration Testers use CVSS to assign risk criticality to manually identified vulnerabilities.,Baseline
+Vulnerability Management,VM,VM-TR-1500,0,0,,The Vulnerability Management team uses CVSS to assign risk criticalities to manually identified vulnerabilities reported through internal and external reporting processes.,Baseline
+Vulnerability Management,VM,VM-TR-1600,0,0,,Application and System owners remediate or mitigate vulnerabilities within the following targeted timeframes:,Baseline
+Vulnerability Management,VM,VM-TR-1600,1,1,VM-TR-1600.1,Zero Day:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-1600,2,1,VM-TR-1600.2,Critical:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-1600,3,1,VM-TR-1600.3,High:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-1600,4,1,VM-TR-1600.4,Medium:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-1600,5,1,VM-TR-1600.5,Low:  [INSERT TIME FRAME],Baseline
+Vulnerability Management,VM,VM-TR-1700,0,0,,Application and System Owners commence remediation planning for all critical vulnerabilities within [INSERT TIME FRAME] of identification.,Baseline
+Vulnerability Management,VM,VM-TR-1710,0,0,,"If a security event occurs due to a vulnerability exploitation, system and application owners are responsible for completion of remediation of the vulnerability within  [INSERT TIME FRAME] of notification of such event.",Baseline
+Vulnerability Management,VM,VM-TR-1720,0,0,,"If a security event occurs due to a vulnerability exploitation, system and application owners are responsible for completion of remediation of the vulnerability within  [INSERT TIME FRAME] of notification of such event. If that vulnerability cannot be remediated within  [INSERT TIME FRAME] of its identification, then compensating controls are identified and implemented or the system is decommissioned within [INSERT TIME FRAME] of the identification of the vulnerability. ",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-1800,0,0,,Application and System Owners mitigate any critical vulnerability within  [INSERT TIME FRAME] of vulnerability identification.,Baseline
+Vulnerability Management,VM,VM-TR-1900,0,0,,The Company documents vulnerabilities in a system that conforms to The Company Records Retention Policy.,Baseline
+Vulnerability Management,VM,VM-TR-2000,0,0,,Cyber Operations ensures that Vulnerability scan reports are communicated to designated patch champions.,Baseline
+Vulnerability Management,VM,VM-TR-2000,1,1,VM-TR-2200.1,The Patch Management Group will report exception status related to defined vulnerabilities.,Baseline
+Vulnerability Management,VM,VM-TR-2100,0,0,,Cyber Operations provides patch champions with vulnerability scan reports in accordance with established scan schedules.,Baseline
+Vulnerability Management,VM,VM-TR-2200,0,0,,The Patch Management Group has access to repositories containing documented vulnerabilities.,Baseline
+Vulnerability Management,VM,VM-TR-2300,0,0,,Cyber Operations reports identified vulnerabilities to the responsible Business Unit until they have been remediated.,Baseline
+Vulnerability Management,VM,VM-TR-2310,0,0,,"If any vulnerability with a CVSS 3 score greater than a 7.0 is actively present within the FedRAMP authorization boundary, the FedRAMP SOC will be notified with all vulnerability details in order to investigate whether the vulnerability has been previously exploited.",FedRAMP Extended
+Vulnerability Management,VM,VM-TR-2400,0,0,,Cyber Operations documents the following attributes for each identified vulnerability:,Baseline
+Vulnerability Management,VM,VM-TR-2400,1,1,VM-TR-2400.1,Time of first detection (where applicable),Baseline
+Vulnerability Management,VM,VM-TR-2400,2,1,VM-TR-2400.2,"Days open (where applicable) ",Baseline
+Vulnerability Management,VM,VM-TR-2400,3,1,VM-TR-2400.3,Risk rating,Baseline
+Vulnerability Management,VM,VM-TR-2400,4,1,VM-TR-2400.4,SLA compliance status (where applicable),Baseline
+Vulnerability Management,VM,VM-TR-2500,0,0,,Vulnerabilities identified by automated scanning are rescanned upon report of remediation or upon next regularly scheduled automated scan to confirm the vulnerability has been remediated.,Baseline
+Vulnerability Management,VM,VM-TR-2600,0,0,,Application and System Owners review scan results to verify that the vulnerability has been remediated prior to reporting that the vulnerability has been remediated.,Baseline
+Vulnerability Management,VM,VM-TR-2700,0,0,,"If automated scanning cannot verify remediation, manual testing is performed to validate that the vulnerability has been remediated and the vulnerability status must be manually updated in the vulnerability management system to reflect the status of the vulnerability.",Baseline
+Vulnerability Management,VM,VM-TR-2800,0,0,,Cyber Operations declares a Zero Day Alert and notifies all Application Owners and Patch Champions when a Critical vulnerability has been identified that meets the following criteria:,Baseline
+Vulnerability Management,VM,VM-TR-2800,1,1,VM-TR-2800.1,The affected technology is present or likely present in the environment,Baseline
+Vulnerability Management,VM,VM-TR-2800,2,1,VM-TR-2800.2,Instances of the affected technology are likely to be accessible to an external attacker,Baseline
+Vulnerability Management,VM,VM-TR-2800,3,1,VM-TR-2800.3,"The vulnerability is exploitable (i.e., a public proof of concept/exploit code is available)",Baseline
+Vulnerability Management,VM,VM-TR-2900,0,0,,Cyber Operations includes the following information in each Zero Day alert:,Baseline
+Vulnerability Management,VM,VM-TR-2900,1,1,VM-TR-2900.1,Description of the vulnerability,Baseline
+Vulnerability Management,VM,VM-TR-2900,2,1,VM-TR-2900.2,Affected technology,Baseline
+Vulnerability Management,VM,VM-TR-2900,3,1,VM-TR-2900.3,Guidance for identifying vulnerable instances,Baseline
+Vulnerability Management,VM,VM-TR-2900,4,1,VM-TR-2900.4,Guidance for remediating or mitigating vulnerable instances,Baseline
+Vulnerability Management,VM,VM-TR-2910,0,0,,The Company employs automated mechanisms to compare the results of vulnerability scans for the FedRAMP boundary over time to determine trends in information system vulnerabilities.,FedRAMP Extended

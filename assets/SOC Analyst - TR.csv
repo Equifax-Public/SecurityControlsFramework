@@ -1,0 +1,213 @@
+Domain Name,Domain,TR_ID,Sub_TR_Order,Sub_TR_Indent,Sub_TR_ID,TR_Description,TR_Scope
+Security Continuous Monitoring,CM,CM-TR-100,0,0,,The Company systems must have security controls configured to sufficiently detect and alert when unauthorized or anomalous activity occurs.,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,0,0,,"Servers and applications are configured to log activity that can enable the monitoring, reporting, analysis, and investigation of unlawful, unauthorized, or inappropriate information system activity. Logged events include:",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,1,1,CM-TR-200.1,"Authentication (e.g., successful and failed logon and logoff)",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,2,1,CM-TR-200.2,"Authorization (e.g., successful and failed access)",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,3,2,CM-TR-200.2.1,Individual user accesses to cardholder data,PCI Extended
+Security Continuous Monitoring,CM,CM-TR-200,4,2,CM-TR-200.2.2,Actions taken by any individual with root or administrative privileges,PCI Extended
+Security Continuous Monitoring,CM,CM-TR-200,5,1,CM-TR-200.3,"User or group management, including:",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,6,2,CM-TR-200.3.1,Account creation or modification,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,7,2,CM-TR-200.3.2,Group creation or modification,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,8,2,CM-TR-200.3.3,Password creation or modification,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,9,1,CM-TR-200.4,Changes to authentication and authorization mechanisms,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,10,1,CM-TR-200.5,"Modification, initialization, stopping, or pausing of the audit logs",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,11,1,CM-TR-200.6,Process creation,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,12,1,CM-TR-200.7,"System operational events, such as power on or off and hardware changes",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,13,2,CM-TR-200.7.1,Creation and deletion of system-level objects,PCI Extended
+Security Continuous Monitoring,CM,CM-TR-200,14,1,CM-TR-200.8,The following details are captured where possible:,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,15,2,CM-TR-200.8.1,Date and time stamp,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,16,2,CM-TR-200.8.2,Type of event,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,17,2,CM-TR-200.8.3,User identifier,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,18,2,CM-TR-200.8.4,Source and Destination IP address,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,19,2,CM-TR-200.8.5,Destination port,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,20,2,CM-TR-200.8.6,Layer 4 protocol,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,21,2,CM-TR-200.8.7,Layer 7 protocol,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,22,2,CM-TR-200.8.8,User Agent String,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,23,2,CM-TR-200.8.9,Session or activity duration,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,24,2,CM-TR-200.8.10,Bytes sent and received,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,25,2,CM-TR-200.8.11,Terminal address and location,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,26,2,CM-TR-200.8.12,"Activity type attempted (e.g., login, login help, update, delete, insert, create, file upload/download)",Baseline
+Security Continuous Monitoring,CM,CM-TR-200,27,2,CM-TR-200.8.13,Activity success or failure,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,28,2,CM-TR-200.8.14,Before and after values,Baseline
+Security Continuous Monitoring,CM,CM-TR-200,29,2,CM-TR-200.8.15,"Identity or name of affected data, system component, or resource",Baseline
+Security Continuous Monitoring,CM,CM-TR-300,0,0,,"The Company defines logging requirements based on asset risk and log value to threat detection and investigation activities, in addition to compliance requirements, regulatory requirements, and risk assessments.",Baseline
+Security Continuous Monitoring,CM,CM-TR-400,0,0,,Application Owners ensure compliance with logging requirements throughout the asset life cycle.,Baseline
+Security Continuous Monitoring,CM,CM-TR-500,0,0,,Application Owners ensure compliance with updated or additional logging requirements within [INSERT TIME FRAME] of publication.,Baseline
+Security Continuous Monitoring,CM,CM-TR-600,0,0,,System Owners ensure compliance with logging requirements throughout the asset lifecycle.,Baseline
+Security Continuous Monitoring,CM,CM-TR-700,0,0,,System Owners ensure compliance with updated or additional logging requirements within [INSERT TIME FRAME] of publication.,Baseline
+Security Continuous Monitoring,CM,CM-TR-710,0,0,,"Application and System owners are responsible for taking corrective actions when logging functionality anomalies or failures (e.g. failures in the log capturing mechanisms, log storage capacity being reached or exceeded) are reported.",Baseline
+Security Continuous Monitoring,CM,CM-TR-800,0,0,,Systems use internal system clocks to generate timestamps for audit records.,Baseline
+Security Continuous Monitoring,CM,CM-TR-900,0,0,,Systems synchronize internal system clocks with an approved authoritative time source at least  [INSERT TIME FRAME].,Baseline
+Security Continuous Monitoring,CM,CM-TR-910,0,0,,"For The Company systems deployed in its FedRAMP boundaries, synchronize internal system clocks with the NIST internet time servers at least  [INSERT TIME FRAME] and when there is a material time difference as defined by The Company. A primary and secondary NIST internet time server is selected. The secondary server is selected from a different geographic region than the primary server.",FedRAMP Extended
+Security Continuous Monitoring,CM,CM-TR-1000,0,0,,Systems and applications forward security-required logs to the logging service specified by Security.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1100,0,0,,System logging facility is configured to log user activity and system changes.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1200,0,0,,"Logs are retained in accordance with the specific regulatory or industry compliance requirement(s) (e.g., PCI) and in compliance with the internal Corporate Record Retention Schedule.",Baseline
+Security Continuous Monitoring,CM,CM-TR-1300,0,0,,"Logs are retained on the local system for [INSERT TIME FRAME], where technically feasible.",Baseline
+Security Continuous Monitoring,CM,CM-TR-1400,0,0,,Logs are not retained longer than specified by the Record Retention Schedule unless the information is on legal hold.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1500,0,0,,Log analysis and correlation is set up resulting in automated alerting.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1600,0,0,,Automated alerts are reviewed [INSERT TIME FRAME] and are classified according to severity.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1700,0,0,,Analysis procedures are documented and followed by the Security Monitoring Team.,Baseline
+Security Continuous Monitoring,CM,CM-TR-1710,0,0,,"Upon notification of a higher risk vulnerability present on The Company systems deployed in its FedRAMP boundaries,  [INSERT TEAM] reviews historic logs to determine if such vulnerability has been previously exploited.",FedRAMP Extended
+Security Continuous Monitoring,CM,CM-TR-1800,0,0,,"A centralized ticketing system is used to analyze the prioritization of alerts, as well as actions taken.",Baseline
+Security Continuous Monitoring,CM,CM-TR-1900,0,0,,Access to logs and the logging facility shall be restricted to authorized individuals to prevent any possible misuse or compromise.,Baseline
+Security Continuous Monitoring,CM,CM-TR-2000,0,0,,The Company has the following types of detective and preventive controls on inbound corporate email:  [INSERT SPECIFIC DETAILS]. These capabilities are centrally managed and the detection content is automatically updated where feasible. ,Baseline
+Security Continuous Monitoring,CM,CM-TR-2010,0,0,,The Company uses user behavior analysis capabilities to monitor for threat activity associated with internal and third party personnel.  ,Baseline
+Security Continuous Monitoring,CM,CM-TR-2100,0,0,,"The Company has endpoint agents that serve antivirus, endpoint detection and response, and data loss prevention capabilities, where technically feasible and applicable.  These capabilities are centrally managed and the detection content is automatically updated  [INSERT TIME FRAME] where feasible. ",Baseline
+Security Continuous Monitoring,CM,CM-TR-2100,1,1,CM-TR-2100.1,"Antivirus scans of the system are performed  [INSERT TIME FRAME]. Where feasible, real-time scans of files, from external sources, are performed as the files are downloaded, opened, or executed.",Baseline
+Security Continuous Monitoring,CM,CM-TR-2110,0,0,,"For The Company systems deployed in its FedRAMP boundaries, antivirus is configured to perform periodic scans of the information system  [INSERT TIME FRAME] and real-time scans of files from external sources as the files are downloaded, opened, or executed. ",FedRAMP Extended
+Security Continuous Monitoring,CM,CM-TR-2200,0,0,,"Endpoints (i.e., servers and workstations) have security agents installed, as required by the Endpoint Security Agent Guideline.",Baseline
+Security Continuous Monitoring,CM,CM-TR-2300,0,0,,Process Owners ensure that required endpoint security agents are installed upon instantiation of a system.,Baseline
+Security Continuous Monitoring,CM,CM-TR-2400,0,0,,Process Owners ensure that required endpoint security agents on each newly built system are communicating with the endpoint security system prior to providing the system for use.,Baseline
+Security Continuous Monitoring,CM,CM-TR-2500,0,0,,Application and System Owners ensure that endpoints have the required endpoint security agents installed and that the agents are communicating with the endpoint security system throughout the system's lifecycle.,Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,0,0,,"Where technically feasible, The Company subjects internet traffic leaving The Company user networks to the following security controls:",Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,1,1,CM-TR-2600.1,Layer 3/4/7 Logging and Analysis (Connection & Metadata),Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,2,1,CM-TR-2600.2,Dynamic and Static File Analysis,Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,3,1,CM-TR-2600.3,Malicious Traffic Blocking,Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,4,1,CM-TR-2600.4,Commodity Web Filtering,Baseline
+Security Continuous Monitoring,CM,CM-TR-2600,5,1,CM-TR-2600.5,Network Data Loss Prevention (DLP),Baseline
+Security Continuous Monitoring,CM,CM-TR-2700,0,0,,"Where technically feasible, The Company subjects internet traffic leaving The Company data center networks to the following security controls:",Baseline
+Security Continuous Monitoring,CM,CM-TR-2700,1,1,CM-TR-2700.1,Layer 3/4/7 logging and analysis (connection & metadata),Baseline
+Security Continuous Monitoring,CM,CM-TR-2700,2,1,CM-TR-2700.2,Network Data Loss Prevention (DLP),Baseline
+Security Continuous Monitoring,CM,CM-TR-2800,0,0,,"Where technically feasible, The Company subjects internet traffic entering The Company data center networks to the following security controls.",Baseline
+Security Continuous Monitoring,CM,CM-TR-2800,1,1,CM-TR-2800.1,Layer 3/4/7 logging and analysis (connection & metadata),Baseline
+Security Continuous Monitoring,CM,CM-TR-2800,2,1,CM-TR-2800.2,Malicious traffic blocking,Baseline
+Security Continuous Monitoring,CM,CM-TR-2800,3,1,CM-TR-2800.3,Web Application Firewall,Baseline
+Security Continuous Monitoring,CM,CM-TR-2800,4,1,CM-TR-2800.4,Full Packet Capture,Baseline
+Security Continuous Monitoring,CM,CM-TR-2810,0,0,,Application Owners ensure that internet facing applications are protected by The Company's standardized Web Application Firewall platform in blocking mode.  ,Baseline
+Security Continuous Monitoring,CM,CM-TR-2900,0,0,,Network and Datacenter Owners ensure that all ingress and egress traffic is subjected to monitoring according to requirements provided in this document.,Baseline
+Security Continuous Monitoring,CM,CM-TR-3000,0,0,,The Company implements processes to confirm the operation and functionality of the requirements defined in this document.,Baseline
+Security Continuous Monitoring,CM,CM-TR-3000,1,1,CM-TR-3000.1,"Operations monitoring (e.g., performance, uptime) is performed [INSERT TIME FRAME].",Baseline
+Security Continuous Monitoring,CM,CM-TR-3000,2,1,CM-TR-3000.2,Periodic reports on endpoint security technology coverage for identified critical systems are sent to technology owners.,Baseline
+Security Continuous Monitoring,CM,CM-TR-3000,3,1,CM-TR-3000.3,Detection and prevention technologies are tested to ensure that the capability is functioning.,Baseline
+Security Continuous Monitoring,CM,CM-TR-3010,0,0,,"For The Company systems deployed in its FedRAMP boundaries, testing to verify the correct operation of detection and prevention technologies is performed at least  [INSERT TIME FRAME]and upon system startup and /or system restart. Anomalies resulting from testing are communicated to System Owners and Security for resolution.  ",FedRAMP Extended
+Asset Management,AM,AM-TR-100,0,0,,The Company maintains an inventory of assets and configuration items.,Baseline
+Asset Management,AM,AM-TR-200,0,0,,"The Company uses manual processes and, where practicable, automated tool(s) to regularly inventory and classify, manage inventory disposition and maintain reports on assets.",Baseline
+Asset Management,AM,AM-TR-300,0,0,,"The Company validates the completeness and accuracy of the hardware and software assets maintained within the asset inventory, including corresponding configuration items and asset attributes. The inventory is updated as necessary following execution of internal processes.",Baseline
+Asset Management,AM,AM-TR-310,0,0,,"The inventory of The Company systems deployed in its FedRAMP boundaries is updated at least [INSERT TIME FRAME], following the execution of internal processes including but not limited to component or system installation, removals, and updates,  and when there is a system change.",FedRAMP Extended
+Asset Management,AM,AM-TR-400,0,0,,"The Company maintains an asset inventory, which includes both software and hardware assets.",Baseline
+Asset Management,AM,AM-TR-400,1,1,AM-TR-400.1,"Physical hardware asset attributes documented include: Asset Tag, Company, Serial Number, Model, Model Category, State, Assigned To (where applicable), Physical Location, Support Group, End of Service Life, and Link to the Configuration Item (where applicable)",Baseline
+Asset Management,AM,AM-TR-400,2,1,AM-TR-400.2,"Software asset attributes documented include: Publisher, Product Classification, Product, Product Type, Version, and End of Service Life",Baseline
+Asset Management,AM,AM-TR-500,0,0,,"The Company maintains a configuration items (CI) inventory, which includes Application Servers, Virtual Servers, Database Servers, Storage, Business Services, and Business Applications. The following attributes are documented for each type of configuration item:",Baseline
+Asset Management,AM,AM-TR-500,1,1,AM-TR-500.1,"Application Servers: Name, Managed By, Category, Support Group, Version, Port Number, IP Address",Baseline
+Asset Management,AM,AM-TR-500,2,1,AM-TR-500.2,"Servers: OS Domain, Operating System, OS Version, OS Service Pack, Host Name, Disk Space, Chassis Type, RAM, CPU Manufacturer, CPU Type, CPU Speed, CPU Count, CPU Core Count, IP Address, Software Installations, Running Processes",Baseline
+Asset Management,AM,AM-TR-500,3,1,AM-TR-500.3,"Database Servers: Name, Type, Version, Support Group, IP Address",Baseline
+Asset Management,AM,AM-TR-500,4,1,AM-TR-500.4,"Storage Servers: Name, Manufacturer, Location, Manufacturer, Asset Tag, Model ID, OS Version, Support Group, Serial Number, IP Address",Baseline
+Asset Management,AM,AM-TR-500,5,1,AM-TR-500.5,"Business Services: Name, Owned By, Business Criticality, Version, Environment, Operational Status, Service Classification, Approval Group, Support Group, Managed By (Individual), Service Level Agreement (SLA), Location",Baseline
+Asset Management,AM,AM-TR-500,6,1,AM-TR-500.6,"Business Application: Application Name, Status - (e.g., Lifecycle stage), Customer Type, Internet Facing Web App (Yes / No), Application Type, Architecture Type, Business Owner, IT Application Owner, Business Unit, Alliance, Tribe, Approval group, Assignment Group (i.e., group assigned to manage the CI), If the Configuration Item is in-scope for Regulatory and Compliance Audits, Data Classification, Recovery Time Objective, Data Volume, Data Residency Restrictions, Security Control Restriction, Inherent Risk Rating, Service Account Password Management, and SSH and RDP Multi-Factor Authentication",Baseline
+Asset Management,AM,AM-TR-600,0,0,,Hardware technology asset acquisitions must be requested and approved using The Company's approved procurement process(es).,Baseline
+Asset Management,AM,AM-TR-700,0,0,,"Hardware and software purchases shall be made available with a record of IT assets acquired, which should include necessary elements to receive items into the asset management repository.",Baseline
+Asset Management,AM,AM-TR-900,0,0,,"Application Owners shall ensure that all applications, associated assets, and required attributes are mapped as a Business Application.",Baseline
+Asset Management,AM,AM-TR-1000,0,0,,"Process Owners (i.e., the role that builds the asset) shall ensure that required discovery agents are installed upon instantiation of a system and required discovery credentials are enabled and provided to the IT Asset Management Team. Installation of the discovery agents should follow the IT Asset Management documentation.",Baseline
+Asset Management,AM,AM-TR-1100,0,0,,"Process Owners (e.g., Network Managers, Systems Administrators) must ensure the IT Asset Management Team is made aware of new networks or IT asset devices being installed on the network and all particulars necessary for discovering networks and assets within a reasonable period of time.",Baseline
+Asset Management,AM,AM-TR-1200,0,0,,"Process Owners (i.e., the role that builds the asset) shall ensure that each asset is assigned to the requesting business unit and application upon instantiation of the system.",Baseline
+Asset Management,AM,AM-TR-1300,0,0,,The IT Asset Management Team shall deploy an asset normalization and reconciliation system to reduce component duplication in the inventory.,Baseline
+Asset Management,AM,AM-TR-1310,0,0,,"Prior to transporting a physical asset offsite, management authorization is obtained. Physical assets storing sensitive data shall be transported by a secured courier or other delivery method that can be tracked.",Baseline
+Asset Management,AM,AM-TR-1400,0,0,,"Media must be sanitized prior to disposal, removal, or reuse. This activity is documented, tracked, and verified. Approved methods of sanitization should follow NIST 800-88 sanitization guidelines.",Baseline
+Asset Management,AM,AM-TR-1400,1,1,AM-TR-1400.1,"Media for disposal from datacenters (i.e., server hard drives) must be sanitized prior to removal from The Company premises",Baseline
+Asset Management,AM,AM-TR-1400,2,1,AM-TR-1400.2,Media from data centers must be sanitized prior to reuse,Baseline
+Asset Management,AM,AM-TR-1400,3,1,AM-TR-1400.3,"All other media must be sanitized prior to removal, reuse, or disposal",Baseline
+Asset Management,AM,AM-TR-1500,0,0,,"When retiring or disposing of a physical asset, IT Asset Management shall update the status of the asset within the IT Asset Management system and ensure a Certificate of Disposal is attached to the asset record.",Baseline
+Asset Management,AM,AM-TR-1600,0,0,,System Owners ensure that the software contained in standard images complies with licensed use rights and meets software currency requirements.,Baseline
+Asset Management,AM,AM-TR-1700,0,0,,Application Owners ensure that the software used by its applications and systems complies with licensed use rights and meets software currency requirements.,Baseline
+Asset Management,AM,AM-TR-1710,0,0,,"For The Company systems deployed in its FedRAMP boundaries, use of peer-to-peer file sharing technologies are controlled and documented and are not used for the unauthorized distribution, display, performance, or reproduction of copyrighted work. ",FedRAMP Extended
+Asset Management,AM,AM-TR-1720,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company employs automated mechanisms to continuously scan for and detect, with a maximum of five minute delay in detection, the presence of The Company defined unauthorized hardware, software, and firmware components. Upon detection of an unauthorized component, appropriate personnel are notified and remediation occurs timely. ",FedRAMP Extended
+Asset Management,AM,AM-TR-1800,0,0,,ITAM Software Analyst(s) ensure that software license entitlement information is represented in the IT Asset Management system and that the following software license entitlements attributes are tracked where applicable:,Baseline
+Asset Management,AM,AM-TR-1800,1,1,AM-TR-1800.1,Software Manufacturer,Baseline
+Asset Management,AM,AM-TR-1800,2,1,AM-TR-1800.2,Software Model,Baseline
+Asset Management,AM,AM-TR-1800,3,1,AM-TR-1800.3,Software License Type,Baseline
+Asset Management,AM,AM-TR-1800,4,1,AM-TR-1800.4,Software License Duration,Baseline
+Asset Management,AM,AM-TR-1800,5,1,AM-TR-1800.5,Software License Duration Start Date,Baseline
+Asset Management,AM,AM-TR-1800,6,1,AM-TR-1800.6,Software License Duration End Date,Baseline
+Asset Management,AM,AM-TR-1800,7,1,AM-TR-1800.7,Software License Metric,Baseline
+Asset Management,AM,AM-TR-1800,8,1,AM-TR-1800.8,Software Purchased Rights,Baseline
+Asset Management,AM,AM-TR-1800,9,1,AM-TR-1800.9,Software License Key,Baseline
+Asset Management,AM,AM-TR-1800,10,1,AM-TR-1800.10,Purchase Order Number,Baseline
+Asset Management,AM,AM-TR-1900,0,0,,"The IT Asset Management Team shall identify, verify, and report end of service life dates for installed hardware and software to Application Owners.",Baseline
+Asset Management,AM,AM-TR-2000,0,0,,"Application Owners shall begin evaluating and planning to replace the software or to maintain the software with appropriate compensating controls at least two (2) years prior to the date on which the manufacturer's or third party's support will cease, or from the date the manufacturer or third party announces that it is no longer supporting the software if such period is less than two (2) years.",Baseline
+Asset Management,AM,AM-TR-2100,0,0,,The asset management repository sends the Inventory notification to Application Owners when an Application Service is created within the Asset Inventory. Inventory certifications are tracked to completion with a target to complete promptly. ,Baseline
+Asset Management,AM,AM-TR-2100,1,1,AM-TR-2100.1,"The Inventory Program collects data which determines the hosting location of the application and whether the application collects, processes, stores, and accesses or transmits Personal Data as defined in the Data Classification & Handling and Cryptographic Protections technical requiremnt.",Baseline
+Asset Management,AM,AM-TR-2110,0,0,,Scope for The Company's FedRAMP authorization boundaries is identified and documented. Scope is defined using the Asset Inventory and includes the hardware and software assets and supporting configuration items in-scope for The Company's FedRAMP authorization boundaries.  ,FedRAMP Extended
+Configuration Controls,CC,CC-TR-100,0,0,,"Prior to being made available to application teams, [INSERT TYPE] systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-100,1,1,CC-TR-100.1,Latest operating system is installed and updated.,Baseline
+Configuration Controls,CC,CC-TR-100,2,1,CC-TR-100.2,Systems are configured according to required configuration.,Baseline
+Configuration Controls,CC,CC-TR-100,3,1,CC-TR-100.3,Monitoring and security management software/agents are installed.,Baseline
+Configuration Controls,CC,CC-TR-200,0,0,,"Prior to being made available to application teams, servers are configured as follows:",Baseline
+Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,An The Company approved operating system release is installed.,Baseline
+Configuration Controls,CC,CC-TR-200,2,1,CC-TR-200.2,The Company approved software patches are installed.,Baseline
+Configuration Controls,CC,CC-TR-200,3,1,CC-TR-200.3,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-200,4,1,CC-TR-200.4,Systems are configured according to the approved baseline,Baseline
+Configuration Controls,CC,CC-TR-300,0,0,,[INSERT TYPE] systems are created using deployment templates stored in a secured repository.,Baseline
+Configuration Controls,CC,CC-TR-400,0,0,,"Prior to being made available to end users, [INSERT TYPE] endpoint systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-400,1,1,CC-TR-400.1,Latest The Company approved [INSERT TYPE] release is installed,Baseline
+Configuration Controls,CC,CC-TR-400,2,1,CC-TR-400.2,Enable device storage encryption in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-400,3,1,CC-TR-400.3,The Company approved [INSERT TYPE] patches are installed,Baseline
+Configuration Controls,CC,CC-TR-400,4,1,CC-TR-400.4,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-400,5,1,CC-TR-400.5,The Company End Point team installs base applications,Baseline
+Configuration Controls,CC,CC-TR-500,0,0,,"Prior to being made available to end users, [INSERT TYPE] endpoint systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-500,1,1,CC-TR-500.1,Latest The Company approved [INSERT TYPE] release is installed,Baseline
+Configuration Controls,CC,CC-TR-500,2,1,CC-TR-500.2,Enable device storage encryption in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-500,3,1,CC-TR-500.3,The Company approved [INSERT TYPE] patches are installed,Baseline
+Configuration Controls,CC,CC-TR-500,4,1,CC-TR-500.4,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-500,5,1,CC-TR-500.5,The Company End Point team installs base applications,Baseline
+Configuration Controls,CC,CC-TR-600,0,0,,Before deployment into the environment network devices are configured following a documented process:,Baseline
+Configuration Controls,CC,CC-TR-600,1,1,CC-TR-600.1,Devices are updated with the latest The Company approved vendor software,Baseline
+Configuration Controls,CC,CC-TR-600,2,1,CC-TR-600.2,Devices are configured according to The Company approved requirements,Baseline
+Configuration Controls,CC,CC-TR-610,0,0,,"For The Company systems deployed in its FedRAMP boundaries, perimeter network devices are configured to fail securely in the event of an operational failure.",FedRAMP Extended
+Configuration Controls,CC,CC-TR-620,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company configures network devices to terminate the network connection associated with a communications session at the end of the session or after 30 minutes of inactivity.",FedRAMP Extended
+Configuration Controls,CC,CC-TR-700,0,0,,"Prior to being made available to end users, mobile devices are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-700,1,1,CC-TR-700.1,Mobile devices are assigned to an individual user,Baseline
+Configuration Controls,CC,CC-TR-700,2,1,CC-TR-700.2,Mobile devices do not allow direct access to data center environments,Baseline
+Configuration Controls,CC,CC-TR-700,3,1,CC-TR-700.3,Mobile device operating systems are updated to a version actively supported and released by the device manufacturer within 6 months,Baseline
+Configuration Controls,CC,CC-TR-700,4,1,CC-TR-700.4,Mobile devices are only permitted if the manufacturer is approved by Information Technology,Baseline
+Configuration Controls,CC,CC-TR-700,5,1,CC-TR-700.5,Device storage encryption is enabled in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-700,6,1,CC-TR-700.6,Devices require a minimum of [INSERT NUMBER] character passwords for authentication,Baseline
+Configuration Controls,CC,CC-TR-700,7,1,CC-TR-700.7,Biometric authentication is permitted unless explicitly disallowed for device by Information Technology,Baseline
+Configuration Controls,CC,CC-TR-700,8,1,CC-TR-700.8,Employee registers mobile devices to The Mobile Device Management System,Baseline
+Configuration Controls,CC,CC-TR-800,0,0,,The Company configuration baselines are created using well known sources. Baselines are created by technology owners and approved by Information Security. ,Baseline
+Configuration Controls,CC,CC-TR-800,1,1,CC-TR-800.1,The Company configuration baselines reflect the most restrictive mode consistent with operational requirements.,Baseline
+Configuration Controls,CC,CC-TR-800,2,1,CC-TR-800.2,"Disables unnecessary functions, ports, protocols, and services",Baseline
+Configuration Controls,CC,CC-TR-810,0,0,,"The baseline procedures document contains procedures to identify items that need to be configured in non-production and production environments, processes for implementation of configuration baselines, as well as documenting roles and responsibilities.",Baseline
+Configuration Controls,CC,CC-TR-900,0,0,,The Company reviews baseline configurations [INSERT TIME FRAME] and updates them upon significant changes as appropriate. Updates include:,Baseline
+Configuration Controls,CC,CC-TR-900,1,1,CC-TR-900.1,Applicable patches prior to deployment whenever feasible,Baseline
+Configuration Controls,CC,CC-TR-900,2,1,CC-TR-900.2,Vendor best practices,Baseline
+Configuration Controls,CC,CC-TR-900,3,1,CC-TR-900.3,Benchmark frameworks,Baseline
+Configuration Controls,CC,CC-TR-900,4,1,CC-TR-900.4,"For The Company systems deployed in its FedRAMP boundaries, The Company will evaluate and as appropriate, incorporate FedRAMP Program Management Office directives in its baselines",FedRAMP Extended
+Configuration Controls,CC,CC-TR-1000,0,0,,The Company documents the latest approved software versions in the standards documents or service catalogs.,Baseline
+Configuration Controls,CC,CC-TR-1010,0,0,,"The Company employs a deny-all, permit by exception policy to ensure authorized software is permitted to execute in its FedRAMP boundaries. ",FedRAMP Extended
+Configuration Controls,CC,CC-TR-1100,0,0,,The Company uses standardized software images:,Baseline
+Configuration Controls,CC,CC-TR-1100,1,1,CC-TR-1100.1,"Images are created by technology teams based on requirements with guidance from vendors, industry, and security input",Baseline
+Configuration Controls,CC,CC-TR-1100,2,1,CC-TR-1100.2,"Automated mechanisms are used to maintain up-to-date, complete, accurate, and readily available baseline configurations where feasible",Baseline
+Configuration Controls,CC,CC-TR-1100,3,1,CC-TR-1100.3,Requirements for image creation and use may vary due to system requirements between teams and business units,Baseline
+Configuration Controls,CC,CC-TR-1100,3,1,CC-TR-1100.4,"Images contain vendor supported, licensed, and approved software",Baseline
+Configuration Controls,CC,CC-TR-1110,0,0,,The Company maintains at least a previous baseline configuration to support rollback,Baseline
+Configuration Controls,CC,CC-TR-1200,0,0,,The Company restricts access to configuration management tools and software packages to those required to operate the tools.,Baseline
+Configuration Controls,CC,CC-TR-1300,0,0,,"The Company requires that all new images and updates to images are tested, reviewed, and approved prior to deployment.",Baseline
+Configuration Controls,CC,CC-TR-1400,0,0,,"Passwords, tokens, and SSH keys are stored in authorized secrets management systems and not in baseline configurations.",Baseline
+Configuration Controls,CC,CC-TR-1500,0,0,,Security scans for deviations to baseline configurations and reports issues through the vulnerability management process,Baseline
+Configuration Controls,CC,CC-TR-1510,0,0,,"The Company uses automated mechanisms to centrally manage, apply, and verify baseline configuration settings for systems under configuration management, where feasible.",Baseline
+Configuration Controls,CC,CC-TR-1600,0,0,,"Default passwords are changed, disabled, or removed in configuration baselines.",Baseline
+Configuration Controls,CC,CC-TR-1700,0,0,,The Company operates and maintains File Integrity Monitoring (FIM) tools,Baseline
+Configuration Controls,CC,CC-TR-1700,1,1,CC-TR-1700.1,The Company scans for file changes [INSERT TIME FRAME],Baseline
+Configuration Controls,CC,CC-TR-1700,1,2,CC-TR-1700.1.1,[INSERT TIME FRAME] scans are required when the scan tool and the system being scanned can support the increased load without impairing function,Baseline
+Configuration Controls,CC,CC-TR-1700,2,1,CC-TR-1700.2,The Company creates notifications and reports file integrity changes to Technology and Security Incident Response Teams,Baseline
+Configuration Controls,CC,CC-TR-1700,3,1,CC-TR-1700.3,The Company responds to file changes within established response SLAs,Baseline
+Configuration Controls,CC,CC-TR-1700,4,1,CC-TR-1700.4,"The Company monitors externally-facing servers for unauthorized changes of files, including the following file types: critical operating system files, critical application files, and configuration files. ",Baseline
+Configuration Controls,CC,CC-TR-1700,5,1,CC-TR-1700.5,"For The Company's systems deployed in its PCI environments, The Company monitors servers for unauthorized changes of files, including the following file types: critical operating system files, critical application files, and configuration files. ",PCI Extended
+Configuration Controls,CC,CC-TR-1700,6,1,CC-TR-1700.6,The Company maintains and operates processes and technologies for updating FIM rule sets,Baseline
+Configuration Controls,CC,CC-TR-1700,7,1,CC-TR-1700.7,The Company maintains and operates processes and technologies that onboard assets.,Baseline
+Configuration Controls,CC,CC-TR-1700,8,1,CC-TR-1700.8,Agents are installed as required for compliance with organizational and regulatory standards and policies,Baseline
+Configuration Controls,CC,CC-TR-1800,0,0,,The Company operates and maintains compliance scanning tools to:,Baseline
+Configuration Controls,CC,CC-TR-1800,1,1,CC-TR-1800.1,Alert on out of compliance services or hosts that are found,Baseline
+Configuration Controls,CC,CC-TR-1800,2,1,CC-TR-1800.2,Scan systems for compliance with approved configuration baseline,Baseline
+Configuration Controls,CC,CC-TR-1800,3,1,CC-TR-1800.3,Perform both agent based and agentless compliance scanning where technically feasible ,Baseline
+Configuration Controls,CC,CC-TR-1800,4,1,CC-TR-1800.4,Scan network devices for compliance with approved baseline standards,Baseline
+Configuration Controls,CC,CC-TR-1800,5,1,CC-TR-1800.5,Scan cloud management platforms for configuration compliance violations,Baseline
+Configuration Controls,CC,CC-TR-1800,6,1,CC-TR-1800.6,Scan cloud tools and infrastructure components for compliance violations,Baseline
+Configuration Controls,CC,CC-TR-1800,8,1,CC-TR-1800.7,"Generate reports, logs, and event history",Baseline
+Configuration Controls,CC,CC-TR-1900,0,0,,"The Company systems adhere to the principle of least privilege for granting elevated privilege accounts to users of workstations, servers, and network devices. ",Baseline
+Configuration Controls,CC,CC-TR-1900,1,1,CC-TR-1900.1,Administrative access or elevated privileges for accounts on end user workstations are managed through The Company's approved privileged access management system.,Baseline
+Configuration Controls,CC,CC-TR-2000,0,0,,The Company application teams build and deploy applications and systems only to environments running The Company established configuration baselines.,Baseline
+Configuration Controls,CC,CC-TR-2010,0,0,,"The Company configures its systems and applications to provide only essential capabilities and prohibits or restricts the use of the functions, ports, protocols, and/or services as defined in baselines and service catalogs.",Baseline
+Configuration Controls,CC,CC-TR-2020,0,0,,The Company maintains separate execution domain for each executing process and implements memory safeguards to protect memory from unauthorized code execution,Baseline
+Configuration Controls,CC,CC-TR-2030,0,0,,The Company systems are configured to display an interactive system banner during login.,Baseline
+Configuration Controls,CC,CC-TR-2040,0,0,,The Company devices are uniquely identified and tagged according to Technical Requirements before being deployed into the environment.,Baseline

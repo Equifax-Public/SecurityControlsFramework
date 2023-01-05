@@ -1,0 +1,33 @@
+Domain Name ,Domain,Control_ID,Control_Desc,Control_Scope,Control_Owner,Control_Operator,Control_Type,Control_Type
+Vendor Relations,VR,VR-CS-1,"The Company's Vendor Relations Oversight Program, including defined roles and responsibilities and supporting documentation is defined, implemented, approved, reviewed, and revised, [INSERT TIME FRAME].",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-2,"The Company conducts appropriate due diligence procedures, in accordance with The Company's formal Vendor Relations Oversight Program, prior to entering into contractual agreements with third parties.",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-3,"The Company identifies, assigns, documents and maintains third party compliance risk ratings, in accordance with procedures performed under The Company's formal Vendor Relations Oversight Program.",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-4,"A contract is signed between The Company and the vendor detailing the roles and responsibilities of each party, including information security requirements. The contract is reviewed and approved by Legal.",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-5,An inventory of The Company's approved vendors is defined and formally maintained.,Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-6,A risk based process to credential The Company clients is defined and implemented.,Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-7,"A risk based process to review the admissibility of an The Company Client's permissible purpose, in alignment with product consumption is in place.",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-8,The Company conducts training on credentialing program standards and procedures on a [INSERT TIME FRAME] basis.,Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-9,"A risk based process to review, assess, and monitor a third party's information security safeguards is defined and implemented.",Baseline,,,Enterprise,Administrative
+Vendor Relations,VR,VR-CS-10,Material changes to existing third party relationships require reassessment in accordance with The Company's Vendor Relations Oversight Program.,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-1,Organizational risk target/goals is presented to The Company Board of Directors.,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-2,The Company Board of Directors reviews and approves the Core Security Risk Assessment on a [INSERT TIME FRAME] basis. ,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-3,"The Company performs an Enterprise Security Risk Assessment to assess internal and external risks to the security, confidentiality, or integrity of personal information that could result in the unauthorized disclosure, misuse, loss, alteration, destruction, or other compromise of such information and documents those risks that are material. ",Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-4,The Company performs an Enterprise Threat Vector Assessment which includes the identification of key controls designed to mitigate risk of enterprise threat vectors.,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-5,The Company maintains an Asset Risk Assessment Methodology which defines asset risk assessment lifecycle steps.,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-6,The Company determines technology assets' Inherent Risk Rating (IRR).,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-7,The Company performs technology asset Security Risk Assessments (SRAs) on a [INSERT TIME FRAME] basis. ,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-8,The Company communicates technology assets' security issue results and recommendations to appropriate stakeholders for resolution. ,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-9,The Company maintains a list of security controls which are reviewed and approved on a [INSERT TIME FRAME] basis. ,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-10,The Company performs an Enterprise Privacy Risk Assessment to assess the internal and external risks to the processing of personal data on a [INSERT TIME FRAME] basis.,Baseline,,,Enterprise,Administrative
+Risk Management,RM,RM-CS-11,"For The Company systems deployed in its FedRAMP boundaries, The Company performs a FIPS 199 analysis and categorization on an annual basis. ",FedRAMP Extended,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-1,The Company receives and analyzes vulnerability information to determine applicability and potential impact to The Company assets. ,Baseline,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-2,The Company maintains a process for internal and external sources to report identified vulnerabilities. ,Baseline,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-3,The Company scans external systems to identify vulnerabilities on [INSERT TIME FRAME]. ,Baseline,,,Enterprise,Technical
+Vulnerability Management,VM,VM-CS-4,The Company scans internal systems to identify vulnerabilities on [INSERT TIME FRAME]. ,Baseline,,,Enterprise,Technical
+Vulnerability Management,VM,VM-CS-5,The Company performs penetration tests against externally-facing applications on [INSERT TIME FRAME]. ,Baseline,,,Enterprise,Technical
+Vulnerability Management,VM,VM-CS-6,The Company ranks and prioritizes identified vulnerabilities for remediation in accordance with an established risk ranking process. ,Baseline,,,Enterprise,Technical
+Vulnerability Management,VM,VM-CS-7,The Company documents and communicates identified vulnerabilities to responsible parties. ,Baseline,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-8,The Company tracks identified vulnerabilities against established remediation timelines. ,Baseline,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-9,The Company performs testing or scanning to confirm remediation of identified vulnerabilities. ,Baseline,,,Enterprise,Technical
+Vulnerability Management,VM,VM-CS-10,"The Company maintains a process to prioritize, communicate, escalate, and track remediation of exploitable critical vulnerabilities identified on The Company perimeter.",Baseline,,,Enterprise,Administrative
+Vulnerability Management,VM,VM-CS-11,Application and System Owners mitigate vulnerabilities within established Service Level Agreements (SLAs).,Baseline,,,System Specific,Administrative

@@ -1,0 +1,3 @@
+Domain Name ,Domain,Control_ID,Control_Desc,Control_Scope,Control_Owner,Control_Operator,Control_Type,Control_Type
+Fraud Monitoring ,FM,FM-CS-1,The Company has a documented strategy which defines a risk based process to monitor consumer access to applications to detect fraud activity. ,Baseline,,,Enterprise,Administrative
+Fraud Monitoring ,FM,FM-CS-2,The Company tests the efficacy of fraud monitoring tools on a [INSERT TIME FRAME] basis and remediates identified issues.,Baseline,,,Enterprise,Administrative

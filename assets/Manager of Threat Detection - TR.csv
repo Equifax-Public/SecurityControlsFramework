@@ -1,0 +1,12 @@
+Domain Name,Domain,TR_ID,Sub_TR_Order,Sub_TR_Indent,Sub_TR_ID,TR_Description,TR_Scope
+Threat Detection,TD,TD-TR-100,0,0,,"Threat information is collected from open, human, commercial, and other sources, which are documented in the Threat Intelligence Playbook.",Baseline
+Threat Detection,TD,TD-TR-200,0,0,,Threat information is gathered to answer Priority Information Requirements as defined in the Cyber Intelligence Playbook.,Baseline
+Threat Detection,TD,TD-TR-300,0,0,,The Company records threat intelligence that directly ties to Priority Intelligence Requirements in the Malware Information Sharing Platform (MISP) data warehouse.,Baseline
+Threat Detection,TD,TD-TR-400,0,0,,"The Company publishes identified indicators to threat detection and prevention technologies, including but not limited to network-based IPS and DNS Sinkholes.",Baseline
+Threat Detection,TD,TD-TR-400,1,1,TD-TR-400.1,Updated indicators are published at least every [INSERT TIME FRAME].,Baseline
+Threat Detection,TD,TD-TR-500,0,0,,The Company Intelligence Analysts conduct research and analysis using a variety of research tools to enhance intelligence from the feeds.,Baseline
+Threat Detection,TD,TD-TR-600,0,0,,The Company Intelligence Analysts check applicability of threat information to The Company.,Baseline
+Threat Detection,TD,TD-TR-700,0,0,,The Threat Intelligence team provides detection or prevention recommendations and other threat information to appropriate parties once actionable threat intelligence has been produced for threats relevant to The Company.,Baseline
+Threat Detection,TD,TD-TR-800,0,0,,Threat Intelligence information is provided regularly to the Cyber Operations team and include actionable threat information that is relevant to current cyber operations at The Company.,Baseline
+Threat Detection,TD,TD-TR-900,0,0,,"Threat Intelligence reports are provided [INSERT TIME FRAME] to security teams and personnel, including the CISO, SVPs, BISOs, Security Advisements, and the Fraud Team. The reports include actionable threat information that is relevant to current cyber operations at The Company.",Baseline
+Threat Detection,TD,TD-TR-1000,0,0,,"The Insider Threat Program collects, analyzes, and correlates data; investigates identified suspicious activity; reports issues for appropriate remediation; assess likelihood of similar future exploitation by insider(s); and recommends solutions.",Baseline

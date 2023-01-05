@@ -1,0 +1,218 @@
+Domain Name,Domain,TR_ID,Sub_TR_Order,Sub_TR_Indent,Sub_TR_ID,TR_Description,TR_Scope
+Patch Management,PM,PM-TR-100,0,0,,"The Company shall have a Patch Management Group (PMG) that includes persons with appropriate experience and qualifications, and is responsible for:",Baseline
+Patch Management,PM,PM-TR-100,1,1,PM-TR-100.1,Monitoring and tracking the availability of security patches and security updates through patch management system notifications,Baseline
+Patch Management,PM,PM-TR-100,2,1,PM-TR-100.2,Ensuring the appropriate and timely application of all security updates or security patches,Baseline
+Patch Management,PM,PM-TR-100,3,1,PM-TR-100.3,"Monitoring for compliance with policies and procedures regarding ownership, supervision, evaluation, and coordination of the maintenance, management, and application of all security patches and software and application security updates by application and system owners",Baseline
+Patch Management,PM,PM-TR-100,4,1,PM-TR-100.4,"Supervising, evaluating, and coordinating system patch management tool(s)",Baseline
+Patch Management,PM,PM-TR-100,5,1,PM-TR-100.5,Providing training to individuals responsible for implementing and maintaining The Company patch management policies,Baseline
+Patch Management,PM,PM-TR-100,6,1,PM-TR-100.6,Establishing a governance model for patch management activities that is in alignment with compliance requirements,Baseline
+Patch Management,PM,PM-TR-200,0,0,,The Company shall appoint a Patch Supervisor who is responsible for overseeing the PMG. The Patch Supervisor shall report to the CTO and have appropriate experience and qualifications.,Baseline
+Patch Management,PM,PM-TR-300,0,0,,The Company shall appoint Patch Champions for each Alliance. Patch Champions are responsible for:,Baseline
+Patch Management,PM,PM-TR-300,1,1,PM-TR-300.1,"Working with Alliance stakeholders, Application Owners, Security, PMG, and IaaS on patching compliance, remediation, and risk mitigation activities",Baseline
+Patch Management,PM,PM-TR-300,2,1,PM-TR-300.2,Communicating and coordinating patching with Site Reliability Engineers,Baseline
+Patch Management,PM,PM-TR-300,3,1,PM-TR-300.3,Establishing and implementing patch plans that prioritize patch efforts in accordance with Patch Remediation Timeframes,Baseline
+Patch Management,PM,PM-TR-300,4,1,PM-TR-300.4,Ensuring relevant SDLC and change management processes are followed,Baseline
+Patch Management,PM,PM-TR-300,5,1,PM-TR-300.5,"Reporting progress to the PMG, and relevant stakeholders",Baseline
+Patch Management,PM,PM-TR-300,6,1,PM-TR-300.6,"Supporting implementation of controls, technical requirements, process technologies and tooling",Baseline
+Patch Management,PM,PM-TR-400,0,0,,Site Reliability Engineers coordinate patch activities between infrastructure and application teams.,Baseline
+Patch Management,PM,PM-TR-500,0,0,,"The PMG shall perform a biannual internal assessment of its management and implementation of security updates and patches. This assessment shall identify all known vulnerabilities to The Company technology assets and the security updates or security patches applied to address each vulnerability. The assessment shall be formally identified, documented, and reviewed by the PMG, Senior Technology, and Senior Security Leadership.",Baseline
+Patch Management,PM,PM-TR-700,0,0,,The Company shall define a Technology Owner for software and applications used in the environment.,Baseline
+Patch Management,PM,PM-TR-800,0,0,,"Asset Owners must onboard all assets to use the automated mechanisms prescribed for identification and assessment of software patches. Where automated mechanisms do not exist, Asset Owners must subscribe to vendor patch notification services, document all available patches, and track the installation of the patch.",Baseline
+Patch Management,PM,PM-TR-900,0,0,,"Patch deployment is prioritized, initiated, completed, and documented per patch remediation timeframe requirements.",Baseline
+Patch Management,PM,PM-TR-1000,0,0,,"Technology Owners must identify, assess, and document available patches for each assigned technology. Documentation for each patch should include:",Baseline
+Patch Management,PM,PM-TR-1000,1,1,PM-TR-1000.1,Impacted Application or System Owner(s),Baseline
+Patch Management,PM,PM-TR-1000,2,1,PM-TR-1000.2,Patch Identifier,Baseline
+Patch Management,PM,PM-TR-1000,3,1,PM-TR-1000.3,Vendor,Baseline
+Patch Management,PM,PM-TR-1000,4,1,PM-TR-1000.4,"Patch description, as made available from vendor",Baseline
+Patch Management,PM,PM-TR-1000,5,1,PM-TR-1000.5,Applicable versions,Baseline
+Patch Management,PM,PM-TR-1000,6,1,PM-TR-1000.6,Notification timestamp,Baseline
+Patch Management,PM,PM-TR-1000,7,1,PM-TR-1000.7,Patch release date,Baseline
+Patch Management,PM,PM-TR-1000,8,1,PM-TR-1000.8,Severity,Baseline
+Patch Management,PM,PM-TR-1000,9,1,PM-TR-1000.9,Patch Remediation Timeframe,Baseline
+Patch Management,PM,PM-TR-1000,10,1,PM-TR-1000.10,"Applicable Technology (application or system, e.g., Microsoft Windows, iOS)",Baseline
+Patch Management,PM,PM-TR-1000,11,1,PM-TR-1000.11,"Patch status, including approval records",Baseline
+Patch Management,PM,PM-TR-1000,12,1,PM-TR-1000.12,"Control variance status and number following the Issues and Deviations process, where enterprise-wide variances are required",Baseline
+Patch Management,PM,PM-TR-1100,0,0,,The Company shall use the IT asset inventory to assist in identifying assets for purposes of applying security updates/patches.,Baseline
+Patch Management,PM,PM-TR-1200,0,0,,"Patches are assigned Patch Severity Ratings based on the Initial Severity Rating (ISR), Asset Inherent Risk Rating (IRR), and other risk measures",Baseline
+Patch Management,PM,PM-TR-1200,1,1,PM-TR-1200.1,"Patches are assigned an Initial Severity Rating, which matches the rating provided by the vendor. Where a vendor does not supply a rating, the rating provided in the National Vulnerability Database (NVD) is used. If neither the vendor nor NVD provides a rating, the initial patch severity rating should be identified by the Technology Owner and approved by Cybersecurity Operations.",Baseline
+Patch Management,PM,PM-TR-1200,2,1,PM-TR-1200.2,The Patch Severity Rating is Critical for assets that are identified as externally-facing where the Patch ISR is Critical or the ISR is High and the vulnerability has a network-based attack vector (NBAV),Baseline
+Patch Management,PM,PM-TR-1300,0,0,,Modification of patch severity ratings must be approved by the [INSERT TEAM OR NAME],Baseline
+Patch Management,PM,PM-TR-1400,0,0,,"Where the severity rating of a patch that is applicable to externally-facing applications is reduced from the vendor or in the NVD supplied rating, or if the Alliance Owner requests a modification to the severity rating, the following information is documented within  [INSERT TIME FRAME] of modifying the rating:",Baseline
+Patch Management,PM,PM-TR-1400,1,1,PM-TR-1400.1,Justification for reducing the risk rating,Baseline
+Patch Management,PM,PM-TR-1400,2,1,PM-TR-1400.2,Alternatives that were considered and the reason that they were not implemented,Baseline
+Patch Management,PM,PM-TR-1400,3,1,PM-TR-1400.3,Duration that the risk rating will remain reduced,Baseline
+Patch Management,PM,PM-TR-1400,4,1,PM-TR-1400.4,Risk-mitigation plan for any outstanding risks,Baseline
+Patch Management,PM,PM-TR-1400,5,1,PM-TR-1400.5,Assets to which the patch is applicable,Baseline
+Patch Management,PM,PM-TR-1500,0,0,,Patches must be remediated according to the Patch Remediation Timeline provided in the following table:,Baseline
+Patch Management,PM,PM-TR-1500,1,1,PM-TR-T200.,,Baseline
+Patch Management,PM,PM-TR-1600,0,0,,"Application and System Owners must document a deployment plan that addresses patch coordination, scheduling, testing, verification, and rollback.",Baseline
+Patch Management,PM,PM-TR-1700,0,0,,Patch deployments must be approved in accordance with the requirements of the [INSERT POLICY NAME] Policy and Standards prior to implementation.,Baseline
+Patch Management,PM,PM-TR-1800,0,0,,"Application and System Owners must test software patches, including firmware updates, in non-production environments and verify that there are no adverse effects before they are deployed to production environments.",Baseline
+Patch Management,PM,PM-TR-1900,0,0,,Application and System Owners must initiate and deploy patches in accordance with the Patch Remediation Timeframe requirements.,Baseline
+Patch Management,PM,PM-TR-1900,1,1,PM-TR-1900.1,"If a patch requires a reboot for deployment, the reboot must occur within the required timeframes",Baseline
+Patch Management,PM,PM-TR-2000,0,0,,Application and System Owners must verify that patches are successfully deployed.,Baseline
+Patch Management,PM,PM-TR-2000,1,1,PM-TR-2000.1,"If a patch deployment fails, Application and System Owners must reattempt to install the patch, using alternate methods, if required",Baseline
+Patch Management,PM,PM-TR-2000,2,1,PM-TR-2000.2,"If patch management is outsourced, service level agreements that address The Company requirements and outline responsibilities for software patching are required",Baseline
+Patch Management,PM,PM-TR-2100,0,0,,Process Owners shall ensure standard images or baseline build configurations are updated to include available vendor-supplied patches in accordance with the patch severity identified in alignment with security recommendations.,Baseline
+Patch Management,PM,PM-TR-2110,0,0,,"Standard images and baseline build configurations used in The Company's FedRAMP boundaries are reviewed and updated:  a) at least  [INSERT TIME FRAME] b) as a part of system component installations and upgrades (e.g. patch deployment, configuration change. In addition, for The Company systems deployed in its FedRAMP boundaries, The Company will evaluate and as appropriate, incorporate FedRAMP Program Management Office directives in its baselines.",FedRAMP Extended
+Patch Management,PM,PM-TR-2200,0,0,,"Application and System Owners must update The Company change management system once a patch has been installed and verified, or rescheduled due to patch failure. Required documentation tasks include:",Baseline
+Patch Management,PM,PM-TR-2200,1,1,PM-TR-2200.1,Updating the change management records,Baseline
+Patch Management,PM,PM-TR-2200,2,1,PM-TR-2200.2,Attaching evidence of successful patch deployment to the change management records,Baseline
+Patch Management,PM,PM-TR-2300,0,0,,"For each security update or security patch rated as critical, The Company shall maintain records (""Critical Patch Management Records"") identifying:",Baseline
+Patch Management,PM,PM-TR-2300,1,1,PM-TR-2300.1,Each identified critical patch or update,Baseline
+Patch Management,PM,PM-TR-2300,2,1,PM-TR-2300.2,The date(s) each patch or update was applied or remediated through redeployment.,Baseline
+Patch Management,PM,PM-TR-2300,3,1,PM-TR-2300.3,The assets to which each patch or update was applied or remediated through redployment.,Baseline
+Patch Management,PM,PM-TR-2300,4,1,PM-TR-2300.4,"Whether each patch or update was applied and installed successfully, including remediation through redeployments.",Baseline
+Patch Management,PM,PM-TR-2400,0,0,,Critical Patch Management Records shall be reviewed [INSERT TIME FRAME] by the PMG.,Baseline
+Patch Management,PM,PM-TR-2500,0,0,,The PMG must ensure that security patches are tracked and reported throughout the patch lifecycle. Reporting must include:,Baseline
+Patch Management,PM,PM-TR-2500,1,1,PM-TR-2500.1,"Patch status, and deployment progress",Baseline
+Patch Management,PM,PM-TR-2500,2,1,PM-TR-2500.2,"Escalation of risks, and issues",Baseline
+Patch Management,PM,PM-TR-2600,0,0,,"The PMG must have a dashboard or otherwise report on the success, failure, or other status of any security update or security patch including listing of outstanding and applied available patches.",Baseline
+Patch Management,PM,PM-TR-2700,0,0,,The Company shall have the capability to generate a listing of each security update and security patch applied or installed during the [INSERT TIME FRAME] period for each asset in the Asset Inventory.,Baseline
+Patch Management,PM,PM-TR-2700,1,1,PM-TR-2700.1,"The Company has a Software Component Inventory that tracks the current Software Component Installation base world-wide and includes the following information about each software component, where applicable: Software Component Name, Software Component Version, Software Component Vendor, Software Component Installation Date, Software Component Last Updated Date, Software Component Previous Version, Application Name, Environment, Hostname, Business Unit, Segment, Tribe, Business Service, Customer",Baseline
+Patch Management,PM,PM-TR-2700,2,1,PM-TR-2700.2,"The Company has a Patch Inventory that tracks the following information about all patches relevant to The Company environment: Patch Name, Patch Version, Patch Vendor, Patch Release Date, Patch Criticality, Patch Previous Version, Patch Registration Date, Patch Approval, Patch Approval Date, Patch Owner, Patch Owner BU, Patch Owner Segment, Patch Owner Tribe",Baseline
+Patch Management,PM,PM-TR-2700,3,1,PM-TR-2700.3,"The Company has a  Patch Process Status dashboard and reporting system that allows for tracking of patch deployment state. The system should report on the following information, where applicable: Patch Name, Patch Version, Patch Vendor, Patch Release Date, Patch Criticality,  Patch Registration Date, Software Component Name, Software Component Installation Date, Software Component Last Updated Date, Software Component Previous Version, Application Name, Environment, Hostname, Business Unit, Segment, Tribe, Business Service, Customer.",Baseline
+Patch Management,PM,PM-TR-2700,4,1,PM-TR-2700.4,The Company develops a report that shows the overlapping status and process between its patch management and vulnerability management programs.,Baseline
+Patch Management,PM,PM-TR-2800,0,0,,The Company must have a patch management solution or solutions that are used to automate patch distribution to assets wherever technically feasible. Patch management solutions must:,Baseline
+Patch Management,PM,PM-TR-2800,1,1,PM-TR-2800.1,Maintain a database of patches,Baseline
+Patch Management,PM,PM-TR-2800,2,1,PM-TR-2800.2,Be able to deploy patches to endpoints,Baseline
+Patch Management,PM,PM-TR-2800,3,1,PM-TR-2800.3,Be able to verify patch installation,Baseline
+Patch Management,PM,PM-TR-2800,4,1,PM-TR-2800.4,"Retain patch history for each system, for a minimum of  [INSERT TIME FRAME], including the following information:",Baseline
+Patch Management,PM,PM-TR-2800,5,2,PM-TR-2800.4.1,System Name,Baseline
+Patch Management,PM,PM-TR-2800,6,2,PM-TR-2800.4.2,Patch Identifier,Baseline
+Patch Management,PM,PM-TR-2800,7,2,PM-TR-2800.4.3,Patch release date,Baseline
+Patch Management,PM,PM-TR-2800,8,2,PM-TR-2800.4.4,Patch application date and time,Baseline
+Patch Management,PM,PM-TR-2800,9,2,PM-TR-2800.4.5,Name of user who applied the patch,Baseline
+Patch Management,PM,PM-TR-2900,0,0,,Application Owners must use an approved patch management solution and document the solution used for each asset.,Baseline
+Patch Management,PM,PM-TR-3000,0,0,,The PMG shall report on compliance with the use of approved patch management tools.,Baseline
+Asset Management,AM,AM-TR-100,0,0,,The Company maintains an inventory of assets and configuration items.,Baseline
+Asset Management,AM,AM-TR-200,0,0,,"The Company uses manual processes and, where practicable, automated tool(s) to regularly inventory and classify, manage inventory disposition and maintain reports on assets.",Baseline
+Asset Management,AM,AM-TR-300,0,0,,"The Company validates the completeness and accuracy of the hardware and software assets maintained within the asset inventory, including corresponding configuration items and asset attributes. The inventory is updated as necessary following execution of internal processes.",Baseline
+Asset Management,AM,AM-TR-310,0,0,,"The inventory of The Company systems deployed in its FedRAMP boundaries is updated at least [INSERT TIME FRAME], following the execution of internal processes including but not limited to component or system installation, removals, and updates,  and when there is a system change.",FedRAMP Extended
+Asset Management,AM,AM-TR-400,0,0,,"The Company maintains an asset inventory, which includes both software and hardware assets.",Baseline
+Asset Management,AM,AM-TR-400,1,1,AM-TR-400.1,"Physical hardware asset attributes documented include: Asset Tag, Company, Serial Number, Model, Model Category, State, Assigned To (where applicable), Physical Location, Support Group, End of Service Life, and Link to the Configuration Item (where applicable)",Baseline
+Asset Management,AM,AM-TR-400,2,1,AM-TR-400.2,"Software asset attributes documented include: Publisher, Product Classification, Product, Product Type, Version, and End of Service Life",Baseline
+Asset Management,AM,AM-TR-500,0,0,,"The Company maintains a configuration items (CI) inventory, which includes Application Servers, Virtual Servers, Database Servers, Storage, Business Services, and Business Applications. The following attributes are documented for each type of configuration item:",Baseline
+Asset Management,AM,AM-TR-500,1,1,AM-TR-500.1,"Application Servers: Name, Managed By, Category, Support Group, Version, Port Number, IP Address",Baseline
+Asset Management,AM,AM-TR-500,2,1,AM-TR-500.2,"Servers: OS Domain, Operating System, OS Version, OS Service Pack, Host Name, Disk Space, Chassis Type, RAM, CPU Manufacturer, CPU Type, CPU Speed, CPU Count, CPU Core Count, IP Address, Software Installations, Running Processes",Baseline
+Asset Management,AM,AM-TR-500,3,1,AM-TR-500.3,"Database Servers: Name, Type, Version, Support Group, IP Address",Baseline
+Asset Management,AM,AM-TR-500,4,1,AM-TR-500.4,"Storage Servers: Name, Manufacturer, Location, Manufacturer, Asset Tag, Model ID, OS Version, Support Group, Serial Number, IP Address",Baseline
+Asset Management,AM,AM-TR-500,5,1,AM-TR-500.5,"Business Services: Name, Owned By, Business Criticality, Version, Environment, Operational Status, Service Classification, Approval Group, Support Group, Managed By (Individual), Service Level Agreement (SLA), Location",Baseline
+Asset Management,AM,AM-TR-500,6,1,AM-TR-500.6,"Business Application: Application Name, Status - (e.g., Lifecycle stage), Customer Type, Internet Facing Web App (Yes / No), Application Type, Architecture Type, Business Owner, IT Application Owner, Business Unit, Alliance, Tribe, Approval group, Assignment Group (i.e., group assigned to manage the CI), If the Configuration Item is in-scope for Regulatory and Compliance Audits, Data Classification, Recovery Time Objective, Data Volume, Data Residency Restrictions, Security Control Restriction, Inherent Risk Rating, Service Account Password Management, and SSH and RDP Multi-Factor Authentication",Baseline
+Asset Management,AM,AM-TR-600,0,0,,Hardware technology asset acquisitions must be requested and approved using The Company's approved procurement process(es).,Baseline
+Asset Management,AM,AM-TR-700,0,0,,"Hardware and software purchases shall be made available with a record of IT assets acquired, which should include necessary elements to receive items into the asset management repository.",Baseline
+Asset Management,AM,AM-TR-900,0,0,,"Application Owners shall ensure that all applications, associated assets, and required attributes are mapped as a Business Application.",Baseline
+Asset Management,AM,AM-TR-1000,0,0,,"Process Owners (i.e., the role that builds the asset) shall ensure that required discovery agents are installed upon instantiation of a system and required discovery credentials are enabled and provided to the IT Asset Management Team. Installation of the discovery agents should follow the IT Asset Management documentation.",Baseline
+Asset Management,AM,AM-TR-1100,0,0,,"Process Owners (e.g., Network Managers, Systems Administrators) must ensure the IT Asset Management Team is made aware of new networks or IT asset devices being installed on the network and all particulars necessary for discovering networks and assets within a reasonable period of time.",Baseline
+Asset Management,AM,AM-TR-1200,0,0,,"Process Owners (i.e., the role that builds the asset) shall ensure that each asset is assigned to the requesting business unit and application upon instantiation of the system.",Baseline
+Asset Management,AM,AM-TR-1300,0,0,,The IT Asset Management Team shall deploy an asset normalization and reconciliation system to reduce component duplication in the inventory.,Baseline
+Asset Management,AM,AM-TR-1310,0,0,,"Prior to transporting a physical asset offsite, management authorization is obtained. Physical assets storing sensitive data shall be transported by a secured courier or other delivery method that can be tracked.",Baseline
+Asset Management,AM,AM-TR-1400,0,0,,"Media must be sanitized prior to disposal, removal, or reuse. This activity is documented, tracked, and verified. Approved methods of sanitization should follow NIST 800-88 sanitization guidelines.",Baseline
+Asset Management,AM,AM-TR-1400,1,1,AM-TR-1400.1,"Media for disposal from datacenters (i.e., server hard drives) must be sanitized prior to removal from The Company premises",Baseline
+Asset Management,AM,AM-TR-1400,2,1,AM-TR-1400.2,Media from data centers must be sanitized prior to reuse,Baseline
+Asset Management,AM,AM-TR-1400,3,1,AM-TR-1400.3,"All other media must be sanitized prior to removal, reuse, or disposal",Baseline
+Asset Management,AM,AM-TR-1500,0,0,,"When retiring or disposing of a physical asset, IT Asset Management shall update the status of the asset within the IT Asset Management system and ensure a Certificate of Disposal is attached to the asset record.",Baseline
+Asset Management,AM,AM-TR-1600,0,0,,System Owners ensure that the software contained in standard images complies with licensed use rights and meets software currency requirements.,Baseline
+Asset Management,AM,AM-TR-1700,0,0,,Application Owners ensure that the software used by its applications and systems complies with licensed use rights and meets software currency requirements.,Baseline
+Asset Management,AM,AM-TR-1710,0,0,,"For The Company systems deployed in its FedRAMP boundaries, use of peer-to-peer file sharing technologies are controlled and documented and are not used for the unauthorized distribution, display, performance, or reproduction of copyrighted work. ",FedRAMP Extended
+Asset Management,AM,AM-TR-1720,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company employs automated mechanisms to continuously scan for and detect, with a maximum of five minute delay in detection, the presence of The Company defined unauthorized hardware, software, and firmware components. Upon detection of an unauthorized component, appropriate personnel are notified and remediation occurs timely. ",FedRAMP Extended
+Asset Management,AM,AM-TR-1800,0,0,,ITAM Software Analyst(s) ensure that software license entitlement information is represented in the IT Asset Management system and that the following software license entitlements attributes are tracked where applicable:,Baseline
+Asset Management,AM,AM-TR-1800,1,1,AM-TR-1800.1,Software Manufacturer,Baseline
+Asset Management,AM,AM-TR-1800,2,1,AM-TR-1800.2,Software Model,Baseline
+Asset Management,AM,AM-TR-1800,3,1,AM-TR-1800.3,Software License Type,Baseline
+Asset Management,AM,AM-TR-1800,4,1,AM-TR-1800.4,Software License Duration,Baseline
+Asset Management,AM,AM-TR-1800,5,1,AM-TR-1800.5,Software License Duration Start Date,Baseline
+Asset Management,AM,AM-TR-1800,6,1,AM-TR-1800.6,Software License Duration End Date,Baseline
+Asset Management,AM,AM-TR-1800,7,1,AM-TR-1800.7,Software License Metric,Baseline
+Asset Management,AM,AM-TR-1800,8,1,AM-TR-1800.8,Software Purchased Rights,Baseline
+Asset Management,AM,AM-TR-1800,9,1,AM-TR-1800.9,Software License Key,Baseline
+Asset Management,AM,AM-TR-1800,10,1,AM-TR-1800.10,Purchase Order Number,Baseline
+Asset Management,AM,AM-TR-1900,0,0,,"The IT Asset Management Team shall identify, verify, and report end of service life dates for installed hardware and software to Application Owners.",Baseline
+Asset Management,AM,AM-TR-2000,0,0,,"Application Owners shall begin evaluating and planning to replace the software or to maintain the software with appropriate compensating controls at least two (2) years prior to the date on which the manufacturer's or third party's support will cease, or from the date the manufacturer or third party announces that it is no longer supporting the software if such period is less than two (2) years.",Baseline
+Asset Management,AM,AM-TR-2100,0,0,,The asset management repository sends the Inventory notification to Application Owners when an Application Service is created within the Asset Inventory. Inventory certifications are tracked to completion with a target to complete promptly. ,Baseline
+Asset Management,AM,AM-TR-2100,1,1,AM-TR-2100.1,"The Inventory Program collects data which determines the hosting location of the application and whether the application collects, processes, stores, and accesses or transmits Personal Data as defined in the Data Classification & Handling and Cryptographic Protections technical requiremnt.",Baseline
+Asset Management,AM,AM-TR-2110,0,0,,Scope for The Company's FedRAMP authorization boundaries is identified and documented. Scope is defined using the Asset Inventory and includes the hardware and software assets and supporting configuration items in-scope for The Company's FedRAMP authorization boundaries.  ,FedRAMP Extended
+Configuration Controls,CC,CC-TR-100,0,0,,"Prior to being made available to application teams, [INSERT TYPE] systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-100,1,1,CC-TR-100.1,Latest operating system is installed and updated.,Baseline
+Configuration Controls,CC,CC-TR-100,2,1,CC-TR-100.2,Systems are configured according to required configuration.,Baseline
+Configuration Controls,CC,CC-TR-100,3,1,CC-TR-100.3,Monitoring and security management software/agents are installed.,Baseline
+Configuration Controls,CC,CC-TR-200,0,0,,"Prior to being made available to application teams, servers are configured as follows:",Baseline
+Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,An The Company approved operating system release is installed.,Baseline
+Configuration Controls,CC,CC-TR-200,2,1,CC-TR-200.2,The Company approved software patches are installed.,Baseline
+Configuration Controls,CC,CC-TR-200,3,1,CC-TR-200.3,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-200,4,1,CC-TR-200.4,Systems are configured according to the approved baseline,Baseline
+Configuration Controls,CC,CC-TR-300,0,0,,[INSERT TYPE] systems are created using deployment templates stored in a secured repository.,Baseline
+Configuration Controls,CC,CC-TR-400,0,0,,"Prior to being made available to end users, [INSERT TYPE] endpoint systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-400,1,1,CC-TR-400.1,Latest The Company approved [INSERT TYPE] release is installed,Baseline
+Configuration Controls,CC,CC-TR-400,2,1,CC-TR-400.2,Enable device storage encryption in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-400,3,1,CC-TR-400.3,The Company approved [INSERT TYPE] patches are installed,Baseline
+Configuration Controls,CC,CC-TR-400,4,1,CC-TR-400.4,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-400,5,1,CC-TR-400.5,The Company End Point team installs base applications,Baseline
+Configuration Controls,CC,CC-TR-500,0,0,,"Prior to being made available to end users, [INSERT TYPE] endpoint systems are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-500,1,1,CC-TR-500.1,Latest The Company approved [INSERT TYPE] release is installed,Baseline
+Configuration Controls,CC,CC-TR-500,2,1,CC-TR-500.2,Enable device storage encryption in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-500,3,1,CC-TR-500.3,The Company approved [INSERT TYPE] patches are installed,Baseline
+Configuration Controls,CC,CC-TR-500,4,1,CC-TR-500.4,Security agents and software are loaded as defined in Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-500,5,1,CC-TR-500.5,The Company End Point team installs base applications,Baseline
+Configuration Controls,CC,CC-TR-600,0,0,,Before deployment into the environment network devices are configured following a documented process:,Baseline
+Configuration Controls,CC,CC-TR-600,1,1,CC-TR-600.1,Devices are updated with the latest The Company approved vendor software,Baseline
+Configuration Controls,CC,CC-TR-600,2,1,CC-TR-600.2,Devices are configured according to The Company approved requirements,Baseline
+Configuration Controls,CC,CC-TR-610,0,0,,"For The Company systems deployed in its FedRAMP boundaries, perimeter network devices are configured to fail securely in the event of an operational failure.",FedRAMP Extended
+Configuration Controls,CC,CC-TR-620,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company configures network devices to terminate the network connection associated with a communications session at the end of the session or after 30 minutes of inactivity.",FedRAMP Extended
+Configuration Controls,CC,CC-TR-700,0,0,,"Prior to being made available to end users, mobile devices are configured by a documented process:",Baseline
+Configuration Controls,CC,CC-TR-700,1,1,CC-TR-700.1,Mobile devices are assigned to an individual user,Baseline
+Configuration Controls,CC,CC-TR-700,2,1,CC-TR-700.2,Mobile devices do not allow direct access to data center environments,Baseline
+Configuration Controls,CC,CC-TR-700,3,1,CC-TR-700.3,Mobile device operating systems are updated to a version actively supported and released by the device manufacturer within 6 months,Baseline
+Configuration Controls,CC,CC-TR-700,4,1,CC-TR-700.4,Mobile devices are only permitted if the manufacturer is approved by Information Technology,Baseline
+Configuration Controls,CC,CC-TR-700,5,1,CC-TR-700.5,Device storage encryption is enabled in accordance with Technical Requirements,Baseline
+Configuration Controls,CC,CC-TR-700,6,1,CC-TR-700.6,Devices require a minimum of [INSERT NUMBER] character passwords for authentication,Baseline
+Configuration Controls,CC,CC-TR-700,7,1,CC-TR-700.7,Biometric authentication is permitted unless explicitly disallowed for device by Information Technology,Baseline
+Configuration Controls,CC,CC-TR-700,8,1,CC-TR-700.8,Employee registers mobile devices to The Mobile Device Management System,Baseline
+Configuration Controls,CC,CC-TR-800,0,0,,The Company configuration baselines are created using well known sources. Baselines are created by technology owners and approved by Information Security. ,Baseline
+Configuration Controls,CC,CC-TR-800,1,1,CC-TR-800.1,The Company configuration baselines reflect the most restrictive mode consistent with operational requirements.,Baseline
+Configuration Controls,CC,CC-TR-800,2,1,CC-TR-800.2,"Disables unnecessary functions, ports, protocols, and services",Baseline
+Configuration Controls,CC,CC-TR-810,0,0,,"The baseline procedures document contains procedures to identify items that need to be configured in non-production and production environments, processes for implementation of configuration baselines, as well as documenting roles and responsibilities.",Baseline
+Configuration Controls,CC,CC-TR-900,0,0,,The Company reviews baseline configurations [INSERT TIME FRAME] and updates them upon significant changes as appropriate. Updates include:,Baseline
+Configuration Controls,CC,CC-TR-900,1,1,CC-TR-900.1,Applicable patches prior to deployment whenever feasible,Baseline
+Configuration Controls,CC,CC-TR-900,2,1,CC-TR-900.2,Vendor best practices,Baseline
+Configuration Controls,CC,CC-TR-900,3,1,CC-TR-900.3,Benchmark frameworks,Baseline
+Configuration Controls,CC,CC-TR-900,4,1,CC-TR-900.4,"For The Company systems deployed in its FedRAMP boundaries, The Company will evaluate and as appropriate, incorporate FedRAMP Program Management Office directives in its baselines",FedRAMP Extended
+Configuration Controls,CC,CC-TR-1000,0,0,,The Company documents the latest approved software versions in the standards documents or service catalogs.,Baseline
+Configuration Controls,CC,CC-TR-1010,0,0,,"The Company employs a deny-all, permit by exception policy to ensure authorized software is permitted to execute in its FedRAMP boundaries. ",FedRAMP Extended
+Configuration Controls,CC,CC-TR-1100,0,0,,The Company uses standardized software images:,Baseline
+Configuration Controls,CC,CC-TR-1100,1,1,CC-TR-1100.1,"Images are created by technology teams based on requirements with guidance from vendors, industry, and security input",Baseline
+Configuration Controls,CC,CC-TR-1100,2,1,CC-TR-1100.2,"Automated mechanisms are used to maintain up-to-date, complete, accurate, and readily available baseline configurations where feasible",Baseline
+Configuration Controls,CC,CC-TR-1100,3,1,CC-TR-1100.3,Requirements for image creation and use may vary due to system requirements between teams and business units,Baseline
+Configuration Controls,CC,CC-TR-1100,3,1,CC-TR-1100.4,"Images contain vendor supported, licensed, and approved software",Baseline
+Configuration Controls,CC,CC-TR-1110,0,0,,The Company maintains at least a previous baseline configuration to support rollback,Baseline
+Configuration Controls,CC,CC-TR-1200,0,0,,The Company restricts access to configuration management tools and software packages to those required to operate the tools.,Baseline
+Configuration Controls,CC,CC-TR-1300,0,0,,"The Company requires that all new images and updates to images are tested, reviewed, and approved prior to deployment.",Baseline
+Configuration Controls,CC,CC-TR-1400,0,0,,"Passwords, tokens, and SSH keys are stored in authorized secrets management systems and not in baseline configurations.",Baseline
+Configuration Controls,CC,CC-TR-1500,0,0,,Security scans for deviations to baseline configurations and reports issues through the vulnerability management process,Baseline
+Configuration Controls,CC,CC-TR-1510,0,0,,"The Company uses automated mechanisms to centrally manage, apply, and verify baseline configuration settings for systems under configuration management, where feasible.",Baseline
+Configuration Controls,CC,CC-TR-1600,0,0,,"Default passwords are changed, disabled, or removed in configuration baselines.",Baseline
+Configuration Controls,CC,CC-TR-1700,0,0,,The Company operates and maintains File Integrity Monitoring (FIM) tools,Baseline
+Configuration Controls,CC,CC-TR-1700,1,1,CC-TR-1700.1,The Company scans for file changes [INSERT TIME FRAME],Baseline
+Configuration Controls,CC,CC-TR-1700,1,2,CC-TR-1700.1.1,[INSERT TIME FRAME] scans are required when the scan tool and the system being scanned can support the increased load without impairing function,Baseline
+Configuration Controls,CC,CC-TR-1700,2,1,CC-TR-1700.2,The Company creates notifications and reports file integrity changes to Technology and Security Incident Response Teams,Baseline
+Configuration Controls,CC,CC-TR-1700,3,1,CC-TR-1700.3,The Company responds to file changes within established response SLAs,Baseline
+Configuration Controls,CC,CC-TR-1700,4,1,CC-TR-1700.4,"The Company monitors externally-facing servers for unauthorized changes of files, including the following file types: critical operating system files, critical application files, and configuration files. ",Baseline
+Configuration Controls,CC,CC-TR-1700,5,1,CC-TR-1700.5,"For The Company's systems deployed in its PCI environments, The Company monitors servers for unauthorized changes of files, including the following file types: critical operating system files, critical application files, and configuration files. ",PCI Extended
+Configuration Controls,CC,CC-TR-1700,6,1,CC-TR-1700.6,The Company maintains and operates processes and technologies for updating FIM rule sets,Baseline
+Configuration Controls,CC,CC-TR-1700,7,1,CC-TR-1700.7,The Company maintains and operates processes and technologies that onboard assets.,Baseline
+Configuration Controls,CC,CC-TR-1700,8,1,CC-TR-1700.8,Agents are installed as required for compliance with organizational and regulatory standards and policies,Baseline
+Configuration Controls,CC,CC-TR-1800,0,0,,The Company operates and maintains compliance scanning tools to:,Baseline
+Configuration Controls,CC,CC-TR-1800,1,1,CC-TR-1800.1,Alert on out of compliance services or hosts that are found,Baseline
+Configuration Controls,CC,CC-TR-1800,2,1,CC-TR-1800.2,Scan systems for compliance with approved configuration baseline,Baseline
+Configuration Controls,CC,CC-TR-1800,3,1,CC-TR-1800.3,Perform both agent based and agentless compliance scanning where technically feasible ,Baseline
+Configuration Controls,CC,CC-TR-1800,4,1,CC-TR-1800.4,Scan network devices for compliance with approved baseline standards,Baseline
+Configuration Controls,CC,CC-TR-1800,5,1,CC-TR-1800.5,Scan cloud management platforms for configuration compliance violations,Baseline
+Configuration Controls,CC,CC-TR-1800,6,1,CC-TR-1800.6,Scan cloud tools and infrastructure components for compliance violations,Baseline
+Configuration Controls,CC,CC-TR-1800,8,1,CC-TR-1800.7,"Generate reports, logs, and event history",Baseline
+Configuration Controls,CC,CC-TR-1900,0,0,,"The Company systems adhere to the principle of least privilege for granting elevated privilege accounts to users of workstations, servers, and network devices. ",Baseline
+Configuration Controls,CC,CC-TR-1900,1,1,CC-TR-1900.1,Administrative access or elevated privileges for accounts on end user workstations are managed through The Company's approved privileged access management system.,Baseline
+Configuration Controls,CC,CC-TR-2000,0,0,,The Company application teams build and deploy applications and systems only to environments running The Company established configuration baselines.,Baseline
+Configuration Controls,CC,CC-TR-2010,0,0,,"The Company configures its systems and applications to provide only essential capabilities and prohibits or restricts the use of the functions, ports, protocols, and/or services as defined in baselines and service catalogs.",Baseline
+Configuration Controls,CC,CC-TR-2020,0,0,,The Company maintains separate execution domain for each executing process and implements memory safeguards to protect memory from unauthorized code execution,Baseline
+Configuration Controls,CC,CC-TR-2030,0,0,,The Company systems are configured to display an interactive system banner during login.,Baseline
+Configuration Controls,CC,CC-TR-2040,0,0,,The Company devices are uniquely identified and tagged according to Technical Requirements before being deployed into the environment.,Baseline
