@@ -1,0 +1,53 @@
+.custom-toolbar {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid #e5e9ec;
+    border: none;
+    text-shadow: none;
+    z-index: 4;
+    position: fixed;
+}
+  
+mat-toolbar {
+    position:relative;
+}
+  
+#app-title {
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 45px;
+    margin-top:20px;
+    float: right;
+}
+
+#app-title:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+  
+#app-row {
+    margin-left: 45px;
+    width: 165px;
+}
+  
+button:focus {
+    border: none;
+    outline: none;
+}
+    
+* {
+    font-family: "SF Pro Display", "SF Pro Icons", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+}
+  
+#logo:hover {
+    cursor: pointer;
+}
+  
+#logo {
+    height: 15px;
+    width: 15px;
+    transform: scale(-2,2);
+    float: left;
+    margin-top: 25px;
+}

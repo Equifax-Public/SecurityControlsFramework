@@ -1,0 +1,40 @@
+Domain Name ,Domain,Control_ID,Control_Desc,Control_Scope,Control_Owner,Control_Operator,Control_Type,Control_Type
+Configuration Controls,CC,CC-CS-1,The Company deploys systems in to its environment in accordance with established baseline configurations. ,Baseline,,,System Specific,Technical
+Configuration Controls,CC,CC-CS-2,The Company monitors for changes to configuration settings and critical files within The Company systems. ,Baseline,,,Enterprise,Technical
+Configuration Controls,CC,CC-CS-3,The Company restricts access and/or permissions to install software to authorized individuals.,Baseline,,,Enterprise,Technical
+Configuration Controls,CC,CC-CS-4,The Company updates established baseline configurations to reflect changes in requirements on a [INSERT TIME FRAME] basis. ,Baseline,,,Enterprise,Technical
+Configuration Controls,CC,CC-CS-5,The Company restricts program execution for systems deployed in its FedRAMP boundaries.  ,FedRAMP Extended,,,Enterprise,Technical
+Technology Change Management,TC,TC-CS-1,"The Company maintains a Change Management Policy that identifies requirements for changes, roles, responsibilities, and management commitment. ",Baseline,,,Enterprise,Administrative
+Technology Change Management,TC,TC-CS-2,"The Company reviews proposed changes to systems and approves or disapproves changes after consideration for change type, business need, impact, and risk. ",Baseline,,,Enterprise,Technical
+Technology Change Management,TC,TC-CS-3,The Company has established a Change Advisory Board (CAB) to review changes categorized as Risk 1 or Risk 2. ,Baseline,,,Enterprise,Administrative
+Technology Change Management,TC,TC-CS-4,"The Company uses a change management system to track and document production changes. The ticket tracking system maintains history, identifies details of the change and has a method of approval/sign-off.",Baseline,,,System Specific,Technical
+Technology Change Management,TC,TC-CS-5,The Company's Change Management Team performs an audit of changes to ensure change documentation meets The Company Change Management Policy. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-1,The Company maintains network diagrams and documentation describing the network topology which are reviewed and updated as needed. ,Baseline,,,Enterprise,Administrative
+Network Infrastructure,NI,NI-CS-2,The Company configures network devices to mitigate network security threats. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-3,"The Company restricts unnecessary network services, ports, and protocols, and monitors communications at external network boundaries and between internal networks. ",Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-4,The Company permits external network connections from its network through boundary protection devices or services.,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-5,The Company monitors its network for performance and capacity to maintain availability. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-6,"The Company regularly reviews and revises its segmentation strategy, policies, and methods on a [INSERT TIME FRAME] basis. ",Baseline,,,Enterprise,Administrative
+Network Infrastructure,NI,NI-CS-7,The Company physically or logically separates its network based on function and class of data. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-8,"The Company separates its network by function with the user network segmented from production, non-production and internet-facing networks. Network design and implementation considers the principles of least privilege. ",Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-9,The Company implements and maintains controls to identify and prevent unauthorized devices from accessing its physical network. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-10,The Company implements and maintains controls to identify and prevent unauthorized devices from accessing its wireless network. ,Baseline,,,Enterprise,Technical
+Network Infrastructure,NI,NI-CS-11,The Company implements and maintains controls to identify and prevent unauthorized devices from remotely accessing the network. ,Baseline,,,Enterprise,Technical
+Data Encryption,DE,DE-CS-1,"Data devaluation requirements to protect The Company sensitive data at rest, in use, and in transit, is defined, established, implemented and communicated to support compliance with applicable laws, regulations, customer contracts, and industry standards relating to information security. Requirements are reviewed, approved and updated, as necessary, on at least an annual basis.",Baseline,,,Enterprise,Administrative
+Data Encryption,DE,DE-CS-2,Sensitive data is protected at rest in accordance with established data devaluation requirements.,Baseline,,,System Specific,Technical
+Data Encryption,DE,DE-CS-3,Sensitive data is protected in transit in accordance with established data devaluation requirements.,Baseline,,,System Specific,Technical
+Data Encryption,DE,DE-CS-4,The Company owned laptops and mobile devices employ full disk encryption.,Baseline,,,Enterprise,Technical
+Data Encryption,DE,DE-CS-5,"Cryptographic key management requirements are defined, established, implemented, and maintained.",Baseline,,,System Specific,Administrative
+Data Encryption,DE,DE-CS-6,"Access to cryptographic keys is restricted to authorized personnel and appropriately stored, protected, and maintained, in accordance with defined requirements.",Baseline,,,System Specific,Technical
+Data Encryption,DE,DE-CS-7,Cryptographic mechanisms have been implemented to protect data integrity in transit.,Baseline,,,Enterprise,Technical
+Data Encryption,DE,DE-CS-8,Cryptographic mechanisms have been implemented to verify the authenticity of software prior to installation.,Baseline,,,System Specific,Technical
+Data Encryption,DE,DE-CS-9,"A formal digital certificate management program, including supporting requirements and management documentation, technology, and inventory, is defined, established, implemented, and maintained.",Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-1,The Company maintains an inventory of Assets.,Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-2,Hardware Technology Assets must be requested and approved.,Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-3,"Assets are securely disposed of, if no longer required.  ",Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-4,"Media is securely sanitized prior to disposal, release, or re-use.",Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-5,Scope for regulatory compliance requirements is identified and documented.,Baseline,,,Enterprise,Administrative
+Asset Management,AM,AM-CS-6,"The Company tracks and reports on End Of Service Life (""EOSL"") for hardware and software.",Baseline,,,System Specific,Administrative
+Asset Management,AM,AM-CS-7,The asset inventory is validated and updated on a [INSERT TIME FRAME] basis. ,Baseline,,,System Specific,Administrative
+Asset Management,AM,AM-CS-8,"For The Company systems deployed in its FedRAMP boundaries, automated mechanisms to scan for, detect, and remediate the presence of unauthorized hardware, software, and firmware components are implemented.",FedRAMP Extended,,,Enterprise,Technical
+Asset Management,AM,AM-CS-9,Scope for The Company's authorization boundaries is identified and documented.,FedRAMP Extended,,,Enterprise,Administrative

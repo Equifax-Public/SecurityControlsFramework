@@ -1,0 +1,20 @@
+Domain Name,Domain,TR_ID,Sub_TR_Order,Sub_TR_Indent,Sub_TR_ID,TR_Description,TR_Scope
+Fraud Monitoring,FM,FM-TR-100,0,0,,"The Company establishes, documents, implements, and maintains an organizational Fraud Monitoring Program. The Fraud Management Team, which supports execution of the Fraud Monitoring program, have responsibility for:",Baseline
+Fraud Monitoring,FM,FM-TR-100,1,1,FM-TR-100.1,Reviewing suspicious consumer transactions to identify indicators of fraud and anomalous activity,Baseline
+Fraud Monitoring,FM,FM-TR-100,2,1,FM-TR-100.2,Analyzing suspicious consumer transactions reported by external sources,Baseline
+Fraud Monitoring,FM,FM-TR-100,3,1,FM-TR-100.3,Opening cases to document and escalate resolution of identification of confirmed fraud,Baseline
+Fraud Monitoring,FM,FM-TR-200,0,0,,The Fraud Monitoring Team leverages internal and external tools to perform fraud monitoring activities and to review suspicious transactions for indicators of fraud and anomalous activity.,Baseline
+Fraud Monitoring,FM,FM-TR-200,1,1,FM-TR-200.1,The Company reviews suspicious transactions for further review using various tool sets implemented to detect or prevent fraud,Baseline
+Fraud Monitoring,FM,FM-TR-200,2,1,FM-TR-200.2,Capabilities exist to identify suspected fraud activity at the point of authentication or login and decline specific transactions based on risk,Baseline
+Fraud Monitoring,FM,FM-TR-300,0,0,,"The Fraud Monitoring Team follows defined transaction review guidelines as suspicious transactions are identified and communicated, which may include, but not be limited to:",Baseline
+Fraud Monitoring,FM,FM-TR-300,1,1,FM-TR-300.1,Internal and external consumer research on the consumer's background and account status,Baseline
+Fraud Monitoring,FM,FM-TR-300,2,1,FM-TR-300.2,Analysis of previous consumer transactions to baseline typical behavior and identify potential anomalous transaction activity,Baseline
+Fraud Monitoring,FM,FM-TR-300,3,1,FM-TR-300.3,Analysis of consumer files tied to consumer transactions to identify potential fraud indicators,Baseline
+Fraud Monitoring,FM,FM-TR-400,0,0,,The Fraud Monitoring Team opens a case if fraudulent activity is confirmed. Key indicators of fraud and anomalous behavior are documented within the case and escalated as necessary.,Baseline
+Fraud Monitoring,FM,FM-TR-400,1,1,FM-TR-400.1,Additional requests may be made of the consumer to support investigative procedures and which would be documented within the case.,Baseline
+Fraud Monitoring,FM,FM-TR-500,0,0,,"The Fraud Monitoring Team establishes and maintains a risk based approach and criteria to prioritizing and reviewing identified suspicious transactions, including frequency and thresholds.",Baseline
+Fraud Monitoring,FM,FM-TR-500,1,1,FM-TR-500.1,"Suspicious transaction thresholds areupdated by The Company on an [INSERT TIME FRAME] basis, due to internal and external environment changes and the history of previously identified suspicious transactions and monitoring review results",Baseline
+Fraud Monitoring,FM,FM-TR-500,2,1,FM-TR-500.2,Tools and rules are assessed for adequacy and updated in accordance with risk factors and organizational objectives on a [INSERT TIME FRAME]. ,Baseline
+Fraud Monitoring,FM,FM-TR-600,0,0,,"The Company establishes, documents, and maintains procedures to guide members of the Fraud Monitoring Team.",Baseline
+Fraud Monitoring,FM,FM-TR-700,0,0,,The Company reports on confirmed fraudulent activity identified by the Fraud Monitoring Team on a  [INSERT TIME FRAME].,Baseline
+Fraud Monitoring,FM,FM-TR-700,1,1,FM-TR-700.1,"The Fraud Monitoring strategy and approach are updated as needed, based on results",Baseline

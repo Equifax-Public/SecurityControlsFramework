@@ -1,0 +1,37 @@
+* {
+    color: white;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+#container {
+    height: 75px;
+    background-color: #333E48;
+    width: 100%;
+    border-top: 4px solid #981e32;
+    padding-bottom: 8px;
+}
+
+#content {
+    width: 520px;
+    float: right;
+    margin-right: 50px;
+    padding-top: 13px;
+}
+
+#logo {
+    height: 30px;
+    width: 148px;
+    margin-top: 10px;
+    float: right;
+}
+
+#bottom-text {
+    float: left;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 45px;
+    margin-top:12px;
+}

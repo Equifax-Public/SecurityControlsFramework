@@ -1,0 +1,28 @@
+<div id="domains-image">
+    <app-header-navigation></app-header-navigation>
+    <h1 id="top-title">Domains</h1>
+</div>
+<div id="domains-content">
+    <mat-form-field id="roles-input" appearance="fill">
+        <mat-label>Search</mat-label>
+        <input matInput id="search" style="float:left; "  (keyup)="applyFilter()"
+            placeholder="Search for a specific domain" [(ngModel)]="searchText">
+    </mat-form-field>
+    <mat-grid-list [cols]="cols" rowHeight="375px" gutterSize="25px">
+        <mat-grid-tile *ngFor="let domain of displayDomains">
+            <mat-card class="card box">
+                <mat-card-title class="card-title">{{domain.name}}</mat-card-title>
+                <mat-card-content>
+                    <b>Domain abbreviation: </b><span>{{domain.abbreviation}}</span>
+                    <p style="margin-top: 20px;">{{domain.description}}</p>
+                </mat-card-content>
+                <mat-divider inset></mat-divider>
+                <mat-card-actions class="center">
+                    <button mat-flat-button id="domainsBtn" color="primary" #tooltip="matTooltip" matTooltip="View the associated TRs with this domain" (click)="goToDomain(domain.name)">Learn more</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list> 
+    
+</div>
+<app-footer></app-footer>

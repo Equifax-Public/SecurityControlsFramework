@@ -1,0 +1,132 @@
+// EFX brand color variables
+
+// font family
+$font-family: 'Open Sans', Arial, sans-serif;
+
+// Primary color palette
+$signal-primary-red: #9e1b32;
+$signal-primary-orange: #e77204;
+$signal-primary-yellow: #f1c319;
+$signal-primary-green: #45842a;
+$signal-primary-blue: #007298;
+$signal-primary-purple: #652f6c;
+$signal-black: #000000;
+$signal-white: #ffffff;
+$signal-efx-gray: #333E48;
+
+// Basic elements
+$signal-text-color: $signal-efx-gray;
+$signal-link-color: $signal-primary-blue;
+$signal-link-hover-color: #004D66;
+$signal-disabled: #cfcfcf;
+$signal-borders: #cfcfcf;
+$signal-accessibility-focus-color: #0066ff;
+$signal-page-background: #f7f7f7;
+$signal-footer-background: $signal-efx-gray;
+
+// Shadow color palette
+$signal-shadow-red: #6d1222;
+$signal-shadow-orange: #994a00;
+$signal-shadow-yellow: #997800;
+$signal-shadow-green: #294d19;
+$signal-shadow-blue: #004d66;
+$signal-shadow-purple: #431f47;
+
+// Highlight color palette
+$signal-highlights-red: #ffccd5;
+$signal-highlights-orange: #ffe5cc;
+$signal-highlights-yellow: #fff4cc;
+$signal-highlights-green: #dbffcc;
+$signal-highlights-blue: #cdf3ff;
+$signal-highlights-purple: #f9ccff;
+
+// Alert color palette
+$signal-alert-red: #e8002a;
+$signal-alert-orange: #ff9633;
+$signal-alert-yellow: #ffd332;
+$signal-alert-green: #36b300;
+$signal-alert-blue: #00ace6;
+$signal-alert-purple: #9e00b3;
+
+// Gray color palette
+$signal-gray-l91: #E7E7E7;
+$signal-gray-l81: #CFCFCF;
+$signal-gray-l71: #B5B5B5;
+$signal-gray-l61: #9C9C9C;
+$signal-gray-l51: #828282;
+$signal-gray-l41: #696969;
+$signal-gray-l31: #4F4F4F;
+$signal-gray-l21: #363636;
+$signal-gray-l11: #1C1C1C;
+
+// Material Palettes creation
+$equifax-primary: (
+    100 : $signal-highlights-blue,
+    500 : $signal-primary-blue,
+    800 : $signal-shadow-blue,
+    A100 : #99d2ff,
+    A200 : #66bbff,
+    A400 : #33a4ff,
+    A700 : #1a99ff,
+    contrast: (
+        100 : #000000,
+        500 : #ffffff,
+        800 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #ffffff,
+    )
+);
+
+$equifax-secondary: (
+    100 : $signal-highlights-red,
+    500 : $signal-primary-red,
+    800 : $signal-shadow-red,
+    A100 : #ffa1a8,
+    A200 : #ff6e78,
+    A400 : #ff3b49,
+    A700 : #ff2131,
+    contrast: (
+        100 : #000000,
+        500 : #ffffff,
+        800 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);
+
+$equifax-warn: (
+    50 : #e7e8e9,
+    100 : #c2c5c8,
+    200 : #999fa4,
+    300 : #70787f,
+    400 : #525b63,
+    500 : $signal-efx-gray,
+    600 : #2e3841,
+    700 : #273038,
+    800 : #202830,
+    900 : #141b21,
+    A100 : #66b2ff,
+    A200 : #3399ff,
+    A400 : #007fff,
+    A700 : #0073e6,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #ffffff,
+        A700 : #ffffff,
+    )
+);

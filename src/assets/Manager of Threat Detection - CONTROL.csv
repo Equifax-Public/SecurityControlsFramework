@@ -1,0 +1,5 @@
+Domain Name ,Domain,Control_ID,Control_Desc,Control_Scope,Control_Owner,Control_Operator,Control_Type,Control_Type
+Threat Detection,TD,TD-CS-1,The Threat Intelligence team collects and analyzes threat information from open source and human intelligence sources. ,Baseline,,,Enterprise,Technical
+Threat Detection,TD,TD-CS-2,"The Threat Intelligence team sources and provides actionable threat information, such as indicators of compromise, to relevant parties to enable monitoring for cyber threats. ",Baseline,,,Enterprise,Technical
+Threat Detection,TD,TD-CS-3,The Threat Intelligence Team provides threat intelligence and recommendations to implement countermeasures to appropriate parties as deemed necessary by management.,Baseline,,,Enterprise,Technical
+Threat Detection,TD,TD-CS-4,The Company maintains an Insider Threat Program that includes a cross-discipline Insider Threat Incident Handling Team. ,Baseline,,,Enterprise,Administrative

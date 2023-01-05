@@ -1,0 +1,28 @@
+<app-header-navigation></app-header-navigation>
+<div id="roles-image">
+    <h1 id="top-title">Roles</h1>
+</div>
+<div id="roles-content">
+    <mat-form-field id="roles-input" appearance="fill">
+        <mat-label>Search</mat-label>
+        <input matInput id="search" style="float:left; "  (keyup)="applyFilter()"
+            placeholder="Search for a specific role" [(ngModel)]="searchText">
+    </mat-form-field>
+
+    <mat-grid-list [cols]="cols" rowHeight="400px" gutterSize="25px">
+        <mat-grid-tile *ngFor="let role of displayRoles">
+            <mat-card class="card box">
+                <mat-card-title class="card-title">{{role.name}}</mat-card-title>
+                <mat-card-content>
+                  <p>{{role.description}}</p>
+        
+                </mat-card-content>
+                <mat-divider inset></mat-divider>
+                <mat-card-actions class="center">
+                    <button mat-flat-button id="rolesBtn" color="primary" #tooltip="matTooltip" matTooltip="View more information about this role" (click)="goToRole(role.name)">Learn more</button>
+                </mat-card-actions>
+            </mat-card>
+        </mat-grid-tile>
+    </mat-grid-list> 
+</div>
+<app-footer></app-footer>

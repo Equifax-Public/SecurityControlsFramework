@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>Delete existing role</h2>
+<div mat-dialog-content>
+    <h4>Are you sure you wish to delete: {{data.name}}?</h4>
+    <p>After confirming, a new roles_descriptions.json file will be downloaded. Copy this file into the assets folder of the application to replace the existing and save your change.</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-flat-button color="secondary" mat-dialog-close>Cancel</button>
+  <button mat-flat-button color="primary" mat-dialog-close cdkFocusInitial (click)="deleteRole()">Confirm</button>
+</div>

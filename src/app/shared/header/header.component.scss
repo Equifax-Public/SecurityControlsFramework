@@ -1,0 +1,90 @@
+.custom-toolbar {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) !important;
+    border-bottom: 1px solid #e5e9ec;
+    border: none;
+    text-shadow: none;
+    z-index: 4;
+    position: fixed;
+  }
+  
+  mat-toolbar {
+    position:relative;
+  }
+  
+  #app-title {
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    height: 45px;
+    margin-top:30px;
+    float: left;
+  }
+  
+  #app-row {
+    margin-left: 145px;
+  }
+  
+  button:focus {
+      border: none;
+      outline: none;
+  }
+    
+  * {
+    font-family: "SF Pro Display", "SF Pro Icons", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica;
+  }
+  
+  #logoContainer {
+    margin-left: 20px;
+    margin-top: 10px;
+    float: right;
+  }
+  
+  #logo {
+    height: 30px;
+    width: 148px;
+    margin-top: 15px;
+  }
+  
+  #logo:hover {
+    cursor: pointer;
+  }
+  
+  #menu {
+    margin-left: -110px;
+  }
+  
+  #menu:hover {
+    cursor: pointer;
+  }
+  
+  nav {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  
+  #logo {
+    height: 25px;
+    width: 130px;
+  }
+  
+  .nav-link {
+    color: black;
+  }
+  
+  ::ng-deep .mat-toolbar-row {
+    height: 46px;
+  }
+  
+  ::ng-deep .mat-toolbar-multiple-rows {
+    height: 46px;
+    min-height: 46px;
+  }
+  
+  @media screen and (max-width: 750px){
+    #logo {
+      margin-left: 5px;
+    }
+    #app-title {
+      margin-left: 100px;
+    }
+  }

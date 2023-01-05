@@ -1,0 +1,6 @@
+Domain Name ,Domain,Control_ID,Control_Desc,Control_Scope,Control_Owner,Control_Operator,Control_Type,Control_Type
+Human Resources ,HR,HR-CS-1,Background and drug screening is performed on employees per company policy.,Baseline,,,Enterprise,Administrative
+Human Resources ,HR,HR-CS-2,Background and drug screening is performed on contractors per company policy. ,Baseline,,,Enterprise,Administrative
+Human Resources ,HR,HR-CS-3,The Company maintains worker termination procedures which are required to be initiated in the appropriate HR portal within [INSERT NUMBER] hours of termination date.,Baseline,,,Enterprise,Administrative
+Human Resources ,HR,HR-CS-4,The Company employees complete onboarding procedures prior to the employee's start date.,Baseline,,,Enterprise,Administrative
+Human Resources ,HR,HR-CS-5,"For The Company systems deployed, The Company maintains a Sanctions Process that is a two-tier administrative process and is designed to evaluate allegations. ",FedRAMP Extended,,,Enterprise,Administrative

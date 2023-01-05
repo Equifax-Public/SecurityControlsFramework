@@ -1,0 +1,371 @@
+// ------------------
+// Universal Page Styles
+// ------------------
+
+.left-half {
+    float: left;
+    margin-right: 50px;
+    padding-left: 100px;
+    width: calc(50% - 150px);
+    text-align: right;
+}
+
+.right-half {
+    float: right;
+    margin-left: 50px;
+    width: calc(50% - 50px);
+    text-align: left;
+}
+
+h1 {
+    font-size:64px !important;
+    font-weight: 700;
+    font-family: 'openSans', sans-serif;
+}
+
+h2 {
+    font-size: 40px !important;
+}
+
+h3 {
+    font-size: 28px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+p {
+    font-size: 20px !important;
+    font-weight: 200 !important;
+    line-height: 25px;
+}
+
+.section-spacing {
+    padding-top: 100px;
+}
+
+
+// ------------------
+// Section One
+// ------------------
+#container-content {
+    width: 100%;
+    padding-top: 200px;
+}
+
+#section-one {
+    width: 100%;
+    min-height: 800px;
+}
+
+#section-one-right-container {
+    float: left;
+    width: 100%;
+}
+
+#section1-image-container {
+   float: right;
+   width:100%;
+   max-width: 650px;
+}
+
+#section-one-image {
+    background-image:
+    url(/assets/home-wallpaper2.JPG);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: right;
+    height: 500px;
+    max-width: 664px;
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
+    direction: rtl;
+}
+
+.section-one-action {
+    background-color: #eeeeee;
+    width: 320px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 3px solid white;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.topActionBtn:hover {
+    cursor: pointer;
+}
+
+.section-one-action:hover {
+    cursor: pointer;
+    border: 3px solid #9e1b32;
+}
+
+.section-one-action-content {
+    width: calc(100% - 40px);
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.action-text {
+    float: left;
+    width: 200px;
+    padding-right: 40px;
+    margin-top: -5px;
+}
+
+.circle-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-width: 2px;
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+#home-header {
+    color: black;
+    font-size:64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 70px;
+}
+
+#home-subtitle {
+    color: black;
+    font-size: 20px;
+    font-weight: 400 !important;
+    width: 500px;
+}
+
+// ------------------
+// Structure Section
+// ------------------
+#structure-body {
+    height: 450px;
+    width: 100%;
+    background-color: #5b6771;
+    padding-bottom: 100px;
+}
+
+#structure-header {
+    float: left;
+}
+
+#structure {
+    height: 100%;
+    background-color:#F3F3F3;
+    float: left;
+    padding-left: 100px;
+    width: calc(50% - 150px);
+    text-align: right;
+}
+
+#structure-content {
+    margin-right: 150px;
+    text-align: left;
+    width: 500px;
+    padding-left: 100px;
+    float: right;
+}
+
+#structure-text {
+    padding-top: 20px;
+}
+
+#structure-content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#structure-definitions {
+    background-color: #5b6771;
+    height: 100%;
+    float: right;
+    margin-left: 150px;
+    width: calc(50% - 150px);
+    text-align: left;
+}
+
+#structure-definitions-content {
+    float: left;
+}
+
+#structure-definitions h3 {
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+#structure-definitions p {
+    color: white !important;
+    font-weight: 200 !important;
+    margin-bottom: 30px;
+}
+
+
+.corner {
+    width: 100px;
+    background-color:#F3F3F3;
+    position: relative;
+}
+.corner:after, .corner:before {
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 100px;
+    height: 50%;
+}
+.corner:before {
+    top: 0px;
+    background: linear-gradient(to top right, #F3F3F3 50%, transparent 51%);
+}
+.corner:after {
+    bottom: 0px;
+    background: linear-gradient(to bottom right, #F3F3F3 50%, transparent 51%);
+}
+
+// ------------------
+// Instructions Section
+// ------------------
+
+#instructions-body {
+    height: 800px;
+}
+
+#instructions-left {
+    height: 100%;
+    float: left;
+    padding-left: 100px;
+    width: calc(50% - 120px);
+    text-align: right;
+}
+
+#instructions-left-content {
+    text-align: left;
+    float: right;
+}
+
+#instructions-header {
+    margin-top: 100px;
+}
+
+.instruction {
+    height: 50px;
+    padding-bottom: 100px;
+}
+
+.instruction-number {
+    float: left;
+}
+
+.instruction-text {
+    float: right;
+    width: 650px;
+}
+
+#instructions-content {
+    margin-top: 50px;
+}
+
+
+// Section 3
+#section-three {
+    background-color: rgb(247, 247, 247);
+}
+
+#section-three-content {
+    margin-left: 100px;
+    padding-top: 25px;
+}
+
+.overview-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.sub-image {
+    width: 450px;
+}
+
+.sub-image3 {
+    width: 500px;
+    border-radius: 5%;
+}
+
+.sub-image2 {
+    width: 250px;
+    border-radius: 5%;
+}
+
+.red-underline {
+    background-color: rgb(158, 27, 50);
+    border-radius: 5px;
+    width: 80px;
+    height: 4px;
+    margin-top: 10px;
+}
+
+#title-two {
+    margin-bottom: 50px;
+}
+
+.left-content {
+    float: left;
+    width: calc(50% - 200px);
+}
+
+.right-content {
+    float: right;
+    text-align: left;
+    width: calc(50% - 200px);
+    margin-right: 100px;
+}
+
+.content-row {
+    min-height: 400px;
+    padding-bottom: 50px;
+}
+
+.content-row-example {
+    min-height: 200px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+mat-list-item {
+    font-weight: bold;
+}
+
+.list-subitem {
+    margin-left: 30px;
+}
+
+// Getting Started
+#section-four {
+    margin-left: 100px;
+}
+
+.red-underline-four {
+    background-color: rgb(158, 27, 50);
+    border-radius: 5px;
+    width: 125px;
+    height: 4px;
+    margin-top: 10px;
+}
+
+#title-four {
+    margin-bottom: 50px;
+}

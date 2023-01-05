@@ -1,0 +1,33 @@
+<h2 mat-dialog-title>Create new role</h2>
+<div mat-dialog-content>
+    <div style="float: left; width: 40%">
+        <mat-form-field class="add-role-field">
+            <input matInput placeholder="Name" [(ngModel)]="name" required>
+        </mat-form-field>
+        <br>
+        <mat-form-field class="add-role-field" appearance="fill" required>
+            <mat-label>Description</mat-label>
+            <textarea [(ngModel)]="description" required style="height:100px;" matInput placeholder="Add role description"></textarea>
+        </mat-form-field>
+
+       <p>Copy your Control and TR files into the assets folder of the application. Follow naming pattern of "roleName - TR/Control.csv"</p>
+    </div>
+   
+    <div style="float: right; width: 50%; text-align: left;">
+        <h4>File requirements</h4>
+        <mat-list role="list">
+            <p role="listitem">Files must be in CSV format. A file submission for both Control and TR views is required in the assets folder.</p>
+            <b role="listitem">TR View - Required Columns</b>
+            <p role="listitem">Domain Name, Domain, TR_ID, Sub_TR_Order, Sub_TR_Indent, Sub_TR_ID, TR_Description, TR_Scope</p>
+            <b role="listitem">Control View - Required Columns</b>
+            <p role="listitem">Domain Name, Domain, Control_ID, Control_Desc, Control_Scope, Control_Owner, Control_Operator, Control_Type, Control_Type</p>
+        </mat-list>
+        <a download="template - CONTROL" target="_blank" href="/assets/template%20-%20CONTROL.csv">Download CONTROL template</a>
+        <br>
+        <a download="template - TR" target="_blank" href="/assets/template%20-%20TR.csv">Download TR template</a>
+    </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-flat-button color="secondary" mat-dialog-close>Cancel</button>
+  <button mat-flat-button color="primary" mat-dialog-close cdkFocusInitial (click)="submit()">Submit</button>
+</div>

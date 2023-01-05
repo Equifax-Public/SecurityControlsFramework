@@ -1,0 +1,569 @@
+// @import '~@angular/material/theming';
+// @include mat-core();
+@use '~@angular/material/theming' as mat;
+@include mat.mat-core();
+@import './efx-palette.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+// Theme palettes
+$efx-color-palette-primary: mat.mat-palette($equifax-primary, 500, 100, 800); 
+$efx-color-palette-accent: mat.mat-palette($equifax-secondary, 500, 100, 800);
+$efx-color-palette-warn: mat.mat-palette($equifax-warn, 300, 50, 800 );
+$background-color: map_get($equifax-primary, 50);
+
+// typography function * New
+@function define-typography-level(
+  $font-size,
+  $line-height: $font-size,
+  $font-weight: 400,
+  $font-family: null,
+  $letter-spacing: normal) {
+  @return (
+    font-size: $font-size,
+    line-height: $line-height,
+    font-weight: $font-weight,
+    font-family: $font-family,
+    letter-spacing: $letter-spacing
+  );
+}
+
+// typography * New
+$efx-typography: mat.mat-typography-config(
+    $font-family: "'Open Sans', Arial, sans-serif;",
+    $display-4: define-typography-level(8rem, 8rem, 300, $letter-spacing: -0.05em),
+    $display-3: define-typography-level(4rem, 4rem, 400, $letter-spacing: -0.02em),
+    $display-2: define-typography-level(3.21rem, 3.42rem, 400, $letter-spacing: -0.005em),
+    $display-1: define-typography-level(2.42rem, 2.85rem, 400),
+    $headline: define-typography-level(1.71rem, 2.28rem, 400),
+    $title: define-typography-level(1.42rem, 2.28rem, 500),
+    $subheading-2: define-typography-level(1.14rem, 2rem, 400),
+    $subheading-1: define-typography-level(1.07rem, 1.71rem, 400),
+    $body-2: define-typography-level(1rem, 1.71rem, 500),
+    $body-1: define-typography-level(1rem, 1.42rem, 400),
+    $caption: define-typography-level(0.85rem, 1.42rem, 400),
+    $button: define-typography-level(1rem, 1rem, 500),
+    $input: define-typography-level(inherit, 1.125, 400),
+);
+
+// Create the theme
+$efx-color-palette-theme: mat.mat-light-theme((
+  color: (
+    primary: $efx-color-palette-primary,
+    accent: $efx-color-palette-accent,
+    warn: $efx-color-palette-warn,
+  ),
+  typography: $efx-typography,
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($efx-color-palette-theme);
+
+// TYPO
+.mat-body, .mat-body-1, .mat-typography {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-family;
+        color: $signal-efx-gray;
+    }
+}
+
+// COMPONENTS CUSTOMIZATION
+
+// Button
+
+.mat-button-base:not(.mat-fab):not(.mat-mini-fab):not(.mat-icon-button):not(.mat-simple-snackbar-action .mat-button-base) {
+    margin: 8px 8px 8px 0;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+    &.mat-sm {
+        margin: 8px 8px 8px 0;
+        padding: 0 20px;
+    }
+}
+
+.mat-flat-button:not(.mat-button-disabled),
+.mat-fab:not(.mat-button-disabled),
+.mat-mini-fab:not(.mat-button-disabled) {
+    &.mat-primary {
+        &:hover {
+            background: $signal-link-hover-color;
+        }
+    }
+    &.mat-accent {
+        &:hover {
+            background: $signal-shadow-red;
+        }           
+    }
+    &.mat-warn {
+        &:hover {
+            background: $signal-footer-background;
+        }  
+    }
+
+    &.blue {
+        background: $signal-primary-blue;
+        &:hover {
+            background: $signal-shadow-blue;
+        }  
+    }
+
+    &.red {
+        background: $signal-primary-red;
+        &:hover {
+            background: $signal-shadow-red;
+        }  
+    }
+
+    &.orange {
+        background: $signal-primary-orange;
+        &:hover {
+            background: $signal-shadow-orange;
+        }  
+    }
+
+    &.purple {
+        background: $signal-primary-purple;
+        &:hover {
+            background: $signal-shadow-purple;
+        }  
+    }
+
+    &.green {
+        background: $signal-primary-green;
+        &:hover {
+            background: $signal-shadow-green;
+        }  
+    }
+
+    &.yellow {
+        background: $signal-primary-yellow;
+        color: $signal-efx-gray;
+        &:hover {
+            background: $signal-shadow-yellow;
+            color: $signal-white;
+        }  
+    }
+}
+
+.mat-stroked-button {
+    border: 2px solid currentColor;
+
+    &:not(.mat-button-disabled) {
+        &:hover {
+            background: $signal-page-background;
+        }
+    
+        &.mat-primary { 
+            border-color: $signal-primary-blue; 
+        }
+        
+        &.mat-accent { 
+            border-color: $signal-primary-red; 
+        }
+        
+        &.mat-warn { 
+            border-color: $signal-efx-gray; 
+        }  
+    }
+}
+
+// Mat Fab
+.mat-fab, .mat-mini-fab {
+    margin: 8px 8px 8px 0;
+
+    &:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
+}
+
+// Expansion Panel, Accordion
+.mat-accordion .mat-expansion-panel {
+    border-bottom: 1px solid $signal-borders;
+    border-radius: 0;
+
+    &:first-of-type {
+        border-top: 1px solid $signal-borders;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    &:last-of-type {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    &.mat-expansion-panel-spacing {
+        margin: 0;
+    }
+    &:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
+    .mat-expansion-panel-header,
+    .mat-expansion-panel-header.mat-expanded {
+        padding: 10px 24px;
+        height: 48px;
+    }
+    .mat-expansion-panel-header-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+        color: $signal-efx-gray;
+    }
+}
+
+// INPUT
+
+.mat-form-field {
+    input.mat-input-element{
+        line-height: 1rem;
+    }
+    
+    &.mat-form-field-invalid {
+        input,
+        .mat-error {
+            color: $signal-alert-red;
+        }
+    }
+}
+
+// List
+.mat-list-base .mat-list-item {
+    color: $signal-efx-gray;
+}
+
+// Divider
+.mat-divider {
+    border-top-color: $signal-borders;
+}
+
+// Tabs
+.mat-tab-group {
+    margin-bottom: 1rem;
+
+    .mat-ink-bar {
+        height: 3px;
+    }
+    .mat-tab-body {
+        padding: 1rem 0;
+        overflow: hidden;
+
+        .mat-tab-body-content {
+            overflow: hidden;
+        }
+    }
+}
+
+.mat-tab-label, .mat-tab-link {
+    font-family: $font-family;
+    font-weight: 700;
+}
+
+// CHECK BOXES AND RADIO BUTTONS
+.example-margin, .mat-radio-button {
+    margin: 0 12px;
+}
+
+// CARDS 
+.mat-card {
+    width: 85%;
+    border: 1px solid $signal-borders;
+    border-radius: 0.25rem;
+    margin-bottom: 25px;
+
+    &:not([class*=mat-elevation-z]) {
+        box-shadow: none;
+    }
+
+    .mat-card-image:first-child {
+        margin-top: -17px;
+    }
+
+    .mat-card-title {
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .mat-card-actions {
+        padding: 0 7px;
+    }
+
+    &.blue {
+        border-top: 7px solid $signal-primary-blue;
+    }
+
+    &.red {
+        border-top: 7px solid $signal-primary-red;
+    }
+
+    &.orange {
+        border-top: 7px solid $signal-primary-orange;
+    }
+
+    &.purple {
+        border-top: 7px solid $signal-primary-purple;
+    }
+
+    &.green {
+        border-top: 7px solid $signal-primary-green;
+    }
+
+    &.yellow {
+        border-top: 7px solid $signal-primary-yellow;
+    }
+}
+
+.card-example-1 {
+    width: 400px;
+}
+
+.card-example-2 {
+    width: 400px;
+    text-align: center;
+    img {
+        margin: 10px 0 20px 0;
+    }
+}
+
+// SPINNER 
+.mat-spinner {
+    margin-bottom: 1rem;
+}
+
+// Tooltip
+.mat-tooltip {
+    background: $signal-efx-gray;
+    color: $signal-white;
+
+    &.tooltip-blue {
+        background: $signal-primary-blue;
+    }
+    
+    &.tooltip-red {
+        background: $signal-primary-red;
+    }
+
+    &.tooltip-orange {
+        background: $signal-primary-orange;
+    }
+
+    &.tooltip-yellow {
+        background: $signal-primary-yellow;
+        color: $signal-efx-gray;
+    }
+
+    &.tooltip-purple {
+        background: $signal-primary-purple;
+    }
+
+    &.tooltip-green {
+        background: $signal-primary-green;
+    }
+}
+
+// Grid
+.mat-grid-list {
+    &.blue {
+        background: $signal-highlights-blue;
+    }
+    
+    &.red {
+        background: $signal-highlights-red;
+    }
+
+    &.orange {
+        background: $signal-highlights-orange;
+    }
+
+    &.yellow {
+        background: $signal-highlights-yellow;
+    }
+
+    &.purple {
+        background: $signal-highlights-purple;
+    }
+
+    &.green {
+        background: $signal-highlights-green;
+    }
+}
+
+// Toolbar
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+// Stepper
+mat-stepper {
+    .mat-step-header {
+        &.cdk-focused,
+        &.cdk-mouse-focused,
+        &.cdk-keyboard-focused, 
+        &.cdk-program-focused, 
+        &:hover,
+        &:hover:not([aria-disabled]), 
+        &:hover[aria-disabled=false] {
+            background-color: transparent;
+        }
+    
+        .mat-step-icon {
+            background-color: $signal-alert-green;
+            height: 30px;
+            width: 30px;
+        }
+    
+        .mat-step-icon:not([class*=mat-step-icon-selected]) {
+            background-color: $signal-efx-gray;
+        }
+    }
+    
+    .mat-horizontal-stepper-header::before, 
+    .mat-horizontal-stepper-header::after, 
+    .mat-stepper-horizontal-line {
+        border-top-color: $signal-borders;
+    }
+}
+
+// Snack-bar
+.mat-snack-bar-container:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+    color: $signal-white;
+
+    &.gray {
+        background: $signal-efx-gray;
+        .mat-button-base {
+            background-color: $signal-gray-l21;
+            color: $signal-white;
+        }
+    }
+
+    &.blue {
+        background: $signal-primary-blue;
+        .mat-button-base {
+            background-color: $signal-shadow-blue;
+            color: $signal-white;
+        }
+    }
+
+    &.red {
+        background: $signal-primary-red;
+        .mat-button-base {
+            background-color: $signal-shadow-red;
+            color: $signal-white;
+        }
+    }
+
+    &.orange {
+        background: $signal-primary-orange;
+        .mat-button-base {
+            background-color: $signal-shadow-orange;
+            color: $signal-white;
+        }
+    }
+
+    &.purple {
+        background: $signal-primary-purple;
+        .mat-button-base {
+            background-color: $signal-shadow-purple;
+            color: $signal-white;
+        }
+    }
+
+    &.green {
+        background: $signal-primary-green;
+        .mat-button-base {
+            background-color: $signal-shadow-green;
+            color: $signal-white;
+        }
+    }
+
+    &.yellow {
+        background: $signal-primary-yellow;
+        color: $signal-efx-gray;
+        .mat-button-base {
+            background-color: $signal-shadow-yellow;
+            color: $signal-white;
+        }
+    }
+}
+
+// Tree
+.example-tree-invisible {
+    display: none;
+}
+
+.example-tree ul,
+.example-tree li {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+// nested nodes alignment
+.example-tree .mat-nested-tree-node div[role=group] {
+    padding-left: 20px;
+}
+
+/*
+ * Padding for leaf nodes.
+ * Leaf nodes need to have padding so as to align with other non-leaf nodes
+ * under the same parent.
+ */
+.example-tree div[role=group] > .mat-tree-node {
+    padding-left: 20px;
+}
+
+// Table
+
+table,
+.mat-table {
+    width: 100%;
+    background-color: $signal-white;
+    
+    mat-row, 
+    mat-header-row,
+    mat-footer-row, 
+    th.mat-header-cell, 
+    td.mat-cell, 
+    td.mat-footer-cell {
+        border-bottom-color: $signal-borders;
+        color: $signal-efx-gray;
+    }
+
+    .mat-column-disclaimer {
+        font-size: 0.85rem;
+    }
+
+    .example-first-header-row th {
+        border-bottom: none;
+    }
+
+    .example-second-header-row {
+        font-style: italic;
+    }
+
+    .example-first-footer-row {
+        font-weight: bold;
+    }
+
+    .example-second-footer-row td {
+        font-style: italic;
+    }
+
+}
+
+// Sort table headers
+
+.mat-sort {
+    tr {
+        height: 48px;
+    }
+    
+    td {
+        color: $signal-efx-gray;
+    }
+}

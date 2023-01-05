@@ -1,0 +1,51 @@
+// import custom color theme
+@use '@angular/material' as mat;
+@import "./theme";
+
+@font-face {
+    font-family: openSans;
+    src: url(./assets/OpenSans-Regular.ttf) format("opentype");
+    color: rgb(51, 62, 72);
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "Open Sans", "Segoe UI", Tahoma, Sans-Serif; }
+
+* {
+    font-family: "Open Sans", "Segoe UI", Tahoma, Sans-Serif;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 25px;
+    color: #333e48;
+    font-weight: 200 !important;
+}
+
+// Font Colors
+.EFX-Dark {
+    color: #333E48;
+}
+
+.light-gray {
+color: #EEEEEE;
+}
+
+.white {
+color: #ffffff;
+}
+
+h3 {
+    font-size: 36px !important;
+    font-weight: 700 !important;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.center-full {
+    width: calc(100% - 50px);
+    text-align: center;
+}

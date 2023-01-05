@@ -1,0 +1,112 @@
+<app-header></app-header>
+<div id="section-one">
+    <div id="container-content">
+        <div class="left-half">
+            <div id="section1-image-container">
+                <div id="section-one-image"></div>
+            </div>
+        </div>
+        <div class="right-half">
+            <div id="section-one-right-container">
+                <h1 id="home-header">Security Controls Framework</h1>
+                <h4 id="home-subtitle">The controls framework is the blueprint for how a company protects its data and infrastructure</h4>
+                <div style="width:670px; margin-top: 50px;">
+                    <div style="float: left;">
+                        <div class="section-one-action" id="viewRoleBasedBtn" (click)="goToAllTr()">
+                            <div class="section-one-action-content">
+                                <p class="action-text">View the Full Controls Framework</p>
+                                <button class="circle-button topActionBtn"><img class="action-icon" src="../../assets/chevron_right.svg"></button>
+                            </div>
+                        </div>
+                        <div class="section-one-action" id="viewAllBtn" (click)="goToRoles()">
+                            <div class="section-one-action-content">
+                                <p class="action-text">View the Framework Based on Your Role</p>
+                                <button class="circle-button topActionBtn"><img class="action-icon" src="../../assets/chevron_right.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="float: right;">
+                        <div class="section-one-action" id="viewDomainsBasedBtn" (click)="goToDomains()">
+                            <div class="section-one-action-content">
+                                <p class="action-text">View the Framework by Domain</p>
+                                <button class="circle-button topActionBtn"><img class="action-icon" src="../../assets/chevron_right.svg"></button>
+                            </div>
+                        </div>
+                        <div class="section-one-action" id="downloadBtn" target="_blank" (click)="goToCompliance()">
+                            <div class="section-one-action-content">
+                                <p class="action-text">View compliance framework mappings</p>
+                                <button class="circle-button topActionBtn"><img class="action-icon" src="../../assets/chevron_right.svg"></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Structure -->
+<div #target></div>
+<div id="structure-body">
+    <div id="structure" class="section-spacing corner">
+        <div id="structure-content">
+            <h2>Structure</h2>
+            <div id="structure-text">
+                <p>Five core capabilities - cybersecurity, privacy, fraud precention, crisis management, and physical security - are represented in these unified controls framework.</p>
+                <p>NIST CSF and NIST PF were selected as the foundation for the security controls framework because it supports a comprehensive, defense-in-depth approach to security and privacy. Its flexible, risk-based strcture can also be tailored to meet a company's specific needs.</p>
+                <p>This framework enables an organization to:</p>    
+            </div>
+        </div>
+    </div>
+    <div id="structure-definitions" class="section-spacing">
+        <div id="structure-definitions-content">
+            <h3>Identify</h3>
+            <p>Find risks and determine the severity</p>
+            <h3>Protect</h3>
+            <p>Ensure your assets are prepared for potential attackers</p>
+            <h3>Detect</h3>
+            <p>Discover vulnerabilities within your system</p>
+            <h3>Respond</h3>
+            <p>When a vulnerability is found, act on it</p>
+            <h3>Recover</h3>
+            <p>Assess what happened to help prevent future incidents</p>
+        </div>
+    </div>   
+</div>
+
+<!-- Instructions -->
+<div id="instructions-body">
+    <div id="instructions-left">
+        <div id="instructions-left-content">
+            <h2 id="instructions-header">How to Use the Controls Framework</h2>
+            <div id="instructions-content">
+                    <div class="instruction">
+                        <b class="instruction-number">1. </b>
+                        <div class="instruction-text">
+                            <p><b>Select the Controls and Technical requirements that work best for your organization.</b> Keep in mind that the Controls and Technical Requirements should be tailored to represent the current point in time of your organization and not be inspriational.</p>
+                        </div>
+                    </div>
+                    <div class="instruction">
+                        <b class="instruction-number">2. </b>
+                        <div class="instruction-text">
+                            <p><b>Customize the Technical Requirements.</b> Partner with your Security or Technology team to fill in the "[INSERT] sections" for certain technical requirements.</p>
+                        </div>           
+                    </div>
+
+                <div class="instruction">
+                    <b class="instruction-number">3. </b>
+                    <div class="instruction-text">
+                        <p><b>Establish governance processes to ensure you are following the controls.</b> Remember, a governance process should end in escalations if what is prescribed is not met.</p>
+                    </div>            </div>
+                <div class="instruction">
+                    <b class="instruction-number">4. </b>
+                    <div class="instruction-text">
+                        <p><b>Keep the Controls and Technical Requirements up-to-date.</b> Your organization should establish a cadence for reviewing and updating to reflect the ongoing maturity of your organization.</p>
+                    </div>            
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+<app-footer></app-footer>
