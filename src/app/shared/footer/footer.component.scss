@@ -35,3 +35,52 @@
     height: 45px;
     margin-top:12px;
 }
+
+@media screen and (max-width: 1125px) {
+    #content {
+        float: none;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    #content {
+        width: 375px;
+    }
+
+    #content p {
+        font-size: 14px;
+    }
+
+    #logo {
+        height: 15px;
+        width: 74px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #content {
+        width: 320px;
+    }
+
+    #content p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #content {
+        width: 230px;
+    }
+    
+    #logo {
+        height: 11px;
+        width: 56px;
+        margin-top: 20px;
+    }
+
+    #content p {
+        font-size: 8px;
+    }
+}

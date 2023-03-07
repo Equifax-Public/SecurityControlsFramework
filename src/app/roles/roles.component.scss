@@ -1,3 +1,5 @@
+@import '../../breakpoints';
+
 .main-body {
     height: 100%;
     display: flex;
@@ -11,17 +13,22 @@
     -o-background-size: cover;
     background-size: cover;
     height: 60vh;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     overflow: auto;
     text-align: center;
     color: white;
+
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        height: 40vh;
+    }
 }
 
 h1 {
-    padding-top: 200px;
     font-size: 60px;
     font-family: 'openSans', sans-serif;
-    margin: 0 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 h3 {
@@ -46,6 +53,9 @@ div div {
 #top-title {
     font-size: 64px;
     color: white;
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        font-size: 3rem;
+    }
 }
 
 #top-subtitle {
@@ -63,7 +73,7 @@ div div {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
-    width: calc(100% - 100px)
+    width: calc(100% - 100px);
 }
 
 .card {
@@ -123,4 +133,13 @@ div div {
 
 mat-card-content {
     height: 200px;
+    p {
+        display: block;
+        display: -webkit-box;
+        max-width: 100%;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }

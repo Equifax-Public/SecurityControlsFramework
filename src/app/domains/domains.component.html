@@ -1,9 +1,9 @@
+<app-header-navigation></app-header-navigation>
 <div id="domains-image">
-    <app-header-navigation></app-header-navigation>
     <h1 id="top-title">Domains</h1>
 </div>
 <div id="domains-content">
-    <mat-form-field id="roles-input" appearance="fill">
+    <mat-form-field id="domains-input" appearance="fill">
         <mat-label>Search</mat-label>
         <input matInput id="search" style="float:left; "  (keyup)="applyFilter()"
             placeholder="Search for a specific domain" [(ngModel)]="searchText">

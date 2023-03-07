@@ -1,7 +1,7 @@
 [
-    {"name": "Asset Management", "abbreviation": "AM", "description":"Asset Management “AM”  details how an organization manages the inventory and life cycle of their assets including hardware and software."},
-    {"name": "Configuration Controls", "abbreviation": "CC", "description": "Configuration Controls “CC” details how an organization manages the configuration of systems and critical files within their environment."},
-    {"name": "Continuity and Recovery Planning", "abbreviation": "RP", "description":"Continuity & Recovery Planning “RP” details how an organization manages their business continuity and disaster recovery planning and execution."},
+    {"name": "Asset Management", "abbreviation": "AM", "description":"Asset Management “AM”  details how an organization manages the inventory and life cycle of it's assets including hardware and software."},
+    {"name": "Configuration Controls", "abbreviation": "CC", "description": "Configuration Controls “CC” details how an organization manages the configuration of systems and critical files within it's environment."},
+    {"name": "Continuity and Recovery Planning", "abbreviation": "RP", "description":"Continuity & Recovery Planning “RP” details how an organization manages it's business continuity and disaster recovery planning and execution."},
     {"name": "Data Encryption", "abbreviation": "DE", "description":"Data Encryption “DE” details how an organization protects its sensitive data. This includes data devaluation requirements and encryption protocols."},
     {"name": "Data Classification", "abbreviation": "DC", "description": "Data Classification “DC” details how an organization labels and handles its sensitive data."},
     {"name": "Fraud Monitoring", "abbreviation": "FM", "description": "Fraud Monitoring “FM” details how an organization manages its processes to detect fraudulent activities. This includes maintaining and testing fraud monitoring tools."},

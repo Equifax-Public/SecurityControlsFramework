@@ -1,3 +1,5 @@
+@import '../../breakpoints';
+
 h1 {
     font-size:64px !important;
     font-weight: 700;
@@ -22,11 +24,18 @@ p {
     line-height: 25px;
 }
 
+
 #content {
     min-height: 80vh;
     padding-top: 10px;
     margin-left: 60px;
     width: calc(100% - 120px);
+    justify-content: left;
+
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        margin: 0 30px;
+        width: auto;
+    }
 }
 
 .box {
@@ -43,13 +52,35 @@ p {
     width: calc(100% - 40px);
 }
 
+.table-wrapper{
+    justify-content: left !important;
+    overflow-x: scroll;
+}
+
 #role-title {
     padding-bottom: 50px;
     padding-top: 25px;
+    @media  (min-width: 0) and (max-width:  screen(sm))  {
+        padding-bottom: 20px;
+    }
+
+    @media  (max-width: screen('xs')){
+        padding-top: 20px;
+        line-height: 50px;
+        font-size: 35px !important;
+    }
 }
 
 #back-button {
     margin-top: 90px;
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        margin-top: 75px;
+    }
+}
+
+.download-btn-wrapper{
+   display: flex;
+   flex-direction: column;
 }
 
 .downloadSection {
@@ -58,6 +89,12 @@ p {
     right: 0;
     width:200px;
     z-index: 5;
+
+    @media  (min-width: 0) and (max-width:  screen(sm))  {
+        display: flex;
+        position: unset;
+        margin-bottom: 10px;
+    }
 }
 
 .action-text {
@@ -98,4 +135,10 @@ p {
 
 th.mat-header-cell:first-of-type {
     padding-left: 10px !important;
+}
+
+.small-screen-no-show{
+    @media  (min-width: 0) and (max-width:  screen(sm))  {
+        display: none;
+    }
 }

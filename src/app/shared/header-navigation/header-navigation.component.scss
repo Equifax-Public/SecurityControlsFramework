@@ -1,10 +1,12 @@
+@import '../../../breakpoints';
+
 .custom-toolbar {
     background-color: #fff;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1) !important;
     border-bottom: 1px solid #e5e9ec;
     border: none;
     text-shadow: none;
-    z-index: 4;
+    z-index:10;
     position: fixed;
 }
   
@@ -29,6 +31,9 @@ mat-toolbar {
 #app-row {
     margin-left: 45px;
     width: 165px;
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        margin-left: 10px;
+    }
 }
   
 button:focus {

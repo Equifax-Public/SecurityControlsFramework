@@ -79,12 +79,10 @@
     height: 46px;
     min-height: 46px;
   }
-  
-  @media screen and (max-width: 750px){
-    #logo {
-      margin-left: 5px;
-    }
-    #app-title {
-      margin-left: 100px;
+
+  @media screen and (max-width: 1533px) {
+    #app-row {
+      margin-left: 20px;
     }
   }
+  

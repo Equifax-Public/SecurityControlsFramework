@@ -80,11 +80,11 @@ export class RoleDetailsComponent implements OnInit {
 
   downloadCSV() {
     if (this.selected.value == 0) {
-      window.open("/assets/" + this.roleTitle + "%20-%20CONTROL.csv");
+      window.open("assets/" + this.roleTitle + "%20-%20CONTROL.csv");
     } else if (this.selected.value == 1) {
-      window.open("/assets/" + this.roleTitle + "%20-%20TR.csv");
+      window.open("assets/" + this.roleTitle + "%20-%20TR.csv");
     } else if (this.selected.value == 2) {
-      window.open("/assets/TR_Controls_Mapping.csv");
+      window.open("assets/TR_Controls_Mapping.csv");
     }
   }
 }

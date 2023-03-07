@@ -18,32 +18,32 @@
 }
 
 h1 {
-    font-size:64px !important;
+    font-size:64px;
     font-weight: 700;
     font-family: 'openSans', sans-serif;
 }
 
 h2 {
-    font-size: 40px !important;
+    font-size: 40px;
 }
 
 h3 {
-    font-size: 28px !important;
+    font-size: 28px;
 }
 
 h4 {
-    font-size: 20px !important;
-    font-weight: 700 !important;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 p {
-    font-size: 20px !important;
+    font-size: 20px;
     font-weight: 200 !important;
     line-height: 25px;
 }
 
 .section-spacing {
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 
@@ -68,12 +68,12 @@ p {
 #section1-image-container {
    float: right;
    width:100%;
-   max-width: 650px;
+   max-width: 660px;
 }
 
 #section-one-image {
     background-image:
-    url(/assets/home-wallpaper2.JPG);
+    url(../../assets/home-wallpaper2.JPG);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -84,6 +84,19 @@ p {
     color: white;
     border-radius: 50px;
     direction: rtl;
+}
+
+#all-nav-buttons-container {
+    width: 670px;
+    margin-top: 50px;
+}
+
+#left-nav-buttons {
+    float: left;
+}
+
+#right-nav-buttons {
+    float: right;
 }
 
 .section-one-action {
@@ -140,13 +153,14 @@ p {
     font-weight: 700;
     margin-bottom: 24px;
     line-height: 70px;
+    width: calc(100% - 20px);
 }
 
 #home-subtitle {
     color: black;
     font-size: 20px;
     font-weight: 400 !important;
-    width: 500px;
+    width: calc(100% - 40px);
 }
 
 // ------------------
@@ -170,6 +184,10 @@ p {
     padding-left: 100px;
     width: calc(50% - 150px);
     text-align: right;
+}
+
+#structure-body .section-spacing {
+    padding-bottom: 25px;
 }
 
 #structure-content {
@@ -241,7 +259,7 @@ p {
 // ------------------
 
 #instructions-body {
-    height: 800px;
+    height: 850px;
 }
 
 #instructions-left {
@@ -262,8 +280,8 @@ p {
 }
 
 .instruction {
-    height: 50px;
-    padding-bottom: 100px;
+    height: 150px;
+    padding-bottom: 0px;
 }
 
 .instruction-number {
@@ -272,7 +290,7 @@ p {
 
 .instruction-text {
     float: right;
-    width: 650px;
+    width: calc(100% - 40px);
 }
 
 #instructions-content {
@@ -353,7 +371,9 @@ mat-list-item {
     margin-left: 30px;
 }
 
+// ---------------
 // Getting Started
+// ---------------
 #section-four {
     margin-left: 100px;
 }
@@ -368,4 +388,910 @@ mat-list-item {
 
 #title-four {
     margin-bottom: 50px;
+}
+
+
+// -------------------------
+// -------------------------
+// Responsive Design Section
+// -------------------------
+// -------------------------
+@media screen and (max-width: 1533px) {
+    .left-half {
+        float: left;
+        margin-right: 25px;
+        padding-left: 25px;
+        width: calc(40% - 75px);
+        text-align: right;
+    }
+    
+    .right-half {
+        float: right;
+        margin-left: 0px;
+        width: calc(60% - 0px);
+        text-align: left;
+    }
+    #section-one-right-container {
+        float: left;
+        width: calc(100% - 25px);
+    }
+
+    #all-nav-buttons-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    #left-nav-buttons {
+        width: 47%;
+    }
+
+    #right-nav-buttons {
+        width: 47%;
+    }
+
+    .action-text {
+        font-size: 16px;
+        width: 80%;
+        padding-right: 10px;
+    }
+
+    .circle-button {
+        height: 35px;
+        width: 35px;
+    }
+
+    .section-one-action {
+        width: 100%;
+    }
+    // ------------------
+    // Structure Section
+    // ------------------
+    #structure-body .section-spacing {
+        padding-top:50px;
+        padding-bottom: 50px;
+    }
+
+    #structure {
+        float: left;
+        width: calc(50% - 25px);
+        padding-left: 25px;
+    }
+
+    #structure-content {
+        padding-left: 0px;
+        margin-right: 50px;
+        width: calc(100% - 100px);
+        float: left;
+    }
+ 
+    #structure-definitions {
+        width: calc(50% - 175px);
+        padding-right: 25px;
+    }
+
+    // ------------------
+    // Instructions Section
+    // ------------------
+    #instructions-body {
+        height: auto;
+        margin-top:0px;
+        padding-bottom: 0px;
+    }
+
+    #instructions-left {
+        height: auto;
+        float: none;
+        padding-left: 0px;
+        margin-left:20px;
+        width: calc(50% - 40px);
+    }
+
+    #instructions-left-content {
+        float: none;
+    }
+
+    #instructions-header {
+        margin-top: 60px;
+        line-height: 50px;
+    }
+
+    .instruction {
+        height: 200px;
+        padding-bottom: 0px;
+    }
+
+    .instruction-number {
+        float: left;
+    }
+
+    .instruction-text {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    // ------------------
+    // Structure Section
+    // ------------------
+    #structure-body {
+        height: 600px;
+    }
+
+    #structure {
+        height: 600px;
+        float: left;
+        width: calc(50% - 25px);
+        padding-left: 25px;
+    }
+
+    #structure-content {
+        padding-left: 0px;
+        margin-right: 50px;
+        width: calc(100% - 100px);
+        float: left;
+    }
+ 
+    #structure-definitions {
+        width: calc(50% - 175px);
+        padding-right: 25px;
+    }
+    
+    #instructions-left {
+        width: calc(100% - 40px);
+    }
+
+    .instruction {
+        width: 100%;
+        height: 100px;
+    }
+
+    .instruction-text {
+        float: right;
+        width: calc(100% - 40px);
+    }
+
+    .instruction-number {
+        width: 20px;
+    }
+        
+    #instructions-body {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    #container-content {
+        padding-top: 25px;
+    }
+
+    #section-one {
+        min-height: 750px;
+    }
+
+    #section-one-right-container {
+        float: left;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #section1-image-container {
+        float: none;
+        width:100%;
+        max-width: 100%;
+     }
+
+    #section-one-image {
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+        border-radius: 0px;
+        background-position: top -40px center;
+    }
+
+    .right-half {
+        float: none;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        text-align: left;
+    }
+
+    .left-half {
+        float: none;
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        text-align: right;
+    }
+
+    #home-header {
+        color: black;
+        font-size:64px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 70px;
+    }
+    
+    #home-subtitle {
+        color: black;
+        font-size: 20px;
+        font-weight: 400 !important;
+        width: 100%;
+    }
+
+    // ------------------
+    // Structure Section
+    // ------------------
+    #structure-body {
+        height: auto;
+        width: 100%;
+        background-color: #5b6771;
+        padding-bottom: 10px;
+    }
+
+    #structure {
+        float: none;
+        padding-left: 0px;
+        width: 100%;
+        height:400px;
+    }
+
+    #structure-content {
+        margin-right: 0px;
+        width: calc(100% - 40px);
+        padding-left: 0px;
+        float: none;
+        margin-left: 20px;
+    }
+
+    #structure-text {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    #structure-definitions {
+        height: auto;
+        float: none;
+        margin-left: 0px;
+        padding-bottom: 0px;
+        width: calc(100% - 40px);
+        padding-top:70px;
+    }
+
+    #structure-definitions-content {
+        float: none;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    #structure-definitions h3 {
+        margin-bottom: 10px;
+    }
+
+    #structure-definitions p {
+        margin-bottom: 50px;
+    }
+
+    .corner {
+        width: 0px;
+    }
+
+    .corner:after, .corner:before {
+        width: 0px;
+        height: 0%;
+    }
+
+    .corner:before {
+        top: 0px;
+    }
+
+    .corner:after {
+        bottom: 0px;
+    }
+
+    
+}
+
+@media screen and (max-width: 921px) {
+    #section-one {
+        min-height: 850px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    // ------------------
+    // Section One
+    // ------------------
+
+    #container-content {
+        padding-top: 50px;
+    }
+
+    #section-one {
+        width: 100%;
+        min-height: 775px;
+    }
+
+    #section1-image-container {
+        float: none;
+        width:100%;
+     }
+
+    #section-one-image {
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+        border-radius: 0px;
+        background-position: top -40px center;
+    }
+
+    #all-nav-buttons-container {
+        width: 100%;
+    }
+
+    #left-nav-buttons {
+        float: left;
+        width: calc(50% - 10px);
+    }
+
+    #right-nav-buttons {
+        float: right;
+        width: calc(50% - 10px);
+    }
+
+    .section-one-action {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: 3px solid white;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+
+    .topActionBtn:hover {
+        cursor: pointer;
+    }
+
+    .section-one-action:hover {
+        cursor: pointer;
+        border: 3px solid #9e1b32;
+    }
+
+    .section-one-action-content {
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+
+    .action-text {
+        float: left;
+        width: 70%;
+        padding-right: 10px;
+        margin-top: -5px;
+        font-size: 16px;
+    }
+
+    .circle-button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-width: 2px;
+        border-radius: 50%;
+        height:30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-top: 5px;
+    }
+
+    .action-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    #home-header {
+        color: black;
+        font-size:50px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 60px;
+    }
+
+    #home-subtitle {
+        color: black;
+        font-size: 20px;
+        font-weight: 300 !important;
+        width: 100%;
+    }
+
+    #structure-body .section-spacing{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    #section-one {
+        min-height: 825px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    // ------------------
+    // Section One
+    // ------------------
+    .right-half {
+        float: none;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        text-align: left;
+    }
+
+    .left-half {
+        float: none;
+        margin-right: 0px;
+        padding-left: 0px;
+        width: 100%;
+        text-align: right;
+    }
+
+    #home-header {
+        color: black;
+        font-size:64px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 70px;
+    }
+    
+    #home-subtitle {
+        color: black;
+        font-size: 20px;
+        font-weight: 400 !important;
+        width: 500px;
+    }
+
+    #container-content {
+        padding-top: 0px;
+    }
+
+    #section-one {
+        width: 100%;
+        min-height: 800px;
+    }
+
+    #section-one-right-container {
+        float: left;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    #section1-image-container {
+        float: none;
+        width:100%;
+     }
+
+    #section-one-image {
+        width: 100%;
+        height: 200px;
+        max-width: 100%;
+        border-radius: 0px;
+        background-position: top 0px center;
+    }
+
+    #all-nav-buttons-container {
+        width: 100%;
+    }
+
+    #left-nav-buttons {
+        float: left;
+        width: calc(50% - 10px);
+    }
+
+    #right-nav-buttons {
+        float: right;
+        width: calc(50% - 10px);
+    }
+
+    .section-one-action {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: 3px solid white;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+
+    .topActionBtn:hover {
+        cursor: pointer;
+    }
+
+    .section-one-action:hover {
+        cursor: pointer;
+        border: 3px solid #9e1b32;
+    }
+
+    .section-one-action-content {
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+
+    .action-text {
+        float: left;
+        width: 70%;
+        padding-right: 10px;
+        margin-top: -5px;
+        font-size: 16px;
+    }
+
+    .circle-button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-width: 2px;
+        border-radius: 50%;
+        height:30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-top: 5px;
+    }
+
+    .action-icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    #home-header {
+        color: black;
+        font-size:50px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 60px;
+    }
+
+    #home-subtitle {
+        color: black;
+        font-size: 20px;
+        font-weight: 300 !important;
+        width: 100%;
+    }
+
+    // ------------------
+    // Structure Section
+    // ------------------
+    #structure-body {
+        height: auto;
+        width: 100%;
+        background-color: #5b6771;
+        padding-bottom: 10px;
+    }
+
+    #structure {
+        float: none;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    #structure-content {
+        margin-right: 0px;
+        width: calc(100% - 40px);
+        padding-left: 0px;
+        float: none;
+        margin-left: 20px;
+    }
+
+    #structure-text {
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    #structure-definitions {
+        height: auto;
+        float: none;
+        margin-left: 0px;
+        padding-bottom: 0px;
+        width: calc(100% - 40px);
+        padding-top:70px;
+    }
+
+    #structure-definitions-content {
+        float: none;
+        margin-top: -20px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    #structure-definitions h3 {
+        margin-bottom: 10px;
+    }
+
+    #structure-definitions p {
+        margin-bottom: 50px;
+    }
+
+    .corner {
+        width: 0px;
+    }
+
+    .corner:after, .corner:before {
+        width: 0px;
+        height: 0%;
+    }
+
+    .corner:before {
+        top: 0px;
+    }
+
+    .corner:after {
+        bottom: 0px;
+    }
+
+    // ------------------
+    // Instructions Section
+    // ------------------
+    #instructions-left {
+        width: calc(100% - 40px);
+    }
+
+    .instruction {
+        width: 100%;
+        height: 150px;
+    }
+
+    .instruction-text {
+        float: right;
+        width: calc(100% - 40px);
+    }
+
+    .instruction-number {
+        width: 20px;
+    }
+        
+    #instructions-body {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .section-spacing {
+        padding-top:40px;
+        margin-top: 50px;
+    }
+
+    #section-one-image {
+        background-image:
+        // linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(255, 255, 255, 0)),
+        url(../../assets/home-wallpaper2.JPG);
+        background-position: top;
+        height: 150px;
+        background-size: cover;
+        color: white;
+        border-radius: 0px;
+        direction: rtl;
+    }
+
+    #home-header {
+        color: black;
+        font-size:50px;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 60px;
+    }
+    
+    #home-subtitle {
+        color: black;
+        font-size: 20px;
+        font-weight: 300 !important;
+        width: 100%;
+    }
+    
+    .right-half {
+        float: none;
+        margin-left: 20px;
+        width: calc(100% - 40px);
+        text-align: left;
+        padding-top: 0px;
+    }
+
+    .left-half {
+        float: none;
+        margin-right: 0;
+        padding-left: 0;
+        width: 100%;
+        text-align: right;
+    }
+
+    #all-nav-buttons-container {
+        width: 100%;
+    }
+
+    #left-nav-buttons {
+        float: none;
+        width: 100%;
+    }
+
+    #right-nav-buttons {
+        float: none;
+        width: 100%;
+    }
+
+    #container-content {
+        width: 100%;
+        padding-top: 0px;
+    }
+    
+    #section-one-right-container {
+        float: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    #section1-image-container {
+       float: none;
+       width:100%;
+       max-width: auto;
+    }
+    
+    .section-one-action {
+        background-color: #eeeeee;
+        width: 100%;
+        height: 75px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;
+        -moz-transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+        transition: all .3s ease-in;
+    }
+    
+    .section-one-action-content {
+        width: 100%;
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    
+    .action-text {
+        float: left;
+        width:75%;
+        padding-right: 10px;
+        margin-top: -15px;
+        font-size: 16px;
+    }
+    
+    .circle-button {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-width: 2px;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-top: -5px;
+    }
+    .action-icon {
+        height: 30px;
+        width: 30px;
+    }
+    
+    #structure-body .section-spacing {
+        padding-top: 50px;
+    }
+
+    #structure-content {
+        width: calc(100% - 40px);
+    }
+
+    #structure-definitions {
+        width: calc(100% - 40px);
+    }
+
+    #structure-definitions-content {
+        width: 100%;
+    }
+
+    .instruction {
+        height: 250px;
+        width:100%;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .instruction {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .instruction {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:282px) {
+    #home-header {
+        font-size:42px;
+        line-height: 50px;
+    }
+
+    #home-subtitle {
+        font-size: 18px;
+    }
+
+    .action-text {
+        width:70%;
+        font-size: 14px;
+    }
+
+    #structure-definitions h3 {
+        font-size: 28px;
+    }
+
+    #structure-definitions p {
+        font-size: 16px;
+    }
+
+    .right-half {
+        width: calc(100% - 40px);
+    }
+
+    // ------------------
+    // Structure Section
+    // ------------------
+    #structure {
+        height: 100%;
+    }
+
+    #structure-content {
+        width: calc(100% - 40px);
+    }
+
+    #structure-definitions {
+        width: calc(100% - 40px);
+    }
+
+    #structure-definitions-content {
+        width: 100%;
+    }
+
+    .corner {
+        width: 0px;
+    }
+
+    .corner:after, .corner:before {
+        width: 0px;
+        height: 0%;
+    }
+
+    .corner:before {
+        top: 0px;
+    }
+
+    .corner:after {
+        bottom: 0px;
+    }
+
+    #instructions-header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #instructions-content p{
+        font-size: 16px;
+        margin-top: -2px;
+    }
+
+    .instruction {
+        height: 400px;
+    }
 }

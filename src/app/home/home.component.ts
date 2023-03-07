@@ -30,8 +30,8 @@ export class HomeComponent implements OnInit {
   }
 
   downloadFramework() {
-    window.open("/assets/CISO%20-%20TR.csv");
-    window.open("/assets/CISO%20-%20CONTROL.csv");
+    window.open("assets/CISO%20-%20TR.csv");
+    window.open("assets/CISO%20-%20CONTROL.csv");
   }
 
   scroll(el: HTMLElement) {

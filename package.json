@@ -1,5 +1,5 @@
 {
-  "name": "controls-framework",
+  "name": "SecurityControlsFramework",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -38,6 +38,7 @@
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
+    "angular-cli-ghpages": "^1.0.5",
     "eslint": "^8.18.0",
     "jasmine-core": "~3.10.0",
     "karma": "~6.3.0",

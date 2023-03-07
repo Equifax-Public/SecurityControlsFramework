@@ -93,7 +93,7 @@ export class DomainDetailsComponent implements OnInit {
     } else if (this.selected.value == 1) {
       this.downloadCSVTR();
     } else if (this.selected.value == 2) {
-      window.open("/assets/TR_Controls_Mapping.csv");
+      window.open("assets/TR_Controls_Mapping.csv");
     }
   }
 
@@ -101,7 +101,6 @@ export class DomainDetailsComponent implements OnInit {
     let data = this.dataSourceControl;
     let arrHeader = ["Domain Name", "Domain", "Control_ID", "Control_Desc", "Control_Scope", "Control_Owner", "Control_Operator", "Control_Type", "Control_Type"];
     let csvData = this.ConvertToCSV(data, arrHeader, 'CONTROL');
-    console.log(csvData)
     let blob = new Blob(['\ufeff' + csvData], { type: 'text/csv;charset=utf-8;' });
     let dwldLink = document.createElement("a");
     let url = URL.createObjectURL(blob);
@@ -121,7 +120,6 @@ export class DomainDetailsComponent implements OnInit {
     let data = this.dataSourceTR;
     let arrHeader = ["Domain Name", "Domain", "TR_ID", "Sub_TR_Order", "Sub_TR_Indent", "Sub_TR_ID", "TR_Description", "TR_Scope"];
     let csvData = this.ConvertToCSV(data, arrHeader, 'TR');
-    console.log(csvData)
     let blob = new Blob(['\ufeff' + csvData], { type: 'text/csv;charset=utf-8;' });
     let dwldLink = document.createElement("a");
     let url = URL.createObjectURL(blob);

@@ -1,3 +1,5 @@
+@import '../../breakpoints';
+
 .box {
     display: flex;
     align-items: center;
@@ -16,6 +18,15 @@
     padding-top: 100px;
     margin-left: 60px;
     width: calc(100% - 120px);
+    @media  (min-width: 0) and (max-width:  screen(xs))  {
+        margin: 0 30px;
+        width: auto;
+    }
+}
+
+.table-wrapper{
+    justify-content: left;
+    overflow-x: scroll;
 }
 
 .mat-cell {
@@ -56,12 +67,22 @@ p {
     padding-top: 0px;
 }
 
+.download-btn-wrapper{
+    display: flex;
+    flex-direction: column;
+ }
+
 .downloadSection {
     margin-right: 40px;
     position: absolute;
     right: 0;
     width:200px;
     z-index: 5;
+    @media  (min-width: 0) and (max-width:  screen(sm))  {
+        display: flex;
+        position: unset;
+        margin-bottom: 10px;
+    }
 }
 
 .action-text {

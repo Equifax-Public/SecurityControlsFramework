@@ -25,9 +25,9 @@ export class ComplianceComponent implements OnInit {
 
   downloadCSV() {
     if (this.selected.value == 0) {
-      window.open("/assets/CS_to_CIS_Mapping.csv");
+      window.open("assets/CS_to_CIS_Mapping.csv");
     } else if (this.selected.value == 1) {
-      window.open("/assets/CS_to_NIST_CSF_Mapping.csv");
+      window.open("assets/CS_to_NIST_CSF_Mapping.csv");
     }
   }
 
@@ -41,9 +41,7 @@ export class ComplianceComponent implements OnInit {
   loadDataNIST() {
     this.getJSON("CS_to_NIST_CSF_Mapping").subscribe(data => {
       var json = this.csvJSON(data, null, '"', ',')
-      console.log(json)
       this.dataSourceNIST = json;
-      
     });
   }
 

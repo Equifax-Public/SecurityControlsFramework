@@ -15,7 +15,7 @@ export class RolesService {
         {"name": "Patch Champion", "description": "A Patch Champion is typically a designated person responsible for ensuring that assets are patched in a timely manner per defined standards."},
         {"name": "Software Engineer Developer", "description": "This is a sample description."},
         {"name": "DevOps System Engineer", "description": "A System Engineer is typically responsible for designing, implementing and maintaining the information technology systems for an organization. Their duties include designing the basic computing infrastructure to accomplish key tasks, establishing networking rules for cybersecurity and troubleshooting network errors or other technical issues."},
-        {"name": "Manager of Threat Detection", "description": "A Manager or Threat Detection is typically responsible for the organization’s threat framework to prevent cyber attacks, detect cyber threats, and respond to security incidents."},
+        {"name": "Manager of Threat Detection", "description": "A Manager of Threat Detection is typically responsible for the organization’s threat framework to prevent cyber attacks, detect cyber threats, and respond to security incidents."},
         {"name": "Manager of Vulnerability Management", "description": "A Manager of Vulnerability Management is typically responsible for identifying, evaluating, treating, and reporting security vulnerabilities in systems and the software that runs on them."},
         {"name": "Director of Fraud", "description": "A Director of Fraud is typically responsible for setting fraud risk policies and driving cross-functional strategic initiatives to minimize fraud risk."},
         {"name": "VP of Risk Management", "description": "A VP of Risk Management is typically responsible for overseeing a company’s risk management framework and capabilities. This person effectively aggregates and communicates the company’s main operational risks to senior management and key governance forums."}
@@ -28,13 +28,11 @@ export class RolesService {
     addRoleDescription(name, description) {
         let role = {"name": name, "description": description};
         this.roles_descriptions.push(role);
-        console.log("updated list: " + JSON.stringify(this.roles_descriptions))
     }
 
     deleteRoleDescription(name) {
         
         for (let i = 0; i < this.roles_descriptions.length; i++) {
-            console.log(name + " compared to " + this.roles_descriptions[i].name);
             if (name == this.roles_descriptions[i].name) {
                 this.roles_descriptions.splice(i,1);
                 console.log("Deleting role: " + name)

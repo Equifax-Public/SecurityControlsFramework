@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "controls-framework": {
+    "SecurityControlsFramework": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/controls-framework",
+            "outputPath": "dist/SecurityControlsFramework",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -73,10 +73,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "controls-framework:build:production"
+              "browserTarget": "SecurityControlsFramework:build:production"
             },
             "development": {
-              "browserTarget": "controls-framework:build:development"
+              "browserTarget": "SecurityControlsFramework:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -84,7 +84,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "controls-framework:build"
+            "browserTarget": "SecurityControlsFramework:build"
           }
         },
         "test": {
@@ -114,6 +114,9 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }

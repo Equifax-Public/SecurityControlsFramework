@@ -1,0 +1,23 @@
+
+@function screen($res) {
+    @debug "screen size for media rules: #{$res}";
+    @if ($res == 'xxs') {
+        @return 360 + px;
+    } @else if ($res == 'xs'){
+        @return 590 + px;
+    } @else if ($res == 'sm'){
+        @return 990 + px;
+    } @else if ($res == 'md'){
+        @return 1024 + px;
+    } @else if ($res == 'lg'){
+        @return 1280 + px;
+    } @else if ($res == 'xl'){
+        @return 2500 + px;
+    } @else {
+        @return 590 + px;
+    }
+}
+
+@function rem($value){
+    @return calc($value / 16) + rem;
+}
