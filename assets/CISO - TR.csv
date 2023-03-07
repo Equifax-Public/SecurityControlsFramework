@@ -683,125 +683,125 @@ Human Resources,HR,HR-TR-300,3,1,HR-TR-300.3,The HR portal generates a report [I
 Human Resources,HR,HR-TR-310,0,0,,"For FedRAMP employees, The Company conducts exit interviews to ensure that terminated individuals understand the security constraints imposed by being former employees and that proper accountability is achieved for information system-related property. Security topics of interest at exit interviews are related to the employees FedRAMP specific function.",FedRAMP Extended
 Human Resources,HR,HR-TR-400,0,0,,"The Company employee onboarding procedures require new employees to acknowledge the employee handbook, code of ethics, employee confidentiality, non-competition, and non-solicitation agreements. Agreements are required to be signed prior to receiving access to information systems. ",Baseline
 Human Resources,HR,HR-TR-500,0,0,,"The Company notifies appropriate parties dependent on sanction severity during the investigations process when a sanction is being evaluated. Appropriate parties can include but are not limited to Legal, Cyber, and/or Human Resources. Timeframes of notification vary dependent on the investigation. ",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-100,0,0,,Access is assigned on a least-privileged basis and uses role-based access rights when available.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-200,0,0,,Separation of duties is considered prior to approving and granted access.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-210,0,0,,The Company designs system access entitlements to support separation of duties.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-300,0,0,,"Logs are generated and retained when an account's access to a system or application is created or removed, and when an account is disabled or deleted.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-310,0,0,,"Retains documentation and notifies upon account creation, modification, enabling, disabling, and removal actions according to Corporate Retention Requirements",Baseline
-Identiy Management & Access Controls,AC,AC-TR-400,0,0,,"Passwords are securely stored using methods approved by The Company Information Security and in accordance with industry best practices, which includes, but is not limited to hashing passwords stored online using an appropriate hashing algorithm that is not vulnerable to a collision attack together with an appropriate salting policy, or other equivalent or stronger protections.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-500,0,0,,The Company Applications that store account passwords salt and hash the passwords using a security approved hashing algorithm.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-600,0,0,,The Company does not provide password hints.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-610,0,0,,Systems obscure feedback of authentication information during the authentication process to protect the information from possible exploitation/use by unauthorized individuals.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-700,0,0,,Help messages that could aid an unauthorized login are not displayed prior to logon.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-800,0,0,,The Company employees and contractors cannot login to systems or applications that have access to Class 5 data.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-900,0,0,,A centralized Company access management system is used for Organizational User Access.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-900,1,1,AC-TR-900.1,"The system supports the request, approval, provisioning, and deprovisioning process",Baseline
-Identiy Management & Access Controls,AC,AC-TR-900,2,1,AC-TR-900.2,The system establishes functionality for approvals by an authorized party,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1000,0,0,,"Remote access systems are configured to disconnect user sessions after, at most,  [INSERT TIME FRAME].",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1100,0,0,,"Applications, servers, and workstations are configured to lock or disconnect sessions of Organizational Users after  [INSERT TIME FRAME] of inactivity and remain locked until the user reestablishes access using established identification and authentication procedures.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1110,0,0,,"System conceals, via the session lock, information previously visible on the display.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1200,0,0,,"Applications, servers, and workstations are configured to require authentication to unlock or re-establish a session.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,0,0,,The following account and credential requirements are enforced for Organizational Users:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,1,1,AC-TR-1300.1,Any of the last [INSERT #] passwords cannot be reused for an account,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,2,1,AC-TR-1300.2,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,3,1,AC-TR-1300.3,Maximum password age before expiration is [INSERT TIME FRAME],Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,4,1,AC-TR-1300.4,The Company locks accounts after  [INSERT #] failed password attempts. Lockout is for a minimum of  [INSERT TIME FRAME] or until an administrator manually unlocks the account.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,5,1,AC-TR-1300.5,Passwords must be changed at initial logon or at the first logon after the password has been reset or expired,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,6,1,AC-TR-1300.6,Re-authentication is required before password changes are permitted,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,7,1,AC-TR-1300.7,User account password length is at least  [INSERT #] characters,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1300,8,1,AC-TR-1300.8,Privileged account password length is at least  [INSERT #] characters,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1310,0,0,,"The following account and credential requirements are enforced for Organizational Users, in its FedRAMP Boundary:",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,1,1,AC-TR-1310.1,Passwords are automatically checked and restricts the last  [INSERT #] passwords from being reused for an account,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,2,1,AC-TR-1310.2,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,3,1,AC-TR-1310.3,Maximum password age before expiration is [INSERT TIME FRAME],FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,4,1,AC-TR-1310.4,Minimum password age before expiration is  [INSERT TIME FRAME],FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,5,1,AC-TR-1310.5,Passwords must be changed at initial logon or at the first logon after the password has been reset or expired,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,6,1,AC-TR-1310.6,Re-authentication is required before password changes are permitted,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,7,1,AC-TR-1310.7,User account password length is at least  [INSERT #] characters,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1310,8,1,AC-TR-1310.8,Privileged account password length is at least [INSERT #] characters,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1320,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company locks accounts after  [INSERT #] failed password attempts within  [INSERT TIME FRAME]. The lock on the account is for [INSERT TIME FRAME] ",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-1400,0,0,,The following account and credential requirements are enforced for service and process accounts:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,1,1,AC-TR-1400.1,Cryptographic key pairs can be used for authentication rather than passwords,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,2,1,AC-TR-1400.2,Password length is at least  [INSERT #] characters,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,3,1,AC-TR-1400.3,Any of the last [INSERT #] passwords cannot be reused for an account,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,4,1,AC-TR-1400.4,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,5,1,AC-TR-1400.5,Maximum password age before expiration is  [INSERT TIME FRAME] for organizational service accounts,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,6,1,AC-TR-1400.6,Maximum password age before expiration is  [INSERT TIME FRAME] for customer service accounts,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,7,1,AC-TR-1400.7,Service accounts must be unique to each service or application,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,8,1,AC-TR-1400.8,Passwords must be unique for each service account,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1400,9,1,AC-TR-1400.9,Customer service accounts must be unique for each customer,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1500,0,0,,"Organizational privileged users are assigned unique privileged accounts. Non-privileged users are prevented from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1600,0,0,,Organizational privileged accounts are only shared when the account is managed by an approved Privileged Access Management (PAM) system.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1610,0,0,,Shared/group account credentials are reissued when members leave the group.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1620,0,0,,The organization only permits the use of shared/group accounts when technical limitations prevent the use of unique user accounts.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1700,0,0,,Organizational privileged accounts are used only when required to perform a privileged function. All other actions should use a non-privileged account.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1710,0,0,,The Company explicitly authorizes access to perform privileged security functions.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-1800,0,0,,"Privileged account passwords to The Company systems are stored within an The Company-approved password vault or managed using an The Company-approved privileged access management (PAM) system, or similar.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-1900,0,0,,Enterprise User Accounts are only created after required screening has been performed in accordance with the Technical Requirements. Account information is provided to the user by a manager or designee upon onboarding.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2000,0,0,,Organizational Users Accounts are created according to the following naming standards:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2000,1,1,AC-TR-2000.1,Unique accounts are assigned to each user after verification,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2000,2,1,AC-TR-2000.2,User IDs are not reused,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2000,3,1,AC-TR-2000.3,User IDs do not contain Social Security Numbers (SSNs),Baseline
-Identiy Management & Access Controls,AC,AC-TR-2010,0,0,,"For The Company systems deployed in its FedRAMP boundaries, User identities for Employees, Contingent workers, and Foreign Nationals identify them as such.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-2100,0,0,,Access for organization users is reviewed according to the following:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,1,1,AC-TR-2100.1,Entitlement Owners or Employee Managers review user access rights  [INSERT TIME FRAME],Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,2,1,AC-TR-2100.2,"Managers, application owners, and/or system owners review user access rights  [INSERT TIME FRAME]",Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,3,1,AC-TR-2100.3,Managers review user access rights within  [INSERT TIME FRAME] from the date change to the user's job function,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,4,1,AC-TR-2100.4,Access recertification approvers confirm access remains commensurate with the individuals' job responsibilities and requests modification or revocation of access,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,5,1,AC-TR-2100.5,"Privileged user access certifications, which include review of access entitlements, are performed by the user's manager and system or entitlement owner at least every  [INSERT TIME FRAME]",Baseline
-Identiy Management & Access Controls,AC,AC-TR-2100,6,1,AC-TR-2100.6,Privileged user access requests and evidence of approval are recorded and retained in accordance with The Company Record Retention Policy,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2200,0,0,,"Access to The Company network, systems, and applications for Organizational Users is disabled or removed within  [INSERT TIME FRAME] of a user being terminated within the HRIS or Identity and Access Management receiving a request from an authorized party.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-2210,0,0,,"Access to The Company network, systems, and applications for Organizational Users in its FedRAMP boundary, is disabled automatically within  [INSERT TIME FRAME] of a user being terminated within the HRIS or Identity and Access Management receiving a request from an authorized party.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-2300,0,0,,"Contingent worker's enterprise user account access to The Company network is revoked in accordance with their contract, but no more than  [INSERT TIME FRAME] after the contract end date.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-2310,0,0,,"Contingent workers enterprise user accounts in its FedRAMP boundary, access to The Company network is automatically disabled in accordance with their contract, within the same day of contract end date.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-2400,0,0,,Enterprise User Accounts are disabled after  [INSERT TIME FRAME] of inactivity and are removed after  [INSERT TIME FRAME] of disablement.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2410,,,,"For The Company systems deployed in its FedRAMP boundaries, all federal entitlements are removed after 90 days of inactivity, thereby reverting the organizational user account type to a non-federal account, disabling and removing access to the FedRAMP boundary.  ",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-2500,0,0,,Privileged access for Organizational Users is removed or disabled within  [INSERT TIME FRAME] of a user no longer requiring access.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2510,0,0,,Privileged access for Organizational Users in its FedRAMP boundary is disabled the same day of a user no longer requiring access.,FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-2600,0,0,,Multi-factor authentication is required for the following access types:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,1,1,AC-TR-2600.1,"Remote access to The Company network, including remote access VPN and virtual desktop infrastructure",Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,2,1,AC-TR-2600.2,Non-console administrative access,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,3,1,AC-TR-2600.3,Access to systems that have access to Class 5 information not in a restricted environment,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,4,1,AC-TR-2600.4,Administrative access to public cloud consoles,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,5,1,AC-TR-2600.5,Privileged account access to public cloud environments,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,6,1,AC-TR-2600.6,Account access to public cloud environments,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2600,7,1,AC-TR-2600.7,Access to Bastion hosts,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2700,0,0,,Multi-factor authentication configurations for Organizational User access include authentication against an approved The Company authentication directory and an approved second factor authentication system,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2800,0,0,,Multi-factor authentication configurations for Organizational User access include using a one-time password generated on a hardware or mobile device. Software-based one-time password tokens and email or SMS delivered one-time passwords may be used for approved business cases.  ,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2810,0,0,,The Company multifactor authentication tokens for remote access are provided by a device separate from the system gaining access.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-2900,0,0,,"Authentication tokens used as part of multi-factor authentication are replay resistant, unique to a single user and are never shared. Multi-factor authentication tokens timeout within [INSERT TIME FRAME]",Baseline
-Identiy Management & Access Controls,AC,AC-TR-3000,0,0,,Organizational Users report lost or stolen hardware tokens to the Help Desk as soon as practicable.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3010,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company requires that the registration process to receive hardware multifactor authenticators be conducted in person or by a trusted third-party before an approved registration authority with authorization by the Identity and Access Management team.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-3100,0,0,,Customer User Accounts are created upon request by the customer after the business relationship has been formally established.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3200,0,0,,Customer User Accounts are disabled or removed upon request by the customer or when the customer business relationship has been terminated.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3300,0,0,,A Customer User Account is granted or modified for a customer after approval has been provided by an authorized party.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3400,0,0,,The Company permits customers to manage their user(s) access where designated in the contract/agreement.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3500,0,0,,Customer Accounts are disabled or removed within  [INSERT TIME FRAME] of an authorized request.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3600,0,0,,"Upon termination of the relationship between The Company and a customer, application and network access is revoked.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,0,0,,The following security requirements are enforced for Customer User Accounts,Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,1,1,AC-TR-3700.1,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,2,1,AC-TR-3700.2,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,3,1,AC-TR-3700.3,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,4,1,AC-TR-3700.4,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,5,1,AC-TR-3700.5,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,6,1,AC-TR-3700.6,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,7,1,AC-TR-3700.7,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3700,8,1,AC-TR-3700.8,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3710,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-3800,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-3900,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identiy Management & Access Controls,AC,AC-TR-4000,0,0,,Consumers must be identified based on information additional to the customer's name and social security number prior to the account being created or granted access to personal information.,Baseline
-Identiy Management & Access Controls,AC,AC-TR-4100,0,0,,"Consumer Accounts are disabled by The Company within  [INSERT TIME FRAME] when required by contract, law, regulation, upon authorized request, or at the end of the subscription period.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-4200,0,0,,"Where technically feasible, applications require two-factor authentication, step-up authentication, or an equal or greater authentication control for access to consumer accounts.",Baseline
-Identiy Management & Access Controls,AC,AC-TR-4300,0,0,,Applications implement rate-limiting mechanisms that inhibit brute force attacks against customer and consumer accounts where authentication is permitted over the internet. Methods for inhibiting these attacks may include:,Baseline
-Identiy Management & Access Controls,AC,AC-TR-4300,1,1,AC-TR-4300.1,Requiring the user to complete a CAPTCHA before attempting authentication,Baseline
-Identiy Management & Access Controls,AC,AC-TR-4300,2,2,AC-TR-4300.1.1,Locking the account temporarily,Baseline
-Identiy Management & Access Controls,AC,AC-TR-4300,3,2,AC-TR-4300.1.2,Accepting only authentication requests that come from an IP address from which the user has previously successfully authenticated,Baseline
-Identiy Management & Access Controls,AC,AC-TR-4400,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company systems accept and electronically verify Personal Identity Verification (PIV) credentials from federal agencies using approved single sign-on integration methods.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-4500,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company systems accept FICAM-approved consumer credentials where appropriate.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-4600,,,,"For The Company systems deployed in its FedRAMP boundaries, The Company vaults emergency accounts credentials and leverages MFA to grant access. ",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-4700,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company does not use temporary accounts for access to its public cloud environments.",FedRAMP Extended
-Identiy Management & Access Controls,AC,AC-TR-4800,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company limits the number of concurrent sessions for each privileged account to  [INSERT #] sessions. ",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-100,0,0,,Access is assigned on a least-privileged basis and uses role-based access rights when available.,Baseline
+Identity Management and Access Controls,AC,AC-TR-200,0,0,,Separation of duties is considered prior to approving and granted access.,Baseline
+Identity Management and Access Controls,AC,AC-TR-210,0,0,,The Company designs system access entitlements to support separation of duties.,Baseline
+Identity Management and Access Controls,AC,AC-TR-300,0,0,,"Logs are generated and retained when an account's access to a system or application is created or removed, and when an account is disabled or deleted.",Baseline
+Identity Management and Access Controls,AC,AC-TR-310,0,0,,"Retains documentation and notifies upon account creation, modification, enabling, disabling, and removal actions according to Corporate Retention Requirements",Baseline
+Identity Management and Access Controls,AC,AC-TR-400,0,0,,"Passwords are securely stored using methods approved by The Company Information Security and in accordance with industry best practices, which includes, but is not limited to hashing passwords stored online using an appropriate hashing algorithm that is not vulnerable to a collision attack together with an appropriate salting policy, or other equivalent or stronger protections.",Baseline
+Identity Management and Access Controls,AC,AC-TR-500,0,0,,The Company Applications that store account passwords salt and hash the passwords using a security approved hashing algorithm.,Baseline
+Identity Management and Access Controls,AC,AC-TR-600,0,0,,The Company does not provide password hints.,Baseline
+Identity Management and Access Controls,AC,AC-TR-610,0,0,,Systems obscure feedback of authentication information during the authentication process to protect the information from possible exploitation/use by unauthorized individuals.,Baseline
+Identity Management and Access Controls,AC,AC-TR-700,0,0,,Help messages that could aid an unauthorized login are not displayed prior to logon.,Baseline
+Identity Management and Access Controls,AC,AC-TR-800,0,0,,The Company employees and contractors cannot login to systems or applications that have access to Class 5 data.,Baseline
+Identity Management and Access Controls,AC,AC-TR-900,0,0,,A centralized Company access management system is used for Organizational User Access.,Baseline
+Identity Management and Access Controls,AC,AC-TR-900,1,1,AC-TR-900.1,"The system supports the request, approval, provisioning, and deprovisioning process",Baseline
+Identity Management and Access Controls,AC,AC-TR-900,2,1,AC-TR-900.2,The system establishes functionality for approvals by an authorized party,Baseline
+Identity Management and Access Controls,AC,AC-TR-1000,0,0,,"Remote access systems are configured to disconnect user sessions after, at most,  [INSERT TIME FRAME].",Baseline
+Identity Management and Access Controls,AC,AC-TR-1100,0,0,,"Applications, servers, and workstations are configured to lock or disconnect sessions of Organizational Users after  [INSERT TIME FRAME] of inactivity and remain locked until the user reestablishes access using established identification and authentication procedures.",Baseline
+Identity Management and Access Controls,AC,AC-TR-1110,0,0,,"System conceals, via the session lock, information previously visible on the display.",Baseline
+Identity Management and Access Controls,AC,AC-TR-1200,0,0,,"Applications, servers, and workstations are configured to require authentication to unlock or re-establish a session.",Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,0,0,,The following account and credential requirements are enforced for Organizational Users:,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,1,1,AC-TR-1300.1,Any of the last [INSERT #] passwords cannot be reused for an account,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,2,1,AC-TR-1300.2,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,3,1,AC-TR-1300.3,Maximum password age before expiration is [INSERT TIME FRAME],Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,4,1,AC-TR-1300.4,The Company locks accounts after  [INSERT #] failed password attempts. Lockout is for a minimum of  [INSERT TIME FRAME] or until an administrator manually unlocks the account.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,5,1,AC-TR-1300.5,Passwords must be changed at initial logon or at the first logon after the password has been reset or expired,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,6,1,AC-TR-1300.6,Re-authentication is required before password changes are permitted,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,7,1,AC-TR-1300.7,User account password length is at least  [INSERT #] characters,Baseline
+Identity Management and Access Controls,AC,AC-TR-1300,8,1,AC-TR-1300.8,Privileged account password length is at least  [INSERT #] characters,Baseline
+Identity Management and Access Controls,AC,AC-TR-1310,0,0,,"The following account and credential requirements are enforced for Organizational Users, in its FedRAMP Boundary:",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,1,1,AC-TR-1310.1,Passwords are automatically checked and restricts the last  [INSERT #] passwords from being reused for an account,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,2,1,AC-TR-1310.2,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,3,1,AC-TR-1310.3,Maximum password age before expiration is [INSERT TIME FRAME],FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,4,1,AC-TR-1310.4,Minimum password age before expiration is  [INSERT TIME FRAME],FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,5,1,AC-TR-1310.5,Passwords must be changed at initial logon or at the first logon after the password has been reset or expired,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,6,1,AC-TR-1310.6,Re-authentication is required before password changes are permitted,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,7,1,AC-TR-1310.7,User account password length is at least  [INSERT #] characters,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1310,8,1,AC-TR-1310.8,Privileged account password length is at least [INSERT #] characters,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1320,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company locks accounts after  [INSERT #] failed password attempts within  [INSERT TIME FRAME]. The lock on the account is for [INSERT TIME FRAME] ",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-1400,0,0,,The following account and credential requirements are enforced for service and process accounts:,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,1,1,AC-TR-1400.1,Cryptographic key pairs can be used for authentication rather than passwords,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,2,1,AC-TR-1400.2,Password length is at least  [INSERT #] characters,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,3,1,AC-TR-1400.3,Any of the last [INSERT #] passwords cannot be reused for an account,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,4,1,AC-TR-1400.4,"Passwords must contain  [INSERT #] of the following: upper case, lower case, special character, number",Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,5,1,AC-TR-1400.5,Maximum password age before expiration is  [INSERT TIME FRAME] for organizational service accounts,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,6,1,AC-TR-1400.6,Maximum password age before expiration is  [INSERT TIME FRAME] for customer service accounts,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,7,1,AC-TR-1400.7,Service accounts must be unique to each service or application,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,8,1,AC-TR-1400.8,Passwords must be unique for each service account,Baseline
+Identity Management and Access Controls,AC,AC-TR-1400,9,1,AC-TR-1400.9,Customer service accounts must be unique for each customer,Baseline
+Identity Management and Access Controls,AC,AC-TR-1500,0,0,,"Organizational privileged users are assigned unique privileged accounts. Non-privileged users are prevented from executing privileged functions to include disabling, circumventing, or altering implemented security safeguards/countermeasures.",Baseline
+Identity Management and Access Controls,AC,AC-TR-1600,0,0,,Organizational privileged accounts are only shared when the account is managed by an approved Privileged Access Management (PAM) system.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1610,0,0,,Shared/group account credentials are reissued when members leave the group.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1620,0,0,,The organization only permits the use of shared/group accounts when technical limitations prevent the use of unique user accounts.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1700,0,0,,Organizational privileged accounts are used only when required to perform a privileged function. All other actions should use a non-privileged account.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1710,0,0,,The Company explicitly authorizes access to perform privileged security functions.,Baseline
+Identity Management and Access Controls,AC,AC-TR-1800,0,0,,"Privileged account passwords to The Company systems are stored within an The Company-approved password vault or managed using an The Company-approved privileged access management (PAM) system, or similar.",Baseline
+Identity Management and Access Controls,AC,AC-TR-1900,0,0,,Enterprise User Accounts are only created after required screening has been performed in accordance with the Technical Requirements. Account information is provided to the user by a manager or designee upon onboarding.,Baseline
+Identity Management and Access Controls,AC,AC-TR-2000,0,0,,Organizational Users Accounts are created according to the following naming standards:,Baseline
+Identity Management and Access Controls,AC,AC-TR-2000,1,1,AC-TR-2000.1,Unique accounts are assigned to each user after verification,Baseline
+Identity Management and Access Controls,AC,AC-TR-2000,2,1,AC-TR-2000.2,User IDs are not reused,Baseline
+Identity Management and Access Controls,AC,AC-TR-2000,3,1,AC-TR-2000.3,User IDs do not contain Social Security Numbers (SSNs),Baseline
+Identity Management and Access Controls,AC,AC-TR-2010,0,0,,"For The Company systems deployed in its FedRAMP boundaries, User identities for Employees, Contingent workers, and Foreign Nationals identify them as such.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-2100,0,0,,Access for organization users is reviewed according to the following:,Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,1,1,AC-TR-2100.1,Entitlement Owners or Employee Managers review user access rights  [INSERT TIME FRAME],Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,2,1,AC-TR-2100.2,"Managers, application owners, and/or system owners review user access rights  [INSERT TIME FRAME]",Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,3,1,AC-TR-2100.3,Managers review user access rights within  [INSERT TIME FRAME] from the date change to the user's job function,Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,4,1,AC-TR-2100.4,Access recertification approvers confirm access remains commensurate with the individuals' job responsibilities and requests modification or revocation of access,Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,5,1,AC-TR-2100.5,"Privileged user access certifications, which include review of access entitlements, are performed by the user's manager and system or entitlement owner at least every  [INSERT TIME FRAME]",Baseline
+Identity Management and Access Controls,AC,AC-TR-2100,6,1,AC-TR-2100.6,Privileged user access requests and evidence of approval are recorded and retained in accordance with The Company Record Retention Policy,Baseline
+Identity Management and Access Controls,AC,AC-TR-2200,0,0,,"Access to The Company network, systems, and applications for Organizational Users is disabled or removed within  [INSERT TIME FRAME] of a user being terminated within the HRIS or Identity and Access Management receiving a request from an authorized party.",Baseline
+Identity Management and Access Controls,AC,AC-TR-2210,0,0,,"Access to The Company network, systems, and applications for Organizational Users in its FedRAMP boundary, is disabled automatically within  [INSERT TIME FRAME] of a user being terminated within the HRIS or Identity and Access Management receiving a request from an authorized party.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-2300,0,0,,"Contingent worker's enterprise user account access to The Company network is revoked in accordance with their contract, but no more than  [INSERT TIME FRAME] after the contract end date.",Baseline
+Identity Management and Access Controls,AC,AC-TR-2310,0,0,,"Contingent workers enterprise user accounts in its FedRAMP boundary, access to The Company network is automatically disabled in accordance with their contract, within the same day of contract end date.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-2400,0,0,,Enterprise User Accounts are disabled after  [INSERT TIME FRAME] of inactivity and are removed after  [INSERT TIME FRAME] of disablement.,Baseline
+Identity Management and Access Controls,AC,AC-TR-2410,,,,"For The Company systems deployed in its FedRAMP boundaries, all federal entitlements are removed after 90 days of inactivity, thereby reverting the organizational user account type to a non-federal account, disabling and removing access to the FedRAMP boundary.  ",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-2500,0,0,,Privileged access for Organizational Users is removed or disabled within  [INSERT TIME FRAME] of a user no longer requiring access.,Baseline
+Identity Management and Access Controls,AC,AC-TR-2510,0,0,,Privileged access for Organizational Users in its FedRAMP boundary is disabled the same day of a user no longer requiring access.,FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-2600,0,0,,Multi-factor authentication is required for the following access types:,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,1,1,AC-TR-2600.1,"Remote access to The Company network, including remote access VPN and virtual desktop infrastructure",Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,2,1,AC-TR-2600.2,Non-console administrative access,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,3,1,AC-TR-2600.3,Access to systems that have access to Class 5 information not in a restricted environment,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,4,1,AC-TR-2600.4,Administrative access to public cloud consoles,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,5,1,AC-TR-2600.5,Privileged account access to public cloud environments,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,6,1,AC-TR-2600.6,Account access to public cloud environments,Baseline
+Identity Management and Access Controls,AC,AC-TR-2600,7,1,AC-TR-2600.7,Access to Bastion hosts,Baseline
+Identity Management and Access Controls,AC,AC-TR-2700,0,0,,Multi-factor authentication configurations for Organizational User access include authentication against an approved The Company authentication directory and an approved second factor authentication system,Baseline
+Identity Management and Access Controls,AC,AC-TR-2800,0,0,,Multi-factor authentication configurations for Organizational User access include using a one-time password generated on a hardware or mobile device. Software-based one-time password tokens and email or SMS delivered one-time passwords may be used for approved business cases.  ,Baseline
+Identity Management and Access Controls,AC,AC-TR-2810,0,0,,The Company multifactor authentication tokens for remote access are provided by a device separate from the system gaining access.,Baseline
+Identity Management and Access Controls,AC,AC-TR-2900,0,0,,"Authentication tokens used as part of multi-factor authentication are replay resistant, unique to a single user and are never shared. Multi-factor authentication tokens timeout within [INSERT TIME FRAME]",Baseline
+Identity Management and Access Controls,AC,AC-TR-3000,0,0,,Organizational Users report lost or stolen hardware tokens to the Help Desk as soon as practicable.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3010,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company requires that the registration process to receive hardware multifactor authenticators be conducted in person or by a trusted third-party before an approved registration authority with authorization by the Identity and Access Management team.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-3100,0,0,,Customer User Accounts are created upon request by the customer after the business relationship has been formally established.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3200,0,0,,Customer User Accounts are disabled or removed upon request by the customer or when the customer business relationship has been terminated.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3300,0,0,,A Customer User Account is granted or modified for a customer after approval has been provided by an authorized party.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3400,0,0,,The Company permits customers to manage their user(s) access where designated in the contract/agreement.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3500,0,0,,Customer Accounts are disabled or removed within  [INSERT TIME FRAME] of an authorized request.,Baseline
+Identity Management and Access Controls,AC,AC-TR-3600,0,0,,"Upon termination of the relationship between The Company and a customer, application and network access is revoked.",Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,0,0,,The following security requirements are enforced for Customer User Accounts,Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,1,1,AC-TR-3700.1,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,2,1,AC-TR-3700.2,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,3,1,AC-TR-3700.3,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,4,1,AC-TR-3700.4,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,5,1,AC-TR-3700.5,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,6,1,AC-TR-3700.6,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,7,1,AC-TR-3700.7,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3700,8,1,AC-TR-3700.8,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3710,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-3800,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3900,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-4000,0,0,,Consumers must be identified based on information additional to the customer's name and social security number prior to the account being created or granted access to personal information.,Baseline
+Identity Management and Access Controls,AC,AC-TR-4100,0,0,,"Consumer Accounts are disabled by The Company within  [INSERT TIME FRAME] when required by contract, law, regulation, upon authorized request, or at the end of the subscription period.",Baseline
+Identity Management and Access Controls,AC,AC-TR-4200,0,0,,"Where technically feasible, applications require two-factor authentication, step-up authentication, or an equal or greater authentication control for access to consumer accounts.",Baseline
+Identity Management and Access Controls,AC,AC-TR-4300,0,0,,Applications implement rate-limiting mechanisms that inhibit brute force attacks against customer and consumer accounts where authentication is permitted over the internet. Methods for inhibiting these attacks may include:,Baseline
+Identity Management and Access Controls,AC,AC-TR-4300,1,1,AC-TR-4300.1,Requiring the user to complete a CAPTCHA before attempting authentication,Baseline
+Identity Management and Access Controls,AC,AC-TR-4300,2,2,AC-TR-4300.1.1,Locking the account temporarily,Baseline
+Identity Management and Access Controls,AC,AC-TR-4300,3,2,AC-TR-4300.1.2,Accepting only authentication requests that come from an IP address from which the user has previously successfully authenticated,Baseline
+Identity Management and Access Controls,AC,AC-TR-4400,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company systems accept and electronically verify Personal Identity Verification (PIV) credentials from federal agencies using approved single sign-on integration methods.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-4500,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company systems accept FICAM-approved consumer credentials where appropriate.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-4600,,,,"For The Company systems deployed in its FedRAMP boundaries, The Company vaults emergency accounts credentials and leverages MFA to grant access. ",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-4700,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company does not use temporary accounts for access to its public cloud environments.",FedRAMP Extended
+Identity Management and Access Controls,AC,AC-TR-4800,0,0,,"For The Company systems deployed in its FedRAMP boundaries, The Company limits the number of concurrent sessions for each privileged account to  [INSERT #] sessions. ",FedRAMP Extended
 Incident Response Planning,IR,IR-TR-100,0,0,,Incident response plans contain operational information and activities on:,Baseline
 Incident Response Planning,IR,IR-TR-100,1,1,IR-TR-100.1,The structure and organization of the incident response capability,Baseline
 Incident Response Planning,IR,IR-TR-100,2,1,IR-TR-100.2,Overall incident response process,Baseline

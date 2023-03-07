@@ -62,23 +62,23 @@ Human Resources ,HR,HR-CS-2,Background and drug screening is performed on contra
 Human Resources ,HR,HR-CS-3,The Company maintains worker termination procedures which are required to be initiated in the appropriate HR portal within [INSERT NUMBER] hours of termination date.,Baseline,,,Enterprise,Administrative
 Human Resources ,HR,HR-CS-4,The Company employees complete onboarding procedures prior to the employee's start date.,Baseline,,,Enterprise,Administrative
 Human Resources ,HR,HR-CS-5,"For The Company systems deployed, The Company maintains a Sanctions Process that is a two-tier administrative process and is designed to evaluate allegations. ",FedRAMP Extended,,,Enterprise,Administrative
-Identity Management & Access Controls ,AC,AC-CS-1,Enterprise User Accounts are provisioned when an approved request has been documented.,Baseline,,,Enterprise,Administrative
-Identity Management & Access Controls ,AC,AC-CS-2,Organizational Users are only provisioned with system and application access when an approved request has been documented.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-3,Privileged accounts for Organizational Users are provisioned when an approved request has been documented.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-4,"Organizational User accounts that are managed by an Enterprise Directory Service are disabled or deleted when no longer necessary, upon termination, or upon notification from an authorized party.",Baseline,,,Enterprise,Technical
-Identity Management & Access Controls ,AC,AC-CS-5,"Organizational User accounts that are not managed by an Enterprise Directory Service are disabled or deleted when no longer necessary, upon termination, or upon notification from an authorized party.",Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-6,The Company enforces security requirements for Organizational User accounts and credentials that are managed by an Enterprise Directory Service.,Baseline,,,Enterprise,Technical
-Identity Management & Access Controls ,AC,AC-CS-7,The Company enforces security requirements for Organizational User accounts and credentials that are not managed by an Enterprise Directory Service.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-8,The Company requires multi-factor authentication for remote network access.,Baseline,,,Enterprise,Technical
-Identity Management & Access Controls ,AC,AC-CS-9,The Company requires multi-factor authentication based on the risk associated with the type of account and access.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-10,[INSERT USER TYPE] access is certified by appropriate management on a [INSERT TIME FRAME] basis.,Baseline,,,System Specific,Administrative
-Identity Management & Access Controls ,AC,AC-CS-11,[INSERT USER TYPE] creation is permitted when appropriate approvals are obtained.,Baseline,,,System Specific,Administrative
-Identity Management & Access Controls ,AC,AC-CS-12,[INSERT USER TYPE] and access are provisioned by an authorized party.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-13,[INSERT USER TYPE] access is removed or disabled upon notification from an authorized party.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-14,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-15,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-16,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
-Identity Management & Access Controls ,AC,AC-CS-17,Consumers are properly identified before a [INSERT USER TYPE] is created.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-1,Enterprise User Accounts are provisioned when an approved request has been documented.,Baseline,,,Enterprise,Administrative
+Identity Management and Access Controls,AC,AC-CS-2,Organizational Users are only provisioned with system and application access when an approved request has been documented.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-3,Privileged accounts for Organizational Users are provisioned when an approved request has been documented.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-4,"Organizational User accounts that are managed by an Enterprise Directory Service are disabled or deleted when no longer necessary, upon termination, or upon notification from an authorized party.",Baseline,,,Enterprise,Technical
+Identity Management and Access Controls,AC,AC-CS-5,"Organizational User accounts that are not managed by an Enterprise Directory Service are disabled or deleted when no longer necessary, upon termination, or upon notification from an authorized party.",Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-6,The Company enforces security requirements for Organizational User accounts and credentials that are managed by an Enterprise Directory Service.,Baseline,,,Enterprise,Technical
+Identity Management and Access Controls,AC,AC-CS-7,The Company enforces security requirements for Organizational User accounts and credentials that are not managed by an Enterprise Directory Service.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-8,The Company requires multi-factor authentication for remote network access.,Baseline,,,Enterprise,Technical
+Identity Management and Access Controls,AC,AC-CS-9,The Company requires multi-factor authentication based on the risk associated with the type of account and access.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-10,[INSERT USER TYPE] access is certified by appropriate management on a [INSERT TIME FRAME] basis.,Baseline,,,System Specific,Administrative
+Identity Management and Access Controls,AC,AC-CS-11,[INSERT USER TYPE] creation is permitted when appropriate approvals are obtained.,Baseline,,,System Specific,Administrative
+Identity Management and Access Controls,AC,AC-CS-12,[INSERT USER TYPE] and access are provisioned by an authorized party.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-13,[INSERT USER TYPE] access is removed or disabled upon notification from an authorized party.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-14,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-15,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-16,Security requirements for [INSERT USER TYPE] and credentials are enforced.,Baseline,,,System Specific,Technical
+Identity Management and Access Controls,AC,AC-CS-17,Consumers are properly identified before a [INSERT USER TYPE] is created.,Baseline,,,System Specific,Technical
 Incident Response Planning,IR,IR-CS-1,The Company maintains operational plans for incident response and recovery activities. ,Baseline,,,Enterprise,Administrative
 Incident Response Planning,IR,IR-CS-2,The Company responds to security incidents in accordance with documented procedures and tracks response activities through resolution. ,Baseline,,,Enterprise,Technical
 Incident Response Planning,IR,IR-CS-3,The Company tests its security incident response capability biannually and updates its plans as needed. ,Baseline,,,Enterprise,Technical
