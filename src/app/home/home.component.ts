@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   }
 
   goToAllTr() {
-    this.router.navigateByUrl('/roles/CISO');
+    this.router.navigateByUrl('/roles/Full Framework');
   }
 
   goToDomains() {

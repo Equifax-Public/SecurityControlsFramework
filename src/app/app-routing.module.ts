@@ -36,6 +36,10 @@ const routes: Routes = [
     component: RoleDetailsComponent
   },
   {
+    path: 'roles/:Full Framework',
+    component: RoleDetailsComponent
+  },
+  {
     path: 'compliance',
     component: ComplianceComponent
   },
@@ -52,7 +56,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

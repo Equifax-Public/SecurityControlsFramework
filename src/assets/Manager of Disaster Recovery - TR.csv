@@ -128,7 +128,7 @@ Configuration Controls,CC,CC-TR-100,1,1,CC-TR-100.1,Latest operating system is i
 Configuration Controls,CC,CC-TR-100,2,1,CC-TR-100.2,Systems are configured according to required configuration.,Baseline
 Configuration Controls,CC,CC-TR-100,3,1,CC-TR-100.3,Monitoring and security management software/agents are installed.,Baseline
 Configuration Controls,CC,CC-TR-200,0,0,,"Prior to being made available to application teams, servers are configured as follows:",Baseline
-Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,An The Company approved operating system release is installed.,Baseline
+Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,The Company approved operating system release is installed.,Baseline
 Configuration Controls,CC,CC-TR-200,2,1,CC-TR-200.2,The Company approved software patches are installed.,Baseline
 Configuration Controls,CC,CC-TR-200,3,1,CC-TR-200.3,Security agents and software are loaded as defined in Technical Requirements,Baseline
 Configuration Controls,CC,CC-TR-200,4,1,CC-TR-200.4,Systems are configured according to the approved baseline,Baseline

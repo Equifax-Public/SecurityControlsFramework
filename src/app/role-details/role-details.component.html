@@ -1,6 +1,8 @@
 <app-header-navigation></app-header-navigation>
 <div id="content">
-  <button id="back-button" mat-flat-button color="primary" (click)="back()">Back to Roles</button>
+  <div id="back-container">
+    <button *ngIf="roleTitle != 'Full Framework'" id="back-button" mat-flat-button color="primary" (click)="back()">Back to Roles</button>
+  </div>
   <h2 id="role-title">{{roleTitle}}</h2>
   <div class="download-btn-wrapper">
     <div class="downloadSection">
@@ -14,19 +16,19 @@
           <table mat-table [dataSource]="dataSourceControl">
             <!-- Name Column -->
             <ng-container matColumnDef="Domain_Name">
-                <th mat-header-cell *matHeaderCellDef style="width: 144px !important;" class="small-screen-no-show"> Domain Name </th>
+                <th mat-header-cell *matHeaderCellDef style="width: 10% !important;" class="small-screen-no-show"> Domain Name </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element['Domain Name']}} </td>
             </ng-container>
 
               <!-- Domain Column -->
             <ng-container matColumnDef="Domain">
-                <th mat-header-cell *matHeaderCellDef style="width: 75px !important;" class="small-screen-no-show"> Domain </th>
+                <th mat-header-cell *matHeaderCellDef style="width: 5% !important;" class="small-screen-no-show"> Domain </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Domain}} </td>
             </ng-container>
           
             <!-- Control ID Column -->
             <ng-container matColumnDef="Control_ID">
-              <th mat-header-cell *matHeaderCellDef style="width: 100px !important;"> Control ID </th>
+              <th mat-header-cell *matHeaderCellDef style="width: 7% !important; min-width: 100px;"> Control ID </th>
               <td mat-cell *matCellDef="let element"> {{element.Control_ID}} </td>
             </ng-container>
           
@@ -38,29 +40,29 @@
 
             <!-- Control Scope Column -->
             <ng-container matColumnDef="Control_Scope">
-                <th mat-header-cell *matHeaderCellDef style="width: 100px !important;" class="small-screen-no-show"> Control Scope </th>
+                <th mat-header-cell *matHeaderCellDef style="width: 10% !important;" class="small-screen-no-show"> Control Scope </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Control_Scope}} </td>
             </ng-container>
           
             <!-- Control Owner Column -->
             <ng-container matColumnDef="Control_Owner">
-              <th mat-header-cell *matHeaderCellDef style="width: 100px !important; padding-right: 10px;" class="small-screen-no-show"> Control Owner </th>
+              <th mat-header-cell *matHeaderCellDef style="width: 7% !important; padding-right: 10px;" class="small-screen-no-show"> Control Owner </th>
               <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Control_Owner}} </td>
             </ng-container>
 
             <!-- Control Operator Column -->
             <ng-container matColumnDef="Control_Operator">
-                <th mat-header-cell *matHeaderCellDef style="width: 50px; padding-right:15px !important;" class="small-screen-no-show"> Operator </th>
+                <th mat-header-cell *matHeaderCellDef style="width: 7%; padding-right:15px !important;" class="small-screen-no-show"> Operator </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Control_Operator}} </td>
             </ng-container>
 
               <!-- Control Type Column -->
             <ng-container matColumnDef="Control_Type">
-                <th mat-header-cell *matHeaderCellDef style="width:50px !important;" class="small-screen-no-show"> Type </th>
+                <th mat-header-cell *matHeaderCellDef style="width:5% !important;" class="small-screen-no-show"> Type </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Control_Type}} </td>
             </ng-container>
 
-              <!-- Control Type Column (data needs edited prior to this loading)-->
+              <!-- Control Type Column -->
             <ng-container matColumnDef="Control_Type2">
                 <th mat-header-cell *matHeaderCellDef class="small-screen-no-show"> Control Type2 </th>
                 <td mat-cell *matCellDef="let element" class="small-screen-no-show"> {{element.Control_Type2}} </td>

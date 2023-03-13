@@ -35,6 +35,10 @@ export class RoleDetailsComponent implements OnInit {
   }
 
   loadDataControl(roleTitle: any) {
+    if (roleTitle == "Full Framework") {
+      roleTitle = "CISO";
+    };
+
     this.getJSON(roleTitle + " - CONTROL").subscribe(data => {
       var json = this.csvJSON(data, null, '"', ',')
       this.dataSourceControl = json;
@@ -43,6 +47,10 @@ export class RoleDetailsComponent implements OnInit {
   }
 
   loadDataTR(roleTitle: any) {
+    if (roleTitle == "Full Framework") {
+      roleTitle = "CISO";
+    };
+
     this.getJSON(roleTitle + " - TR").subscribe(data => {
       var json = this.csvJSON(data, null, '"', ',')
       this.dataSourceTR = json;
@@ -79,10 +87,14 @@ export class RoleDetailsComponent implements OnInit {
   }
 
   downloadCSV() {
+    let title = this.roleTitle;
+    if (title == "Full Framework") {
+      title = "CISO";
+    }
     if (this.selected.value == 0) {
-      window.open("assets/" + this.roleTitle + "%20-%20CONTROL.csv");
+      window.open("assets/" + title + "%20-%20CONTROL.csv");
     } else if (this.selected.value == 1) {
-      window.open("assets/" + this.roleTitle + "%20-%20TR.csv");
+      window.open("assets/" + title + "%20-%20TR.csv");
     } else if (this.selected.value == 2) {
       window.open("assets/TR_Controls_Mapping.csv");
     }

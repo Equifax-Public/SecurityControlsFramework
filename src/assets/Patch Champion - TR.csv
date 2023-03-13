@@ -58,7 +58,7 @@ Patch Management,PM,PM-TR-2110,0,0,,"Standard images and baseline build configur
 Patch Management,PM,PM-TR-2200,0,0,,"Application and System Owners must update The Company change management system once a patch has been installed and verified, or rescheduled due to patch failure. Required documentation tasks include:",Baseline
 Patch Management,PM,PM-TR-2200,1,1,PM-TR-2200.1,Updating the change management records,Baseline
 Patch Management,PM,PM-TR-2200,2,1,PM-TR-2200.2,Attaching evidence of successful patch deployment to the change management records,Baseline
-Patch Management,PM,PM-TR-2300,0,0,,"For each security update or security patch rated as critical, The Company shall maintain records (""Critical Patch Management Records"") identifying:",Baseline
+Patch Management,PM,PM-TR-2300,0,0,,"For each security update or security patch rated as critical, The Company shall maintain records ("Critical Patch Management Records") identifying:",Baseline
 Patch Management,PM,PM-TR-2300,1,1,PM-TR-2300.1,Each identified critical patch or update,Baseline
 Patch Management,PM,PM-TR-2300,2,1,PM-TR-2300.2,The date(s) each patch or update was applied or remediated through redeployment.,Baseline
 Patch Management,PM,PM-TR-2300,3,1,PM-TR-2300.3,The assets to which each patch or update was applied or remediated through redployment.,Baseline
@@ -137,7 +137,7 @@ Configuration Controls,CC,CC-TR-100,1,1,CC-TR-100.1,Latest operating system is i
 Configuration Controls,CC,CC-TR-100,2,1,CC-TR-100.2,Systems are configured according to required configuration.,Baseline
 Configuration Controls,CC,CC-TR-100,3,1,CC-TR-100.3,Monitoring and security management software/agents are installed.,Baseline
 Configuration Controls,CC,CC-TR-200,0,0,,"Prior to being made available to application teams, servers are configured as follows:",Baseline
-Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,An The Company approved operating system release is installed.,Baseline
+Configuration Controls,CC,CC-TR-200,1,1,CC-TR-200.1,The Company approved operating system release is installed.,Baseline
 Configuration Controls,CC,CC-TR-200,2,1,CC-TR-200.2,The Company approved software patches are installed.,Baseline
 Configuration Controls,CC,CC-TR-200,3,1,CC-TR-200.3,Security agents and software are loaded as defined in Technical Requirements,Baseline
 Configuration Controls,CC,CC-TR-200,4,1,CC-TR-200.4,Systems are configured according to the approved baseline,Baseline

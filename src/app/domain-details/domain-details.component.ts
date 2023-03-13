@@ -41,6 +41,9 @@ export class DomainDetailsComponent implements OnInit {
   }
 
   loadDataTR(domainTitle: any) {
+    if (domainTitle == "Data Classification") {
+      domainTitle = "Data Classification_Data Encryption";
+    }
     this.getJSON("CISO - TR").subscribe(data => {
       var json = this.csvJSON(data, null, '"', ',');
       this.dataSourceTR = this.filterDomain(domainTitle, json);
