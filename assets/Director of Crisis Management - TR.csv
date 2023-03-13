@@ -44,7 +44,7 @@ Incident Response Planning,IR,IR-TR-1000,5,2,IR-TR-1000.2.2,Within  [INSERT TIME
 Incident Response Planning,IR,IR-TR-1000,6,1,IR-TR-1000.3,"A summary of defined Security Events, Covered Incidents, and defined Third-Party Reported Events is reported to the Technology Committee of the Board [INSERT TIME FRAME].",Baseline
 Incident Response Planning,IR,IR-TR-1100,0,0,,"Incidents are documented and tracked through resolution and include an After Action Report (e.g., lessons learned). AARs are used as needed to improve plans, procedures, processes and technologies.",Baseline
 Incident Response Planning,IR,IR-TR-1200,0,0,,"The Company monitors for security incidents 24x7 and provides a 24x7 incident reporting capability using phone, email, and website.",Baseline
-Incident Response Planning,IR,IR-TR-1300,0,0,,"Incidents which fall into the category of ""Covered Incidents"" require the following:",Baseline
+Incident Response Planning,IR,IR-TR-1300,0,0,,"Incidents which fall into the category of "Covered Incidents" require the following:",Baseline
 Incident Response Planning,IR,IR-TR-1300,1,1,IR-TR-1300.1,Penetration testing of the impacted network within [INSERT TIME FRAME] of the verification of the incident,Baseline
 Incident Response Planning,IR,IR-TR-1300,2,1,IR-TR-1300.2,Vulnerability testing of the impacted network every 4 [INSERT TIME FRAME] of the verification of the incident,Baseline
 Incident Response Planning,IR,IR-TR-1300,3,1,IR-TR-1300.3,Evaluation of the Information Security Management Program (ISMP),Baseline
