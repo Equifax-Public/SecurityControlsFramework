@@ -10,8 +10,8 @@ import {FormControl} from '@angular/forms';
   styleUrls: ['./compliance.component.scss']
 })
 export class ComplianceComponent implements OnInit {
-  displayedCISColumns:  string[] = ['opensource_control_id', 'opensource_control_domain', 'control_domain', 'Control_ID', 'Updated_EFX_Control_Description', 'CIS_Control_Number', 'CIS_Control_Title', 'CIS_Control_Description'];
-  displayedNISTColumns: string[] = ['opensource_control_id', 'opensource_control_domain', 'control_domain', 'Control_ID', 'Control_Statement','CSF_Subcategory_ID','CSF_Subcategory_Description'];
+  displayedCISColumns:  string[] = ['control_id', 'control_domain', 'Control_Description', 'CIS_Control_Number', 'CIS_Control_Title', 'CIS_Control_Description'];
+  displayedNISTColumns: string[] = ['control_id', 'control_domain', 'Control_Statement','CSF_Subcategory_ID','CSF_Subcategory_Description'];
   dataSourceCIS;
   dataSourceNIST;
   selected = new FormControl(0);
@@ -60,7 +60,6 @@ export class ComplianceComponent implements OnInit {
 
     return lines.map(line => {
       return match(line).reduce((acc, cur, i) => {
-        // Attempt to parse as a number; replace blank matches with `null`
         const val = cur.length <= 0 ? null : Number(cur) || cur;
         const key = heads[i] ?? `extra_${i}`;
         return { ...acc, [key]: val };
