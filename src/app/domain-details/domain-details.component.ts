@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {FormControl} from '@angular/forms';
+import { FormControl } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { DownloadFileModalComponent } from '../shared/download-file-modal/download-file-modal.component';
 
 @Component({
   selector: 'app-domain-details',
@@ -19,8 +21,9 @@ export class DomainDetailsComponent implements OnInit {
   dataSourceTR;
   dataSourceMapping;
   selected = new FormControl(0);
+  view = "CONTROL";
 
-  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient, public dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.domainTitle = this.route.snapshot.paramMap.get('domain');
@@ -92,52 +95,26 @@ export class DomainDetailsComponent implements OnInit {
     });
   }
 
-  downloadCSV() {
-    if (this.selected.value == 0) {
-      this.downloadCSVCONTROL();
-    } else if (this.selected.value == 1) {
-      this.downloadCSVTR();
-    } else if (this.selected.value == 2) {
-      window.open("assets/TR_Controls_Mapping.csv");
+  updateTab(index) {
+    if (index == 0) {
+      this.view = "CONTROL";
+    } else if (index == 1) {
+      this.view = "TR";
+    } else if (index ==2) {
+      this.view = "TR_Controls_Mapping";
     }
   }
 
-  downloadCSVCONTROL() {
-    let data = this.dataSourceControl;
-    let arrHeader = ["Domain Name", "Domain", "Control_ID", "Control_Desc", "Control_Scope", "Control_Owner", "Control_Operator", "Control_Type", "Control_Type"];
-    let csvData = this.ConvertToCSV(data, arrHeader, 'CONTROL');
-    let blob = new Blob(['\ufeff' + csvData], { type: 'text/csv;charset=utf-8;' });
-    let dwldLink = document.createElement("a");
-    let url = URL.createObjectURL(blob);
-    let isSafariBrowser = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
-    if (isSafariBrowser) {
-      dwldLink.setAttribute("target", "_blank");
+  openDialog(): void {
+    let dataSource;
+    if (this.view == "CONTROL") {
+      dataSource = this.dataSourceControl;
+    } else {
+      dataSource = this.dataSourceTR;  
     }
-    dwldLink.setAttribute("href", url);
-    dwldLink.setAttribute("download", this.domainTitle + " - CONTROL.csv");
-    dwldLink.style.visibility = "hidden";
-    document.body.appendChild(dwldLink);
-    dwldLink.click();
-    document.body.removeChild(dwldLink);
-  }
-
-  downloadCSVTR() {
-    let data = this.dataSourceTR;
-    let arrHeader = ["Domain Name", "Domain", "TR_ID", "Sub_TR_Order", "Sub_TR_Indent", "Sub_TR_ID", "TR_Description", "TR_Scope"];
-    let csvData = this.ConvertToCSV(data, arrHeader, 'TR');
-    let blob = new Blob(['\ufeff' + csvData], { type: 'text/csv;charset=utf-8;' });
-    let dwldLink = document.createElement("a");
-    let url = URL.createObjectURL(blob);
-    let isSafariBrowser = navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1;
-    if (isSafariBrowser) {
-      dwldLink.setAttribute("target", "_blank");
-    }
-    dwldLink.setAttribute("href", url);
-    dwldLink.setAttribute("download", this.domainTitle + " - TR.csv");
-    dwldLink.style.visibility = "hidden";
-    document.body.appendChild(dwldLink);
-    dwldLink.click();
-    document.body.removeChild(dwldLink);
+    const dialogRef = this.dialog.open(DownloadFileModalComponent, {
+      data: {name: this.domainTitle, view: this.view, origin: 'Domain', file: dataSource}
+    });
   }
 
   ConvertToCSV(objArray, headerList, type) {

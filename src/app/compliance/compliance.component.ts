@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {FormControl} from '@angular/forms';
+import { FormControl } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { DownloadFileModalComponent } from '../shared/download-file-modal/download-file-modal.component';
 
 @Component({
   selector: 'app-compliance',
@@ -15,12 +17,21 @@ export class ComplianceComponent implements OnInit {
   dataSourceCIS;
   dataSourceNIST;
   selected = new FormControl(0);
+  view = "CS_to_CIS_Mapping";
  
-  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient, public dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.loadDataCIS();
     this.loadDataNIST();
+  }
+
+  updateTab(index) {
+    if (index == 0) {
+      this.view = "CS_to_CIS_Mapping";
+    } else if (index == 1) {
+      this.view = "CS_to_NIST_CSF_Mapping";
+    }
   }
 
   downloadCSV() {
@@ -42,6 +53,12 @@ export class ComplianceComponent implements OnInit {
     this.getJSON("CS_to_NIST_CSF_Mapping").subscribe(data => {
       var json = this.csvJSON(data, null, '"', ',')
       this.dataSourceNIST = json;
+    });
+  }
+  
+  openDialog(): void {
+    const dialogRef = this.dialog.open(DownloadFileModalComponent, {
+      data: {name: "compliance", view: this.view, origin: "Compliance", file: null}
     });
   }
 

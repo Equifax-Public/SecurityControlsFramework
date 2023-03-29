@@ -84,10 +84,9 @@ p {
 }
 
 .downloadSection {
-    margin-right: 40px;
+    margin-right: 60px;
     position: absolute;
     right: 0;
-    width:200px;
     z-index: 5;
 
     @media  (min-width: 0) and (max-width:  screen(sm))  {
@@ -104,6 +103,8 @@ p {
     letter-spacing: .231 !important;
     font-size: 21px !important;
     font-weight: 400 !important;
+    background-color: transparent;
+    border: none;
 }
 
 .action-text:hover {
@@ -123,6 +124,7 @@ p {
 
 .action-icon {
     height: 25px;
+    margin-top: 7px;
 }
 
 .mat-cell {

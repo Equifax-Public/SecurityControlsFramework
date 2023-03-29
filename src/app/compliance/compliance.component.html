@@ -3,11 +3,11 @@
     <h2 id="compliance-title">Compliance</h2>
     <div class="download-btn-wrapper">
       <div class="downloadSection">
-        <p class="action-text" (click)="downloadCSV()">Download CSV</p>
-        <button class="circle-button topActionBtn" (click)="downloadCSV()"><img class="action-icon" src="assets/chevron_right_blue.svg"></button>
+        <p class="action-text" (click)="openDialog()">Download</p>
+        <button class="circle-button topActionBtn" (click)="openDialog()"><img class="action-icon" src="assets/chevron_right_blue.svg"></button>
     </div>
     </div>
-    <mat-tab-group dynamicHeight [selectedIndex]="selected.value" (selectedIndexChange)="selected.setValue($event)">
+    <mat-tab-group dynamicHeight [selectedIndex]="selected.value" (selectedIndexChange)="selected.setValue($event); updateTab(selected.value);">
         <mat-tab label="CS to CIS Mapping">
           <div class="box mat-elevation-z4 table-wrapper">
             <table class="compliance-table" mat-table [dataSource]="dataSourceCIS">

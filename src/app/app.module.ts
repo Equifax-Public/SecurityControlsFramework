@@ -18,6 +18,7 @@ import { DomainDetailsComponent } from './domain-details/domain-details.componen
 import { AddDialogComponent, DeleteDialogComponent, ManageComponent } from './manage/manage.component';
 import { ComplianceComponent } from './compliance/compliance.component';
 import { RoleDetailsComponent } from './role-details/role-details.component';
+import { DownloadSnackBarComponent } from './shared/download-file-modal/download-file-modal.component';
 
 // Material Modules
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -33,9 +34,11 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatListModule } from '@angular/material/list';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 // Services
 import { RolesService } from './services/roles.service';
+import { DownloadFileModalComponent } from './shared/download-file-modal/download-file-modal.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +54,8 @@ import { RolesService } from './services/roles.service';
     AddDialogComponent,
     DeleteDialogComponent,
     HeaderNavigationComponent,
-    ComplianceComponent
+    ComplianceComponent,
+    DownloadFileModalComponent
   ],
   imports: [
     BrowserModule,
@@ -72,7 +76,8 @@ import { RolesService } from './services/roles.service';
     MatRadioModule,
     MatListModule,
     MatDialogModule,
-    MatTabsModule
+    MatTabsModule,
+    MatSnackBarModule
   ],
   providers: [RolesService],
   bootstrap: [AppComponent]

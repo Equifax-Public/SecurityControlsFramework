@@ -1,0 +1,33 @@
+.secondary-btn {
+    width: 145px;
+}
+
+#download-content {
+    height: 150px;
+}
+
+.download-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+}
+  
+.download-radio-button {
+    margin: 5px;
+    margin-top:10px;
+}
+
+::ng-deep .mat-ripple-element{
+    background-color: transparent !important;
+}
+
+@media screen and (max-width:425px) {
+    #cancelBtn {
+        width: 100%;
+    }
+
+    #downloadBtn {
+        width: 100%;
+    }
+}

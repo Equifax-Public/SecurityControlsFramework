@@ -1,8 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import {FormControl} from '@angular/forms';
+import { FormControl } from '@angular/forms';
+import { MatDialog } from '@angular/material/dialog';
+import { DownloadFileModalComponent } from '../shared/download-file-modal/download-file-modal.component';
+
+export interface DialogData {
+  name: string;
+}
 
 @Component({
   selector: 'app-role-details',
@@ -21,8 +27,9 @@ export class RoleDetailsComponent implements OnInit {
   selectedOption = "CONTROL";
   roleOptions = ["CONTROL", "TR", "Mapping"];
   selected = new FormControl(0);
+  view = "CONTROL";
 
-  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private router: Router, private http: HttpClient, public dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.roleTitle = this.route.snapshot.paramMap.get('role');
@@ -83,6 +90,22 @@ export class RoleDetailsComponent implements OnInit {
         const key = heads[i] ?? `extra_${i}`;
         return { ...acc, [key]: val };
       }, {});
+    });
+  }
+
+  updateTab(index) {
+    if (index == 0) {
+      this.view = "CONTROL";
+    } else if (index == 1) {
+      this.view = "TR";
+    } else if (index ==2) {
+      this.view = "TR_Controls_Mapping";
+    }
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(DownloadFileModalComponent, {
+      data: {name: this.roleTitle, view: this.view, origin: "Role", file: null}
     });
   }
 

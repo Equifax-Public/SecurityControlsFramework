@@ -1,0 +1,13 @@
+<h1 mat-dialog-title>Select download format</h1>
+<div id="download-content" mat-dialog-content>
+    <mat-radio-group class="download-radio-group" [(ngModel)]="selectedFormat">
+        <mat-radio-button class="download-radio-button" *ngFor="let format of formats" [value]="format">
+        {{format}}
+        </mat-radio-button>
+    </mat-radio-group>
+</div>
+
+<div mat-dialog-actions class="float-right">
+    <button mat-flat-button id="cancelBtn" color="warn" #tooltip="matTooltip" matTooltip="Return to the previous screen" (click)="closeDialog()" class="secondary-btn">Cancel</button>
+    <button mat-flat-button id="downloadBtn" color="primary" #tooltip="matTooltip" matTooltip="Download file in the selected format" (click)="downloadData()">Download</button>
+</div>
