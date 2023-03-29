@@ -141,8 +141,8 @@ Project Planning,PP,PP-CS-5,"The organization controls changes to systems within
 Project Planning,PP,PP-CS-6,Use of production data in non-production environments is prohibited.,Baseline,,,System Specific,Administrative
 Project Planning,PP,PP-CS-7,Production environments are logically separate from non-production environments.,Baseline,,,System Specific,Technical
 Project Planning,PP,PP-CS-8,"Organizational communication and data flows (i.e. system designs,  data flow diagrams) for applications and systems are documented and updated [INSERT TIME FRAME].",Baseline,,,System Specific,Administrative
-Project Planning,PP,PP-CS-9,"A Privacy strategy is established, documented, maintained, communicated and reviewed [INSERT TIME FRAME].",Baseline,,,Enterprise,
-Project Planning,PP,PP-CS-10,"A budgeting process to fund Privacy capital and operational expenditures, including ensuring the Privacy organization is adequately staffed and funded, has been defined and implemented.",Baseline,,,Enterprise,
+Project Planning,PP,PP-CS-9,"A Privacy strategy is established, documented, maintained, communicated and reviewed [INSERT TIME FRAME].",Baseline,,,Enterprise,Administrative
+Project Planning,PP,PP-CS-10,"A budgeting process to fund Privacy capital and operational expenditures, including ensuring the Privacy organization is adequately staffed and funded, has been defined and implemented.",Baseline,,,Enterprise,Administrative
 Risk Management,RM,RM-CS-1,Organizational risk target/goals is presented to The Company Board of Directors.,Baseline,,,Enterprise,Administrative
 Risk Management,RM,RM-CS-2,The Company Board of Directors reviews and approves the Core Security Risk Assessment on a [INSERT TIME FRAME] basis. ,Baseline,,,Enterprise,Administrative
 Risk Management,RM,RM-CS-3,"The Company performs an Enterprise Security Risk Assessment to assess internal and external risks to the security, confidentiality, or integrity of personal information that could result in the unauthorized disclosure, misuse, loss, alteration, destruction, or other compromise of such information and documents those risks that are material. ",Baseline,,,Enterprise,Administrative
