@@ -788,8 +788,8 @@ Identity Management and Access Controls,AC,AC-TR-3700,6,1,AC-TR-3700.6,[INSERT P
 Identity Management and Access Controls,AC,AC-TR-3700,7,1,AC-TR-3700.7,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
 Identity Management and Access Controls,AC,AC-TR-3700,8,1,AC-TR-3700.8,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
 Identity Management and Access Controls,AC,AC-TR-3710,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],FedRAMP Extended
-Identity Management and Access Controls,AC,AC-TR-3800,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
-Identity Management and Access Controls,AC,AC-TR-3900,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CUSTOMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3800,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CONSUMERS],Baseline
+Identity Management and Access Controls,AC,AC-TR-3900,0,0,,[INSERT PASSWORD REQUIREMENTS FOR CONSUMERS],Baseline
 Identity Management and Access Controls,AC,AC-TR-4000,0,0,,Consumers must be identified based on information additional to the customer's name and social security number prior to the account being created or granted access to personal information.,Baseline
 Identity Management and Access Controls,AC,AC-TR-4100,0,0,,"Consumer Accounts are disabled by The Company within  [INSERT TIME FRAME] when required by contract, law, regulation, upon authorized request, or at the end of the subscription period.",Baseline
 Identity Management and Access Controls,AC,AC-TR-4200,0,0,,"Where technically feasible, applications require two-factor authentication, step-up authentication, or an equal or greater authentication control for access to consumer accounts.",Baseline
