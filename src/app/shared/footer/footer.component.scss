@@ -7,7 +7,7 @@
 }
 
 #container {
-    height: 75px;
+    height: 77px;
     background-color: #333E48;
     width: 100%;
     border-top: 4px solid #981e32;
@@ -18,7 +18,14 @@
     width: 520px;
     float: right;
     margin-right: 50px;
-    padding-top: 13px;
+    padding-top: 15px;
+}
+
+#github-link {
+    float: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #logo {
@@ -36,10 +43,32 @@
     margin-top:12px;
 }
 
+@media screen and (max-width: 1350px) {
+    #container {
+        height: 150px;
+    }
+
+    #github-link {
+        float: none;
+        padding-left: 20px;
+    }
+
+    #content {
+        float: none;
+        margin-left: 20px;
+    }
+}
+
 @media screen and (max-width: 1125px) {
     #content {
         float: none;
         margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    #container {
+        height: 162px;
     }
 }
 
@@ -49,6 +78,10 @@
     }
 
     #content p {
+        font-size: 14px;
+    }
+
+    #github-link p {
         font-size: 14px;
     }
 
@@ -62,6 +95,10 @@
 @media screen and (max-width: 450px) {
     #content {
         width: 320px;
+    }
+
+    #github-link p {
+        font-size: 12px;
     }
 
     #content p {
@@ -78,6 +115,10 @@
         height: 11px;
         width: 56px;
         margin-top: 20px;
+    }
+
+    #github-link p {
+        font-size: 8px;
     }
 
     #content p {
