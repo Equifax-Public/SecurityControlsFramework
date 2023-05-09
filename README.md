@@ -1,7 +1,7 @@
 # Controls Framework
 
 ## Purpose
-This application has been built to create a UI for external customers to view our Security Controls Framework. In addition, this application is open-sourced allowing customers to make their own customizations to the enchance their experience.
+This application has been built to create a UI for external customers to view our Security Controls Framework. In addition, this application is open-sourced allowing customers to make their own customizations to enhance their experience.
 
 ## Running the site locally
 In order to run the site locally for development purposes please do the following:
